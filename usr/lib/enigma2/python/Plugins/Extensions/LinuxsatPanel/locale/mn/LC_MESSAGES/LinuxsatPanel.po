@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Насанд хүрсэн"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Бүх кодыг @Lululla дахин бичсэн - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Гэнэтийн алдаа гарлаа. Дараа дахин оролдоно уу."
 
 msgid "Australia"
-msgstr ""
+msgstr "Австрали"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "BBC интерактив"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Сүүлийн скан дээр үндэслэн хуурай газрын баглааг бүтээх/дахин бүтээх."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Гүйцэтгэлийг цуцлах уу?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Ангилал:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Холболтыг шалгана уу!"
 
 msgid "Children"
-msgstr ""
+msgstr "Хүүхдүүд"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Баяр хүргэе! Танд хамгийн сүүлийн хувилбар байгаа..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Орон нутгийн дамжуулагчийн LCN өгөгдөл дээр үндэслэн хуурай газрын үйлчилгээний захиалгат баглааг үүсгэ."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Тусдаа радио баглаа үүсгэ"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Дел шугам"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Дизайн ба графикийг @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Давхардсан эсвэл индексжүүлээгүй сувгийг баглаа дээр нэмж болохгүй."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Та Cline нэмэхийг хүсч байна уу?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Та LCN Bouquet захиалмаар байна уу?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Та одоо шинэчлэлтийг (%s) суулгахыг хүсэж байна уу?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Та устгахыг хүсэж байна уу?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Та Gui интерфэйсийг дахин эхлүүлэхийг хүсэж байна уу?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Татаж авах хуудас амжилтгүй боллоо..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Давхардсан"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Мөр засах"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "LCN (лого сувгийн дугаар) өгөгдөл дээр үндэслэн хуурай газрын баглаа үүсгэхийг идэвхжүүлнэ."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Газрын LCN-г идэвхжүүлэх:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Газрын цэцгийн баглааг идэвхжүүлнэ үү"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Үзвэр үйлчилгээ"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Алдаа: Өгөгдөл олоогүй."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Европ 7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Гарах"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Шинэчлэлийн мэдээллийг авч чадсангүй. Интернэт холболтоо шалгана уу."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Шинэчлэлийн мэдээллийг задлан шинжилж чадсангүй. Дараа дахин оролдоно уу."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Чөлөөт зай:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD сувгууд"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Өндөр тодорхойлолт"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Хэрэв та үүнийг таны хайрцагт хэрэгтэй хэрэгсэл гэж бодож байвал\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Мэдээлэл, соёл"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Install"
-msgstr ""
+msgstr "Суулгах"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Интернет: холбогдсон"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Интернет: Холболт байхгүй"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Интернет: Тодорхойгүй"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Шинэчлэлийн мэдээлэлд огнооны формат буруу байна."
 
 msgid "Italy"
-msgstr ""
+msgstr "Итали"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN хуулбарууд"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN дүрэм:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat самбар"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Ангилалыг ачаалах..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Орон нутгийн нэвтрүүлэгчид"
 
 msgid "Music"
-msgstr ""
+msgstr "Хөгжим"
 
 msgid "News"
-msgstr ""
+msgstr "Мэдээ"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Харгалзах хуурай газрын үйлчилгээ олдсонгүй."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "lcn db-д оруулга байхгүй. Үйлчилгээний сканнер хийнэ үү."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Шинэчлэлийн мэдээлэл байхгүй байна."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Тохируулсны дараа гар аргаар скан хийх үед баглааг автоматаар шинэчлэх болно."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Хүлээгээрэй..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Скан хийхдээ сүлжээний хайлтыг идэвхжүүлсэн эсэхийг шалгана уу."
 
 msgid "Premium"
-msgstr ""
+msgstr "Дээд зэрэглэлийн"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 урамшуулал"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Радио үйлчилгээг телевизийн үндсэн баглаа биш харин тусдаа баглаанд хий. Энэ нь үйлчилгээ үзүүлэгч телевиз, радиогийн сувгийн дугаарыг давхардсан тохиолдолд шаардлагатай."
 
 msgid "Radio"
-msgstr ""
+msgstr "Радио"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Дахин барих"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "LCN баглааг одоо дахин бүтээх үү?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Баглаа дахин бүтээх"
 
 msgid "Region"
-msgstr ""
+msgstr "Бүс нутаг"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Бүс нутгийн өргөн нэвтрүүлэгчид"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Бүс нутгийн радио"
 
 msgid "Reload"
-msgstr ""
+msgstr "Дахин ачаалах"
 
 msgid "Remove"
-msgstr ""
+msgstr "Устгах"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%s-г устгаж байна"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Оньсогыг дахин эхлүүл"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Түр зуурын SD"
 
 msgid "Save"
-msgstr ""
+msgstr "Хадгалах"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Бүс нутгаа сонгоно уу."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Хагас генералууд"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Тохиргоо суулгаагүй байна..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Давхардсаныг алгасах"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Скай сувгууд"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "A-Z гэж эрэмбэлэх"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Анхдагч эрэмбэлэх"
 
 msgid "Sports"
-msgstr ""
+msgstr "Спорт"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Санал болгосон: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Хуурай газрын"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Газрын цэцгийн баглаа"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Газрын цэцгийн баглааны алдаа"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Terrestrial Bouquet залгаасыг идэвхжүүлээгүй байна."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Газар дээрх баглааны тохиргоо"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Эх газрын баглааг амжилттай сэргээв."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Газар дээрх цэцгийн баглаа:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Туршилтын сувгууд"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Та бүхний хандивын ачаар Plugin ажиллаж байна.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Одоогоор хадгалагдсан LCN өгөгдөл байхгүй байна."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Энэ залгаас нь таны орон нутгийн tansmitter-ээр дамжуулж буй LCN өгөгдөлөөс хамаарна."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Сүлжээний хайлтыг идэвхжүүлсэн үед газрын давтамжийг гараар скан хийж үзнэ үү. Хэрэв энэ амжилтгүй болвол танай бүсэд lcn мэдээлэл байхгүй байж магадгүй."
 
 msgid "UK"
-msgstr ""
+msgstr "Их Британи"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Шинэчлэлтүүдийг татаж авах боломжгүй байна!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Үл мэдэгдэх зураг!"
 
 msgid "Update"
-msgstr ""
+msgstr "Шинэчлэх"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Шинэчлэлтийг зогсоосон!"
 
 msgid "of"
-msgstr ""
+msgstr "-ийн"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "хандив өгөөрэй:\n"

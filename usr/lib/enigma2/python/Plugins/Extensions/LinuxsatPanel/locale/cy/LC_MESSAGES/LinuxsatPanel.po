@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Oedolyn"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Ailysgrifennwyd yr holl god gan @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Digwyddodd gwall annisgwyl. Ceisiwch eto yn nes ymlaen."
 
 msgid "Australia"
-msgstr ""
+msgstr "Awstralia"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "BBC Rhyngweithiol"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Adeiladu/ailadeiladu tusw daearol nawr yn seiliedig ar y sgan diwethaf."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Canslo gweithrediad?"
 
 msgid "Category:"
-msgstr ""
+msgstr "categori:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Gwiriwch Cysylltiad!"
 
 msgid "Children"
-msgstr ""
+msgstr "Plant"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Llongyfarchiadau! Mae gennych y fersiwn diweddaraf yn barod..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Creu tusw trefnedig o wasanaethau daearol yn seiliedig ar ddata LCN o'ch trosglwyddydd lleol."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Creu tusw radio ar wahân"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Dyluniadau a Graffeg gan @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Peidiwch ag ychwanegu sianeli dyblyg neu heb eu mynegeio i'r tusw."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Ydych chi eisiau ychwanegu Cline?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Ydych chi eisiau Archebu Tusw LCN?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Ydych chi am osod diweddariad (%s) nawr?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Ydych chi am ddileu?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Ydych chi am ailgychwyn Rhyngwyneb Gui?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "tudalen lawrlwytho yn methu ..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Dyblyg"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Golygu Llinell"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Galluogi creu tusw daearol yn seiliedig ar ddata LCN (rhif sianel resymegol)."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Galluogi LCN daearol:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Galluogi tusw daearol"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Adloniant"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Gwall: Dim Dod o Hyd i Ddata."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Ewrop7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ymadael"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Wedi methu â nôl gwybodaeth diweddaru. Gwiriwch eich cysylltiad rhyngrwyd."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Wedi methu dosrannu gwybodaeth diweddaru. Ceisiwch eto yn nes ymlaen."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Gofod Rhydd:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "Sianeli HD"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Diffiniad Uchel"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Os ydych chi'n meddwl ei fod yn offeryn defnyddiol ar gyfer eich blwch\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Gwybodaeth a Diwylliant"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Llinell Ins"
 
 msgid "Install"
-msgstr ""
+msgstr "Gosod"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Rhyngrwyd: Wedi'i gysylltu"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Rhyngrwyd: Dim Cysylltiad"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Rhyngrwyd: Anhysbys"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Fformat dyddiad annilys yn y wybodaeth ddiweddaraf."
 
 msgid "Italy"
-msgstr ""
+msgstr "Eidal"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN Dyblyg"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "Rheolau LCN:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Panel Linuxsat"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Llwytho Categori..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Darlledwyr Lleol"
 
 msgid "Music"
-msgstr ""
+msgstr "Cerddoriaeth"
 
 msgid "News"
-msgstr ""
+msgstr "Newyddion"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Ni chanfuwyd unrhyw wasanaethau daearol cyfatebol."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Dim mynediad yn lcn db. Gwnewch sgan gwasanaeth."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Dim gwybodaeth diweddaru ar gael."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Ar ôl ei ffurfweddu bydd y tusw yn cael ei ddiweddaru'n awtomatig wrth wneud sgan â llaw."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Arhoswch os gwelwch yn dda..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Gwnewch yn siŵr bod chwiliad rhwydwaith penodol wedi'i alluogi wrth sganio."
 
 msgid "Premium"
-msgstr ""
+msgstr "Premiwm"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 Dyrchafiad"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Rhowch wasanaethau radio mewn tusw ar wahân, nid y prif dusw teledu. Mae hyn yn ofynnol pan fydd y darparwr yn dyblygu rhifau sianel ar gyfer teledu a radio."
 
 msgid "Radio"
 msgstr ""
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Ailadeiladu"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Ailadeiladu tusw LCN nawr?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Ailadeiladu tusw"
 
 msgid "Region"
-msgstr ""
+msgstr "Rhanbarth"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Darlledwyr Rhanbarthol"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Radio Rhanbarthol"
 
 msgid "Reload"
-msgstr ""
+msgstr "Ail-lwytho"
 
 msgid "Remove"
-msgstr ""
+msgstr "Dileu"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "Wrthi'n tynnu %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Ailgychwyn enigma"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "SDs dros dro"
 
 msgid "Save"
-msgstr ""
+msgstr "Arbed"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Dewiswch eich rhanbarth."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Lled-Gyffredinolwyr"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Gosodiadau heb eu Gosod..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Hepgor copïau dyblyg"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Sianeli Sky"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Trefnu A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Trefnu Rhagosodiad"
 
 msgid "Sports"
-msgstr ""
+msgstr "Chwaraeon"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Awgrymwyd gan: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Daearol"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Tusw Daearol"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Gwall Bouquet Daearol"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Nid yw ategyn Terrestrial Bouquet wedi'i alluogi."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Gosodiad Bouquet Daearol"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Tusw daearol wedi'i ailadeiladu'n llwyddiannus."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Tusw daearol:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Sianeli Prawf"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Mae'r Ategyn yn fyw diolch i roddion pob un ohonoch.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Nid oes unrhyw ddata LCN wedi'i storio ar hyn o bryd."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Mae'r ategyn hwn yn dibynnu ar ddata LCN yn cael ei ddarlledu gan eich tansmitter lleol."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Ceisiwch redeg sgan â llaw o amleddau daearol gyda sgan rhwydwaith wedi'i alluogi. Os bydd hyn yn methu efallai nad oes data lcn ar gael yn eich ardal chi."
 
 msgid "UK"
-msgstr ""
+msgstr "DU"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Methu lawrlwytho diweddariadau!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Delwedd Anhysbys!"
 
 msgid "Update"
-msgstr ""
+msgstr "Diweddariad"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Diweddariad wedi'i Erthylu!"
 
 msgid "of"
-msgstr ""
+msgstr "o"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "rhowch gyfraniad os gwelwch yn dda:\n"

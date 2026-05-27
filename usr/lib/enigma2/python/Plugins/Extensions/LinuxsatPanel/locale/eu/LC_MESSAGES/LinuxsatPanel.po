@@ -13,13 +13,13 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Heldua"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Kode guztia @Lulullak berridatzi zuen - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Ustekabeko errore bat gertatu da. Mesedez, saiatu berriro geroago."
 
 msgid "Australia"
 msgstr ""
@@ -28,211 +28,211 @@ msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Eraiki/berreraiki lurreko sorta orain azken azterketan oinarrituta."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Exekuzioa bertan behera utzi?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Kategoria:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Egiaztatu konexioa!"
 
 msgid "Children"
-msgstr ""
+msgstr "Haurrak"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Zorionak! Dagoeneko duzu azken bertsioa..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Sortu zure tokiko igorlearen LCN datuetan oinarrituta lurreko zerbitzu sorta ordenatua."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Sortu irrati sorta bereizia"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "@oktus-en diseinuak eta grafikoak\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Ez gehitu kanal bikoiztuak edo indexatu gabekoak sortari."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Cline gehitu nahi duzu?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "LCN Bouquet eskatu nahi al duzu?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Eguneraketa (%s) instalatu nahi duzu orain?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Kendu nahi duzu?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Gui Interface berrabiarazi nahi duzu?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Deskargatu orrialdeak huts egin du..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Bikoiztuak"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Editatu lerroa"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Gaitu lurreko sorta bat sortzea LCN (kanal-zenbaki logotikoa) datuetan oinarrituta."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Gaitu lurreko LCN:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Gaitu lurreko sorta"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Entretenimendua"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Errorea: ez da daturik aurkitu."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Europa7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Irten"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Ezin izan da eguneratze-informazioa eskuratu. Mesedez, egiaztatu zure Interneteko konexioa."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Ezin izan da eguneratze-informazioa analizatu. Mesedez, saiatu berriro geroago."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Espazio librea:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD kanalak"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Definizio handikoa"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Zure kutxarako tresna erabilgarria dela uste baduzu\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Informazioa eta Kultura"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Ins Linea"
 
 msgid "Install"
-msgstr ""
+msgstr "Instalatu"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Internet: konektatuta"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Internet: Ez dago konexiorik"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Internet: Ezezaguna"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Eguneratze informazioan data-formatu baliogabea."
 
 msgid "Italy"
-msgstr ""
+msgstr "Italia"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN Bikoiztuak"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN arauak:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat Panela"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Kargatu kategoria..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Tokiko Igorleak"
 
 msgid "Music"
-msgstr ""
+msgstr "Musika"
 
 msgid "News"
-msgstr ""
+msgstr "Berriak"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Ez da dagokion lurreko zerbitzurik aurkitu."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Ez dago sarrerarik lcn db-n. Mesedez, egin zerbitzuaren eskaneatzea."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Ez dago eguneratze-informaziorik."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Behin konfiguratuta, sorta automatikoki eguneratuko da eskuzko eskaneatzea egiterakoan."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Mesedez, itxaron..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Egiaztatu sareko bilaketa gaituta dagoela eskaneatzean."
 
 msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 Sustapena"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Jarri irrati-zerbitzuak sorta bereizi batean, ez telebista sorta nagusian. Hau beharrezkoa da hornitzaileak telebistarako eta irratirako kanal-zenbakiak bikoizten dituenean."
 
 msgid "Radio"
-msgstr ""
+msgstr "Irratia"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Berreraiki"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "LCN sorta berreraiki?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Berreraiki sorta"
 
 msgid "Region"
-msgstr ""
+msgstr "Eskualdea"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Eskualdeko esatariak"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Eskualdeko Irratia"
 
 msgid "Reload"
-msgstr ""
+msgstr "Berriz kargatu"
 
 msgid "Remove"
-msgstr ""
+msgstr "Kendu"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%s kentzen"
 
 msgid "Restart enigma"
 msgstr ""
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Behin-behineko SDak"
 
 msgid "Save"
-msgstr ""
+msgstr "Gorde"
 
 msgid "Select your region."
 msgstr ""
@@ -244,7 +244,7 @@ msgid "Settings Not Installed ..."
 msgstr ""
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Saltatu bikoiztuak"
 
 msgid "Sky Channels"
 msgstr ""
@@ -253,67 +253,67 @@ msgid "Sort A-Z"
 msgstr ""
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Ordenatu lehenetsia"
 
 msgid "Sports"
 msgstr ""
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Honek iradokitua: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Lurrekoa"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Lurreko sorta"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Lurreko sorta akatsa"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Terrestrial Bouquet plugina ez dago gaituta."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Lurreko sorta konfigurazioa"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Lurreko sorta arrakastaz berreraiki da."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Lurreko sorta:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Proba kanalak"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Plugin-a zuetako bakoitzaren dohaintzei esker bizi da.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Une honetan ez dago LCN daturik gordeta."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Plugin hau zure tokiko transmisoreak igortzen dituen LCN datuen araberakoa da."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Saiatu lurreko frekuentzien eskuzko eskaneatze bat egiten sarearen bilaketa gaituta. Honek huts egiten badu agian ez dago zure inguruan lcn daturik eskuragarri."
 
 msgid "UK"
-msgstr ""
+msgstr "Erresuma Batua"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Ezin dira eguneraketak deskargatu!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Irudi ezezaguna!"
 
 msgid "Update"
-msgstr ""
+msgstr "Eguneratu"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Eguneratzea bertan behera utzi da!"
 
 msgid "of"
-msgstr ""
+msgstr "de"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "mesedez egin dohaintza:\n"

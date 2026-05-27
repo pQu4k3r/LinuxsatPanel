@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Չափահաս"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Ամբողջ կոդը վերաշարադրվել է @Lululla-ի կողմից - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Անսպասելի սխալ տեղի ունեցավ: Խնդրում ենք փորձել ավելի ուշ:"
 
 msgid "Australia"
-msgstr ""
+msgstr "Ավստրալիա"
 
 msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Կառուցեք/վերակառուցեք երկրային ծաղկեփունջն այժմ՝ վերջին սկանավորման հիման վրա:"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Չեղարկե՞լ կատարումը:"
 
 msgid "Category:"
-msgstr ""
+msgstr "Կարգավիճակ:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Ստուգեք կապը:"
 
 msgid "Children"
-msgstr ""
+msgstr "Երեխաներ"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Շնորհավորում եմ Դուք արդեն ունեք վերջին տարբերակը..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Ստեղծեք երկրային ծառայությունների պատվիրված փունջ՝ հիմնված ձեր տեղական հաղորդիչի LCN տվյալների վրա:"
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Ստեղծեք ռադիոյի առանձին ծաղկեփունջ"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Դել Լայն"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Դիզայններ և գրաֆիկա @oktus\n-ի կողմից"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Մի ավելացրեք կրկնօրինակված կամ ոչ ինդեքսավորված ալիքներ ծաղկեփնջին:"
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Ցանկանու՞մ եք ավելացնել Քլայնը:"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Ցանկանու՞մ եք պատվիրել LCN ծաղկեփունջ:"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Ցանկանու՞մ եք տեղադրել թարմացում (%s) հիմա:"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Ցանկանու՞մ եք հեռացնել:"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Ցանկանու՞մ եք վերագործարկել Gui ինտերֆեյսը:"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Ներբեռնման էջը ձախողվեց..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Կրկնօրինակներ"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Խմբագրել գիծը"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Միացնել ցամաքային ծաղկեփունջի ստեղծումը՝ հիմնված LCN (լոգոկալ ալիքի համարի) տվյալների վրա:"
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Միացնել ցամաքային LCN."
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Միացնել երկրային ծաղկեփունջը"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Ժամանց"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Սխալ. Տվյալներ չկան:"
 
 msgid "Europe7"
-msgstr ""
+msgstr "Եվրոպա 7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ելք"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Չհաջողվեց բեռնել թարմացման տեղեկատվությունը: Խնդրում ենք ստուգել ձեր ինտերնետային կապը:"
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Չհաջողվեց վերլուծել թարմացման տեղեկատվությունը: Խնդրում ենք փորձել ավելի ուշ:"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Ազատ տարածք."
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD ալիքներ"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Բարձր հստակություն"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Եթե ​​կարծում եք, որ դա օգտակար գործիք է ձեր տուփի համար\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Տեղեկատվություն և մշակույթ"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Install"
-msgstr ""
+msgstr "Տեղադրեք"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Ինտերնետ: Միացված է"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Ինտերնետ: Կապ չկա"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Ինտերնետ՝ անհայտ"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Թարմացման տեղեկատվության մեջ ամսաթվի անվավեր ձևաչափ:"
 
 msgid "Italy"
-msgstr ""
+msgstr "Իտալիա"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN կրկնօրինակներ"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN կանոններ."
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat վահանակ"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Բեռնել կատեգորիա..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Տեղական հեռարձակողներ"
 
 msgid "Music"
-msgstr ""
+msgstr "Երաժշտություն"
 
 msgid "News"
-msgstr ""
+msgstr "Նորություններ"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Համապատասխան ցամաքային ծառայություններ չեն գտնվել:"
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "lcn db մուտքագրում չկա: Խնդրում ենք կատարել սպասարկման սկանավորում:"
 
 msgid "No update information available."
-msgstr ""
+msgstr "Թարմացման տեղեկություններ չկան:"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Կազմաձևելուց հետո ծաղկեփունջն ինքնաբերաբար կթարմացվի ձեռքով սկանավորում կատարելիս:"
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Խնդրում ենք սպասել..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Խնդրում ենք, որ որոշակի ցանցային որոնումը միացված լինի սկանավորման ժամանակ:"
 
 msgid "Premium"
-msgstr ""
+msgstr "Պրեմիում"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 խթանում"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Տեղադրեք ռադիո ծառայությունները առանձին ծաղկեփնջի մեջ, ոչ թե հիմնական հեռուստացույցի ծաղկեփնջի մեջ: Սա պահանջվում է, երբ մատակարարը կրկնօրինակում է հեռուստատեսության և ռադիոյի ալիքների համարները:"
 
 msgid "Radio"
-msgstr ""
+msgstr "Ռադիո"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "վերակառուցել"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Վերակառուցե՞լ LCN-ի ծաղկեփունջը հիմա:"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Վերակառուցել ծաղկեփունջը"
 
 msgid "Region"
-msgstr ""
+msgstr "Տարածաշրջան"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Տարածաշրջանային հեռարձակողներ"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Տարածաշրջանային ռադիո"
 
 msgid "Reload"
-msgstr ""
+msgstr "Վերբեռնել"
 
 msgid "Remove"
-msgstr ""
+msgstr "Հեռացնել"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%s-ի հեռացում"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Վերագործարկեք հանելուկը"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Ժամանակավոր SD-ներ"
 
 msgid "Save"
-msgstr ""
+msgstr "Պահպանել"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Ընտրեք ձեր տարածաշրջանը:"
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Կիսագեներալիստներ"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Կարգավորումները տեղադրված չեն..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Բաց թողնել կրկնօրինակները"
 
 msgid "Sky Channels"
 msgstr ""
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Տեսակավորել A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Տեսակավորել լռելյայն"
 
 msgid "Sports"
-msgstr ""
+msgstr "Սպորտ"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Առաջարկվում է՝ @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Ցամաքային"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Երկրային ծաղկեփունջ"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Երկրային ծաղկեփնջի սխալ"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Terrestrial Bouquet plugin-ը միացված չէ:"
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Երկրային ծաղկեփնջի տեղադրում"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Երկրային ծաղկեփունջը հաջողությամբ վերակառուցվել է:"
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Երկրային ծաղկեփունջ."
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Փորձարկման ալիքներ"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Plugin-ն ապրում է ձեզանից յուրաքանչյուրի նվիրատվությունների շնորհիվ։\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Ներկայումս LCN-ի տվյալները պահված չեն:"
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Այս փլագինը կախված է LCN տվյալներից, որոնք հեռարձակվում են ձեր տեղական tansmitter-ի կողմից:"
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Փորձեք գործարկել երկրային հաճախականությունների ձեռքով սկանավորում՝ միացված ցանցային սկանավորումով: Եթե ​​դա չհաջողվի, գուցե ձեր տարածքում lcn տվյալներ չկան:"
 
 msgid "UK"
-msgstr ""
+msgstr "Մեծ Բրիտանիա"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Հնարավոր չէ ներբեռնել թարմացումները:"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Անհայտ պատկեր!"
 
 msgid "Update"
-msgstr ""
+msgstr "Թարմացնել"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Թարմացումը ընդհատվեց:"
 
 msgid "of"
-msgstr ""
+msgstr "-ից"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "խնդրում ենք նվիրատվություն կատարել:\n"

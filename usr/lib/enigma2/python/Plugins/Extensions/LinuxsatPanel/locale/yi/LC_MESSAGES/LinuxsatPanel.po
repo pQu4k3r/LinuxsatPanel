@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "דערוואַקסן"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "כל קאָד איז ריריטאַן דורך @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "אן אומגעריכט טעות איז פארגעקומען. ביטע פּרובירן ווידער שפּעטער."
 
 msgid "Australia"
-msgstr ""
+msgstr "אויסטראַליע"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "ביביסי ינטעראַקטיווע"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "בויען / ריבילד ערדישע בוקיי איצט באזירט אויף די לעצטע יבערקוקן."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "באָטל מאַכן דורכפירונג?"
 
 msgid "Category:"
-msgstr ""
+msgstr "קאַטעגאָריע:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "קוק קאַנעקשאַן!"
 
 msgid "Children"
-msgstr ""
+msgstr "קינדער"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "מאַזל - טאָוו! איר האָט שוין די לעצטע ווערסיע ..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "שאַפֿן אַ אָרדערד בוקיי פון ערדישע באַדינונגס באזירט אויף LCN דאַטן פון דיין היגע טראַנסמיטער."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "שאַפֿן באַזונדער ראַדיאָ בוקיי"
 
 msgid "Del Line"
-msgstr ""
+msgstr "דעל ליניע"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "דיזיינז און גראַפיקס דורך @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "דו זאלסט נישט לייגן דופּליקייטיד אָדער ניט ינדעקסט טשאַנאַלז צו דעם בוקיי."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "צי איר ווילן צו לייגן Cline?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "צי איר ווילן צו סדר LCN בוקיי?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "צי איר ווילן צו ינסטאַלירן דערהייַנטיקן (%s) איצט?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "צי איר ווילן צו באַזייַטיקן?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "צי איר ווילן צו ריסטאַרט Gui Interface?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "דער אראפקאפיע בלאַט איז ניט אַנדערש ..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "דופּליקאַטן"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "רעדאַגירן שורה"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "געבן קריייטינג אַ ערדישע בוקיי באזירט אויף LCN (לאָגיקאַל קאַנאַל נומער) דאַטן."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "געבן ערדישע LCN:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "געבן ערדישע בוקיי"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "פֿאַרווייַלונג"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "טעות: קיין דאַטאַ געפֿינען."
 
 msgid "Europe7"
-msgstr ""
+msgstr "אייראָפּע7"
 
 msgid "Exit"
-msgstr ""
+msgstr "אַרויסגאַנג"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "ניט אַנדערש צו ברענגען דערהייַנטיקן אינפֿאָרמאַציע. ביטע טשעק דיין אינטערנעט פֿאַרבינדונג."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "ניט אַנדערש צו פּאַרסירן דערהייַנטיקן אינפֿאָרמאַציע. ביטע פּרובירן ווידער שפּעטער."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "פריי פּלאַץ:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "הד טשאַנאַלז"
 
 msgid "High Definition"
-msgstr ""
+msgstr "הויך דעפֿיניציע"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "אויב איר טראַכטן עס איז אַ נוציק געצייַג פֿאַר דיין קעסטל\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "אינפֿאָרמאַציע און קולטור"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "אינס ליניע"
 
 msgid "Install"
-msgstr ""
+msgstr "ינסטאַלירן"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "אינטערנעט: קאָננעקטעד"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "אינטערנעט: קיין קשר"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "אינטערנעט: אומבאַקאַנט"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "פאַרקריפּלט דאַטע פֿאָרמאַט אין דערהייַנטיקן אינפֿאָרמאַציע."
 
 msgid "Italy"
-msgstr ""
+msgstr "איטאליע"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN דופּליקאַטן"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN כּללים:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "לינוקססאַט פּאַנעל"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "לאָדן קאַטעגאָריע ..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "לאקאלע בראָדקאַסטערז"
 
 msgid "Music"
-msgstr ""
+msgstr "מוזיק"
 
 msgid "News"
-msgstr ""
+msgstr "נייַעס"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "קיין קאָראַספּאַנדינג ערדישע סערוויסעס געפֿונען."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "קיין פּאָזיציע אין lcn db. ביטע טאָן אַ סערוויס יבערקוקן."
 
 msgid "No update information available."
-msgstr ""
+msgstr "קיין דערהייַנטיקן אינפֿאָרמאַציע בנימצא."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "אַמאָל קאַנפיגיערד די בוקיי וועט זיין דערהייַנטיקט אויטאָמאַטיש ווען איר טאָן אַ מאַנואַל יבערקוקן."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "ביטע וואַרטן ..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "ביטע מאַכן זיכער נעץ זוכן איז ענייבאַלד ווען סקאַנינג."
 
 msgid "Premium"
-msgstr ""
+msgstr "פּרעמיום"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 העכערונג"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "שטעלן ראַדיאָ באַדינונגס אין אַ באַזונדער בוקיי, נישט די הויפּט טעלעוויזיע בוקיי. דאָס איז פארלאנגט ווען דער שפּייַזער דופּליקאַט קאַנאַל נומערן פֿאַר טעלעוויזיע און ראַדיאָ."
 
 msgid "Radio"
-msgstr ""
+msgstr "ראַדיאָ"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "ריבילד"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "ריבילד LCN בוקיי איצט?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "ריבילד בוקיי"
 
 msgid "Region"
-msgstr ""
+msgstr "געגנט"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "רעגיאָנאַל בראָדקאַסטערז"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "רעגיאָנאַל ראַדיאָ"
 
 msgid "Reload"
-msgstr ""
+msgstr "רילאָוד"
 
 msgid "Remove"
-msgstr ""
+msgstr "אַראָפּנעמען"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "רימוווינג %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "ריסטאַרט עניגמאַ"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "פּראָוויסיאָנאַל סד"
 
 msgid "Save"
-msgstr ""
+msgstr "היט"
 
 msgid "Select your region."
-msgstr ""
+msgstr "אויסקלייַבן דיין געגנט."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "האלב־גענעראליסטן"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "סעטטינגס ניט אינסטאַלירן ..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "האָפּקען דופּליקאַטן"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "הימל טשאַננעלס"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "סאָרט A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "סאָרט דיפאָלט"
 
 msgid "Sports"
-msgstr ""
+msgstr "ספּאָרט"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "סאַגדזשעסטיד דורך: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "ערדישע"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "ערדישע בוקיי"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "ערדישע בוקיי טעות"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "ערדישע באָוקוועט פּלוגין איז נישט ענייבאַלד."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "סעטאַפּ פון ערדישע בוקיי"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "ערדישע בוקיי הצלחה ריבילט."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "ערדישע בוקיי:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "פּרובירן טשאַנאַלז"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "דער פּלוגין לעבן דאַנק צו די דאָוניישאַנז פון יעדער פון איר.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "עס זענען דערווייַל קיין LCN דאַטן סטאָרד."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "דער פּלוגין דעפּענדס אויף LCN דאַטן וואָס זענען בראָדקאַסט דורך דיין היגע טאַנסמיטטער."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "פּרוּווט לויפן אַ מאַנואַל יבערקוקן פון ערדישע פריקוואַנסיז מיט נעץ יבערקוקן ענייבאַלד. אויב דאָס פיילז, עס איז קיין lcn דאַטן בנימצא אין דיין געגנט."
 
 msgid "UK"
-msgstr ""
+msgstr "וק"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "ניט געקענט צו אָפּלאָדירן דערהייַנטיקונגען!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "אומבאַקאַנט בילד!"
 
 msgid "Update"
-msgstr ""
+msgstr "דערהייַנטיקן"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "דערהייַנטיקן אַבאָרטיד!"
 
 msgid "of"
-msgstr ""
+msgstr "פון"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "ביטע מאַכן אַ צושטייַער:\n"

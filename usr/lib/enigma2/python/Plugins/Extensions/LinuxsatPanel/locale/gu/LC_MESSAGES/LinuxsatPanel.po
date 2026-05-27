@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "પુખ્ત"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "બધા કોડ @Lululla - 2024.07.20\n દ્વારા ફરીથી લખવામાં આવ્યા હતા"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "એક અણધારી ભૂલ આવી. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો."
 
 msgid "Australia"
-msgstr ""
+msgstr "ઓસ્ટ્રેલિયા"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "બીબીસી ઇન્ટરેક્ટિવ"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "છેલ્લા સ્કેન પર આધારિત હવે પાર્થિવ કલગી બનાવો/પુનઃબીલ્ડ કરો."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "અમલ રદ કરીએ?"
 
 msgid "Category:"
-msgstr ""
+msgstr "શ્રેણી:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "કનેક્શન તપાસો!"
 
 msgid "Children"
-msgstr ""
+msgstr "બાળકો"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "અભિનંદન! તમારી પાસે પહેલેથી જ નવીનતમ સંસ્કરણ છે..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "તમારા સ્થાનિક ટ્રાન્સમીટરના LCN ડેટાના આધારે પાર્થિવ સેવાઓનો ઓર્ડર કરેલ કલગી બનાવો."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "અલગ રેડિયો કલગી બનાવો"
 
 msgid "Del Line"
-msgstr ""
+msgstr "ડેલ લાઇન"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "@oktus\n દ્વારા ડિઝાઇન અને ગ્રાફિક્સ"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "કલગીમાં ડુપ્લિકેટ અથવા નોન ઇન્ડેક્સ કરેલ ચેનલો ઉમેરશો નહીં."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "શું તમે Cline ઉમેરવા માંગો છો?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "શું તમે LCN Bouquet ઓર્ડર કરવા માંગો છો?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "શું તમે હમણાં અપડેટ (%s) ઇન્સ્ટોલ કરવા માંગો છો?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "શું તમે દૂર કરવા માંગો છો?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "શું તમે Gui ઈન્ટરફેસ પુનઃપ્રારંભ કરવા માંગો છો?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "ડાઉનલોડ પૃષ્ઠ નિષ્ફળ થયું ..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "ડુપ્લિકેટ"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "લાઇન સંપાદિત કરો"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "LCN (લોગોકલ ચેનલ નંબર) ડેટાના આધારે ટેરેસ્ટ્રીયલ કલગી બનાવવા સક્ષમ કરો."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "ટેરેસ્ટ્રીયલ એલસીએન સક્ષમ કરો:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "પાર્થિવ કલગી સક્ષમ કરો"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "મનોરંજન"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "ભૂલ: કોઈ ડેટા શોધો નહીં."
 
 msgid "Europe7"
-msgstr ""
+msgstr "યુરોપ7"
 
 msgid "Exit"
-msgstr ""
+msgstr "બહાર નીકળો"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "અપડેટ માહિતી મેળવવામાં નિષ્ફળ. કૃપા કરીને તમારું ઇન્ટરનેટ કનેક્શન તપાસો."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "અપડેટ માહિતીનું વિશ્લેષણ કરવામાં નિષ્ફળ. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "ખાલી જગ્યા:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "એચડી ચેનલો"
 
 msgid "High Definition"
-msgstr ""
+msgstr "હાઇ ડેફિનેશન"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "જો તમને લાગે કે તે તમારા બોક્સ માટે ઉપયોગી સાધન છે\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "માહિતી અને સંસ્કૃતિ"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "ઇન્સ લાઇન"
 
 msgid "Install"
-msgstr ""
+msgstr "ઇન્સ્ટોલ કરો"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "ઇન્ટરનેટ: કનેક્ટેડ"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "ઈન્ટરનેટ: કોઈ કનેક્શન નથી"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "ઈન્ટરનેટ: અજ્ઞાત"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "અપડેટ માહિતીમાં અમાન્ય તારીખ ફોર્મેટ."
 
 msgid "Italy"
-msgstr ""
+msgstr "ઇટાલી"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "એલસીએન ડુપ્લિકેટ્સ"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN નિયમો:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat પેનલ"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "કેટેગરી લોડ કરો..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "સ્થાનિક બ્રોડકાસ્ટર્સ"
 
 msgid "Music"
-msgstr ""
+msgstr "સંગીત"
 
 msgid "News"
-msgstr ""
+msgstr "સમાચાર"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "કોઈ અનુરૂપ પાર્થિવ સેવાઓ મળી નથી."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "એલસીએન ડીબીમાં કોઈ એન્ટ્રી નથી. કૃપા કરીને સેવા સ્કેન કરો."
 
 msgid "No update information available."
-msgstr ""
+msgstr "કોઈ અપડેટ માહિતી ઉપલબ્ધ નથી."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "એકવાર રૂપરેખાંકિત થઈ ગયા પછી મેન્યુઅલ સ્કેન કરતી વખતે કલગી આપમેળે અપડેટ થઈ જશે."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "કૃપા કરીને રાહ જુઓ..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "કૃપા કરીને સ્કેન કરતી વખતે ચોક્કસ નેટવર્ક શોધ સક્ષમ કરો."
 
 msgid "Premium"
-msgstr ""
+msgstr "પ્રીમિયમ"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 પ્રમોશન"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "રેડિયો સેવાઓને અલગ કલગીમાં મૂકો, મુખ્ય ટીવી કલગીમાં નહીં. જ્યારે પ્રદાતા ટીવી અને રેડિયો માટે ચેનલ નંબરની નકલ કરે ત્યારે આ જરૂરી છે."
 
 msgid "Radio"
-msgstr ""
+msgstr "રેડિયો"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "પુનઃબીલ્ડ"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "LCN કલગી હવે ફરીથી બનાવો?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "પુનઃબીલ્ડ કલગી"
 
 msgid "Region"
-msgstr ""
+msgstr "પ્રદેશ"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "પ્રાદેશિક પ્રસારણકર્તાઓ"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "પ્રાદેશિક રેડિયો"
 
 msgid "Reload"
-msgstr ""
+msgstr "ફરીથી લોડ કરો"
 
 msgid "Remove"
-msgstr ""
+msgstr "દૂર કરો"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%s દૂર કરી રહ્યાં છીએ"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "કોયડો પુનઃપ્રારંભ કરો"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "કામચલાઉ SDs"
 
 msgid "Save"
-msgstr ""
+msgstr "સાચવો"
 
 msgid "Select your region."
-msgstr ""
+msgstr "તમારો પ્રદેશ પસંદ કરો."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "અર્ધ-સામાન્યવાદીઓ"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "સેટિંગ્સ ઇન્સ્ટોલ કરેલ નથી ..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "ડુપ્લિકેટ્સ છોડો"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "સ્કાય ચેનલ્સ"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "A-Z સૉર્ટ કરો"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "સૉર્ટ ડિફૉલ્ટ"
 
 msgid "Sports"
-msgstr ""
+msgstr "રમતગમત"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "દ્વારા સૂચવાયેલ: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "પાર્થિવ"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "પાર્થિવ કલગી"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "પાર્થિવ કલગી ભૂલ"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "ટેરેસ્ટ્રીયલ બૂકેટ પ્લગઇન સક્ષમ નથી."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "પાર્થિવ કલગી સેટઅપ"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "પાર્થિવ કલગી સફળતાપૂર્વક પુનઃબીલ્ડ."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "પાર્થિવ કલગી:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "ટેસ્ટ ચેનલો"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "પ્લગઇન તમારામાંના દરેકના દાનને આભારી છે.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "હાલમાં કોઈ LCN ડેટા સંગ્રહિત નથી."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "આ પ્લગઇન તમારા સ્થાનિક ટેન્સમીટર દ્વારા પ્રસારિત કરવામાં આવતા LCN ડેટા પર આધાર રાખે છે."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "નેટવર્ક સ્કેન સક્ષમ સાથે ટેરેસ્ટ્રીયલ ફ્રીક્વન્સીઝનું મેન્યુઅલ સ્કેન ચલાવવાનો પ્રયાસ કરો. જો આ નિષ્ફળ જાય તો કદાચ તમારા વિસ્તારમાં કોઈ lcn ડેટા ઉપલબ્ધ નથી."
 
 msgid "UK"
-msgstr ""
+msgstr "યુકે"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "અપડેટ્સ ડાઉનલોડ કરવામાં અસમર્થ!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "અજાણી છબી!"
 
 msgid "Update"
-msgstr ""
+msgstr "અપડેટ કરો"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "અપડેટ રદ કર્યું!"
 
 msgid "of"
-msgstr ""
+msgstr "ના"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "કૃપા કરીને દાન કરો:\n"

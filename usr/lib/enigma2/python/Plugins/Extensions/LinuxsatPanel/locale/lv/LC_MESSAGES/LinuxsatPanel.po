@@ -14,307 +14,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Pieaugušais"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Visu kodu pārrakstīja @Lululla — 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Radās neparedzēta kļūda. Lūdzu, vēlāk mēģiniet vēlreiz."
 
 msgid "Australia"
-msgstr ""
+msgstr "Austrālija"
 
 msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Izveidojiet/pārbūvējiet zemes buķeti tagad, pamatojoties uz pēdējo skenēšanu."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Vai atcelt izpildi?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Kategorija:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Pārbaudiet savienojumu!"
 
 msgid "Children"
-msgstr ""
+msgstr "Bērni"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Apsveicam! Jums jau ir jaunākā versija..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Izveidojiet pasūtītu virszemes pakalpojumu kopumu, pamatojoties uz LCN datiem no jūsu vietējā raidītāja."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Izveidojiet atsevišķu radio buķeti"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Dizaini un grafikas autors: @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Nepievienojiet pušķim dublētus vai neindeksētus kanālus."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Vai vēlaties pievienot Cline?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Vai vēlaties pasūtīt LCN pušķi?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Vai vēlaties instalēt atjauninājumu (%s) tūlīt?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Vai vēlaties noņemt?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Vai vēlaties restartēt Gui interfeisu?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Lejupielādēt lapu neizdevās..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Dublikāti"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Rediģēt rindu"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Iespējot zemes kopas izveidi, pamatojoties uz LCN (logocal kanāla numura) datiem."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Iespējot virszemes LCN:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Iespējot zemes pušķi"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Izklaide"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Kļūda: nav datu atrast."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Eiropa7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Iziet"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Neizdevās iegūt atjauninājuma informāciju. Lūdzu, pārbaudiet savu interneta savienojumu."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Neizdevās parsēt atjauninājumu informāciju. Lūdzu, vēlāk mēģiniet vēlreiz."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Brīva vieta:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD kanāli"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Augsta izšķirtspēja"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Ja uzskatāt, ka tas ir noderīgs rīks jūsu kastītei\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Informācija un kultūra"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Install"
-msgstr ""
+msgstr "Instalējiet"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Internets: izveidots savienojums"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Internets: nav savienojuma"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Internets: nezināms"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Atjaunināšanas informācijā nav derīgs datuma formāts."
 
 msgid "Italy"
-msgstr ""
+msgstr "Itālija"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN dublikāti"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN noteikumi:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat panelis"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Ielādēt kategoriju..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Vietējie raidītāji"
 
 msgid "Music"
-msgstr ""
+msgstr "Mūzika"
 
 msgid "News"
-msgstr ""
+msgstr "Jaunumi"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Atbilstoši virszemes pakalpojumi netika atrasti."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Nav ieraksta lcn db. Lūdzu, veiciet pakalpojuma skenēšanu."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Atjaunināšanas informācija nav pieejama."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Pēc konfigurēšanas pušķis tiks automātiski atjaunināts, veicot manuālu skenēšanu."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Lūdzu uzgaidiet..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Lūdzu, pārliecinieties, ka skenēšanas laikā ir iespējota tīkla meklēšana."
 
 msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 veicināšana"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Salieciet radio pakalpojumus atsevišķā, nevis galvenajā TV buķetē. Tas ir nepieciešams, ja pakalpojumu sniedzējs dublē televīzijas un radio kanālu numurus."
 
 msgid "Radio"
 msgstr ""
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Pārbūvēt"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Vai tagad atjaunot LCN pušķi?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Pārbūvēt pušķi"
 
 msgid "Region"
-msgstr ""
+msgstr "Reģions"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Reģionālās raidorganizācijas"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Reģionālais radio"
 
 msgid "Reload"
-msgstr ""
+msgstr "Pārlādēt"
 
 msgid "Remove"
-msgstr ""
+msgstr "Noņemt"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "Notiek %s noņemšana"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Restartējiet enigma"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Pagaidu SD"
 
 msgid "Save"
-msgstr ""
+msgstr "Saglabāt"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Izvēlieties savu reģionu."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Daļēji ģenerālisti"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Iestatījumi nav instalēti..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Izlaist dublikātus"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Sky kanāli"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Kārtot A–Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Kārtot pēc noklusējuma"
 
 msgid "Sports"
 msgstr ""
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Ieteica: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Sauszemes"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Sauszemes pušķis"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Virszemes pušķa kļūda"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Spraudnis Terrestrial Bouquet nav iespējots."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Virszemes pušķu iestatīšana"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Sauszemes pušķis veiksmīgi pārbūvēts."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Sauszemes pušķis:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Pārbaudīt kanālus"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Spraudnis darbojas, pateicoties katra no jums ziedojumiem.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Pašlaik nav saglabāti LCN dati."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Šis spraudnis ir atkarīgs no LCN datiem, ko pārraida jūsu vietējais raidītājs."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Mēģiniet manuāli skenēt zemes frekvences ar iespējotu tīkla skenēšanu. Ja tas neizdodas, iespējams, jūsu reģionā nav pieejami lcn dati."
 
 msgid "UK"
-msgstr ""
+msgstr "Apvienotā Karaliste"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Nevar lejupielādēt atjauninājumus!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Nezināms attēls!"
 
 msgid "Update"
-msgstr ""
+msgstr "Atjaunināt"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Atjaunināšana pārtraukta!"
 
 msgid "of"
-msgstr ""
+msgstr "no"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "lūdzu, veiciet ziedojumu:\n"

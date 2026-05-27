@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Gihîştî"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Hemî kod ji hêla @Lululla ve hatî nivîsandin - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Çewtiyeke neçaverêkirî derket. Ji kerema xwe paşê dîsa biceribîne."
 
 msgid "Australia"
-msgstr ""
+msgstr "Awistrelya"
 
 msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Naha li ser bingeha şopandina paşîn, bûkek bejahî ava bikin/ji nû ve ava bikin."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "îdamê betal bike?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Liq:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Têkiliyê kontrol bikin!"
 
 msgid "Children"
-msgstr ""
+msgstr "Zarok"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Pîroz be! Berê te guhertoya herî dawî heye..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Li ser bingeha daneyên LCN-ê ji veguhezkara xweya herêmî komek fermankirî ya karûbarên erdî biafirînin."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Bûkek radyoyê ya cuda biafirînin"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Sêwiran û Grafîkên @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Kanalên ducarî an ne îndekskirî li bûkê zêde nekin."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Ma hûn dixwazin Cline lê zêde bikin?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Ma hûn dixwazin Bouquet LCN Siparîş bikin?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Tu dixwazî ​​nûvekirina (%s) niha saz bikî?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Ma hûn dixwazin jêbirin?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Ma hûn dixwazin Navrûya Gui ji nû ve bidin destpêkirin?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Rûpelê dakêşanê têk çû..."
 
 msgid "Duplicates"
 msgstr ""
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Biguherîne Line"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Li ser bingeha daneyên LCN (hejmara kanala mantiqî) afirandina bûkek bejayî çalak bike."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "LCN-ya erdê çalak bike:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Bûkê erdê çalak bike"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Axaftin"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Çewtî: Dane nayê dîtin."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Ewropa7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Derî"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Agahdariya nûvekirinê nehat wergirtin. Ji kerema xwe pêwendiya xweya înternetê kontrol bikin."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Parçekirina agahdariya nûvekirinê bi ser neket. Ji kerema xwe paşê dîsa biceribîne."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Cihê Azad:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "Kanalên HD"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Pênaseya Bilind"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Ger hûn difikirin ku ew ji bo qutiya we amûrek bikêr e\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Agahî û Çand"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Install"
-msgstr ""
+msgstr "Lêkirin"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Înternet: Girêdayî"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Înternet: Têkilî tune"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Înternet: Nenas"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Forma tarîxa nederbasdar di agahdariya nûvekirinê de."
 
 msgid "Italy"
-msgstr ""
+msgstr "Îtalya"
 
 msgid "LCN Duplicates"
 msgstr ""
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "Qanûnên LCN:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Panela Linuxsat"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Kategorî barkirin..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Weşangerên Herêmî"
 
 msgid "Music"
-msgstr ""
+msgstr "Mûzîk"
 
 msgid "News"
-msgstr ""
+msgstr "Nûçe"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Xizmetên erdî yên têkildar nehatin dîtin."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Di lcn db de têketin tune. Ji kerema xwe lêgerînek karûbarê bikin."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Agahiya nûvekirinê tune."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Dema ku were mîheng kirin, bûk dê bixweber were nûve kirin dema ku şanek bi destan were kirin."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Ji kerema xwe Bisekine..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Ji kerema xwe hin lêgerîna torê dema ku lê digere çalak be."
 
 msgid "Premium"
-msgstr ""
+msgstr "Xelat"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 Pêşveçûn"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Karûbarên radyoyê bixin nav bûkek cihê, ne kulîlka sereke ya televîzyonê. Dema ku pêşkêşker ji bo tv û radyoyê hejmarên kanalê dubare dike ev pêdivî ye."
 
 msgid "Radio"
-msgstr ""
+msgstr "Radyo"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Nûveavakirin"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Naha bûkek LCN ji nû ve ava bikin?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Bûkê ji nû ve ava bikin"
 
 msgid "Region"
-msgstr ""
+msgstr "Herêm"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Weşanên Herêmî"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Radyoya Herêmî"
 
 msgid "Reload"
-msgstr ""
+msgstr "Ji nû ve barkirin"
 
 msgid "Remove"
-msgstr ""
+msgstr "Dûrxistin"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%s tê rakirin"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Enigma ji nû ve bidin destpêkirin"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "SD-yên demkî"
 
 msgid "Save"
-msgstr ""
+msgstr "Rizgarkirin"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Herêma xwe hilbijêrin."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Nîv-Generalîstan"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Mîheng nehatin Sazkirin..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Ji dubareyan derbas bibin"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Kanalên Esmanî"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Cûrt A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Rêzkirina Pêşniyarê"
 
 msgid "Sports"
 msgstr ""
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Pêşniyar kirin: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Erdî"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Bouquet Terrestrial"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Çewtiya Bouquet Terrestrial"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Pêveka Terrestrial Bouquet ne çalak e."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Sazkirina Bouquet Terrestrial"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Kulîlka erdê bi serfirazî ji nû ve hate çêkirin."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Bûkê erdê:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Kanalên Testê"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Plugin bi saya bexşên her yek ji we dijî.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Niha tu daneyên LCN-ê nayê hilanîn."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Ev pêvek bi daneyên LCN ve girêdayî ye ku ji hêla tansmittera weya herêmî ve têne weşandin."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Hewl bidin ku bi şanîdana torê ve çalak kêşana frekansên bejayî bi destan bimeşînin. Ger ev biserkeve dibe ku li devera we daneyên lcn tune."
 
 msgid "UK"
 msgstr ""
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Nekarî nûvekirinan dakêşîne!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Wêne nenas!"
 
 msgid "Update"
-msgstr ""
+msgstr "Nûvekirin"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Nûvekirin hate betal kirin!"
 
 msgid "of"
-msgstr ""
+msgstr "ji"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "ji kerema xwe re bexşînê bike:\n"

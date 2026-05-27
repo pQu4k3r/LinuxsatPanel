@@ -13,43 +13,43 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Folwoeksen"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Alle koade is opnij skreaun troch @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Der barde in ûnferwachte flater. Besykje it letter nochris."
 
 msgid "Australia"
-msgstr ""
+msgstr "Austraalje"
 
 msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Bouwe / opnij bouwe ierdske boeket no basearre op de lêste scan."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Eksekúsje annulearje?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Kategory:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Kontrolearje ferbining!"
 
 msgid "Children"
-msgstr ""
+msgstr "Bern"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Lokwinske! Jo hawwe de lêste ferzje al ..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Meitsje in bestelde bouquet fan terrestryske tsjinsten basearre op LCN-gegevens fan jo lokale stjoerder."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Meitsje apart radioboeket"
 
 msgid "Del Line"
 msgstr ""
@@ -58,226 +58,226 @@ msgid "Designs and Graphics by @oktus\n"
 msgstr ""
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Foegje gjin duplikearre as net-yndeksearre kanalen ta oan it boeket."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Wolle jo Cline tafoegje?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Wolle jo LCN Bouquet bestelle?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Wolle jo update (%s) no ynstallearje?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Wolle jo fuortsmite?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Wolle jo Gui Interface opnij starte?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Download side mislearre ..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Duplikaten"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Line bewurkje"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Aktivearje it meitsjen fan in ierdske boeket basearre op LCN (logocal channel number) gegevens."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Ierdske LCN ynskeakelje:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Aktivearje ierdske bouquet"
 
 msgid "Entertainment"
 msgstr ""
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Flater: gjin gegevens fine."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Europa7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Útgong"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "It opheljen fan updateynformaasje mislearre. Kontrolearje asjebleaft jo ynternetferbining."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "It parsearjen fan updateynformaasje is mislearre. Besykje it letter nochris."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Frije romte:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD kanalen"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Hege definysje"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "As jo ​​tinke dat it in nuttich ark is foar jo fak\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Ynformaasje en Kultuer"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Yns Line"
 
 msgid "Install"
-msgstr ""
+msgstr "Ynstallearje"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Ynternet: ferbûn"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Ynternet: Gjin ferbining"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Ynternet: Unbekend"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Unjildige datumopmaak yn updateynformaasje."
 
 msgid "Italy"
-msgstr ""
+msgstr "Itaalje"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN Duplikaten"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN regels:"
 
 msgid "Linuxsat Panel"
 msgstr ""
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Kategory laden..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Lokale omroppen"
 
 msgid "Music"
-msgstr ""
+msgstr "Muzyk"
 
 msgid "News"
-msgstr ""
+msgstr "Nijs"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Gjin oerienkommende terrestryske tsjinsten fûn."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Gjin yngong yn lcn db. Doch asjebleaft in tsjinst scan."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Gjin update ynformaasje beskikber."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Ienris konfigureare sil it boeket automatysk bywurke wurde by it dwaan fan in manuele scan."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Wachtsje asjebleaft..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Soargje asjebleaft dat bepaalde netwurksykjen ynskeakele is by it scannen."
 
 msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 Promoasje"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Set radiotsjinsten yn in apart boeket, net it wichtichste tv-boeket. Dit is nedich as de provider kanaalnûmers duplikearret foar tv en radio."
 
 msgid "Radio"
 msgstr ""
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Werombouwe"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "LCN-boeket no wer opbouwe?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Bouquet opnij bouwe"
 
 msgid "Region"
-msgstr ""
+msgstr "Regio"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Regionale omroppen"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Regionale Radio"
 
 msgid "Reload"
 msgstr ""
 
 msgid "Remove"
-msgstr ""
+msgstr "Fuortsmite"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%s fuortsmite"
 
 msgid "Restart enigma"
 msgstr ""
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Foarlopige SD's"
 
 msgid "Save"
-msgstr ""
+msgstr "Rêde"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Selektearje jo regio."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Semi-generalisten"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Ynstellings net ynstalleare ..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Sla duplikaten oer"
 
 msgid "Sky Channels"
 msgstr ""
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Sortearje A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Sortearje Standert"
 
 msgid "Sports"
 msgstr ""
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Foarsteld troch: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Terrestrysk"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Ierdske boeket"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Terrestrial Bouquet Flater"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Terrestrial Bouquet plugin is net ynskeakele."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Terrestrial Bouquet opset"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Ierdske bouquet mei súkses werboud."
 
 msgid "Terrestrial bouquet:"
 msgstr ""
@@ -286,34 +286,34 @@ msgid "Test Channels"
 msgstr ""
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "De plugin libbet te tankjen oan de donaasjes fan elk fan jimme.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "D'r binne op it stuit gjin LCN-gegevens opslein."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Dizze plugin is ôfhinklik fan LCN-gegevens dy't útstjoerd wurde troch jo lokale transmitter."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Besykje in manuele scan fan terrestryske frekwinsjes út te fieren mei netwurkscan ynskeakele. As dit mislearret, is d'r miskien gjin lcn-gegevens beskikber yn jo gebiet."
 
 msgid "UK"
 msgstr ""
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Kin updates net downloade!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Unbekende ôfbylding!"
 
 msgid "Update"
 msgstr ""
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Update ôfbrutsen!"
 
 msgid "of"
-msgstr ""
+msgstr "fan"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "meitsje asjebleaft in donaasje:\n"

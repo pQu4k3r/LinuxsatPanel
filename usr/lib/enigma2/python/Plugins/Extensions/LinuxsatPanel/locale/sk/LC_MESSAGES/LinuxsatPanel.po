@@ -323,4 +323,4 @@ msgid "of"
 msgstr "z"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "prispejte prosím:\n"

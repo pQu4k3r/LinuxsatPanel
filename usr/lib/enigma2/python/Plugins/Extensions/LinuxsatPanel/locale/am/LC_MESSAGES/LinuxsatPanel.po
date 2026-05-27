@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "አዋቂ"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "ሁሉም ኮድ በድጋሚ የተፃፈው በ @Lululla - 2024.07.20\n ነው።"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "ያልተጠበቀ ስህተት ተከስቷል። እባክዎ ቆይተው እንደገና ይሞክሩ።"
 
 msgid "Australia"
-msgstr ""
+msgstr "አውስትራሊያ"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "ቢቢሲ በይነተገናኝ"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "በመጨረሻው ቅኝት ላይ በመመስረት የመሬት እቅፍ አበባን ይገንቡ/እንደገና ይገንቡ።"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "ማስፈጸሚያ ይሰረዝ?"
 
 msgid "Category:"
-msgstr ""
+msgstr "ምድብ፡"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "ግንኙነትን ያረጋግጡ!"
 
 msgid "Children"
-msgstr ""
+msgstr "ልጆች"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "እንኳን ደስ ያለህ! ቀደም ሲል የቅርብ ጊዜ ስሪት አለህ..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "ከአካባቢያዊ አስተላላፊዎ ባለው የኤል ሲኤን መረጃ ላይ በመመስረት የታዘዘ የምድር አገልግሎቶችን ይፍጠሩ።"
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "የተለየ የሬዲዮ እቅፍ ይፍጠሩ"
 
 msgid "Del Line"
-msgstr ""
+msgstr "ዴል መስመር"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "ንድፎች እና ግራፊክስ በ@oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "የተባዙ ወይም መረጃ ጠቋሚ ያልሆኑ ቻናሎችን ወደ እቅፍ አበባው አይጨምሩ።"
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "ክሊን ማከል ይፈልጋሉ?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "LCN Bouquet ማዘዝ ይፈልጋሉ?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "ዝማኔን (%s) አሁን መጫን ይፈልጋሉ?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "ማስወገድ ይፈልጋሉ?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "የ Gui በይነገጽን እንደገና ማስጀመር ይፈልጋሉ?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "የማውረድ ገጽ አልተሳካም..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "የተባዙ"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "መስመር አርትዕ"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "በኤልሲኤን (አመክንዮ ቻናል ቁጥር) መረጃ ላይ የተመሰረተ የመሬት እቅፍ አበባ መፍጠርን አንቃ።"
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "ምድራዊ LCN አንቃ፡"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "ምድራዊ እቅፍ አበባን አንቃ"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "መዝናኛ"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "ስህተት፡ ምንም ውሂብ ማግኘት የለም።"
 
 msgid "Europe7"
-msgstr ""
+msgstr "አውሮፓ7"
 
 msgid "Exit"
-msgstr ""
+msgstr "ውጣ"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "የዝማኔ መረጃ ማምጣት አልተሳካም። እባክዎ የበይነመረብ ግንኙነትዎን ያረጋግጡ።"
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "የዝማኔ መረጃን መተንተን አልተሳካም። እባክዎ ቆይተው እንደገና ይሞክሩ።"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "ነጻ ቦታ፡"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD ቻናሎች"
 
 msgid "High Definition"
-msgstr ""
+msgstr "ከፍተኛ ጥራት"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "ለሳጥንህ ጠቃሚ መሳሪያ ነው ብለው ካሰቡ\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "መረጃ እና ባህል"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "ኢንስ መስመር"
 
 msgid "Install"
-msgstr ""
+msgstr "ጫን"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "ኢንተርኔት፡ ተገናኝቷል።"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "ኢንተርኔት፡ ግንኙነት የለም።"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "ኢንተርኔት፡ ያልታወቀ"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "በዝማኔ መረጃ ውስጥ ልክ ያልሆነ የቀን ቅርጸት።"
 
 msgid "Italy"
-msgstr ""
+msgstr "ጣሊያን"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN ብዜቶች"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "የኤል.ሲ.ኤን ደንቦች፡-"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat ፓነል"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "ምድብ ጫን..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "የአካባቢ ብሮድካስተሮች"
 
 msgid "Music"
-msgstr ""
+msgstr "ሙዚቃ"
 
 msgid "News"
-msgstr ""
+msgstr "ዜና"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "ምንም ተዛማጅ የመሬት አገልግሎቶች አልተገኙም።"
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "በlcn db ውስጥ ምንም ግቤት የለም። እባክዎ የአገልግሎት ቅኝት ያድርጉ።"
 
 msgid "No update information available."
-msgstr ""
+msgstr "ምንም የዝማኔ መረጃ አይገኝም።"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "አንዴ ከተዋቀረ እቅፍ አበባው በእጅ ቅኝት ሲደረግ በራስ-ሰር ይዘምናል።"
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "እባክህ ጠብቅ..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "እባክዎን በሚቃኙበት ጊዜ የተወሰነ የአውታረ መረብ ፍለጋ እንደነቃ ያድርጉ።"
 
 msgid "Premium"
-msgstr ""
+msgstr "ፕሪሚየም"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 ማስተዋወቂያ"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "የሬዲዮ አገልግሎቶችን በዋናው የቲቪ እቅፍ ሳይሆን በተለየ እቅፍ ውስጥ ያስቀምጡ። ይህ የሚያስፈልገው አቅራቢው የሰርጥ ቁጥሮችን ለቲቪ እና ሬዲዮ ሲባዛ ነው።"
 
 msgid "Radio"
-msgstr ""
+msgstr "ሬዲዮ"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "እንደገና መገንባት"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "የኤልሲኤን እቅፍ አሁን እንደገና ይገነባል?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "እቅፍ አበባን እንደገና ገንባ"
 
 msgid "Region"
-msgstr ""
+msgstr "ክልል"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "የክልል ብሮድካስተሮች"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "የክልል ሬዲዮ"
 
 msgid "Reload"
-msgstr ""
+msgstr "ዳግም ጫን"
 
 msgid "Remove"
-msgstr ""
+msgstr "አስወግድ"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%sን በማስወገድ ላይ"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "እንቆቅልሽ እንደገና ያስጀምሩ"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "ጊዜያዊ ኤስዲዎች"
 
 msgid "Save"
-msgstr ""
+msgstr "አስቀምጥ"
 
 msgid "Select your region."
-msgstr ""
+msgstr "ክልልዎን ይምረጡ።"
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "ከፊል-ጄኔራሎች"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "ቅንጅቶች አልተጫኑም..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "ብዜቶችን ዝለል"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "የሰማይ ቻናሎች"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "A-Z ደርድር"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "ነባሪ ደርድር"
 
 msgid "Sports"
-msgstr ""
+msgstr "ስፖርት"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "የተጠቆመው በ @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "ምድራዊ"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "የመሬት አቀማመጥ Bouquet"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "የመሬት አቀማመጥ ስህተት"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Terrestrial Bouquet ተሰኪ አልነቃም።"
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "የመሬት አቀማመጥ Bouquet ማዋቀር"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "የመሬት ላይ እቅፍ አበባ በተሳካ ሁኔታ እንደገና ተገነባ።"
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "የመሬት እቅፍ አበባ;"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "ቻናሎችን ይሞክሩ"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "ፕለጊኑ ህይወት ያለው ለእያንዳንዳችሁ ልገሳ ነው።\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "በአሁኑ ጊዜ ምንም የተከማቸ የLCN ውሂብ የለም።"
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "ይህ ፕለጊን በአካባቢዎ ታንስሚተር በሚሰራጨው የኤልሲኤን ውሂብ ላይ ይወሰናል።"
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "የአውታረ መረብ ቅኝት በነቃ የምድራዊ ፍጥነቶችን በእጅ ቅኝት ለማሄድ ይሞክሩ። ይህ ካልተሳካ በአካባቢዎ ምንም የ cnn ውሂብ ላይኖር ይችላል።"
 
 msgid "UK"
-msgstr ""
+msgstr "ዩኬ"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "ዝመናዎችን ማውረድ አልተቻለም!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "ያልታወቀ ምስል!"
 
 msgid "Update"
-msgstr ""
+msgstr "አዘምን"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "ዝማኔ ተቋርጧል!"
 
 msgid "of"
-msgstr ""
+msgstr "የ"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "እባካችሁ መዋጮ አድርጉ፡\n"

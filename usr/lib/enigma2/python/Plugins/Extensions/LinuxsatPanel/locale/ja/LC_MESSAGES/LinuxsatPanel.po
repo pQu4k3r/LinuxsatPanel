@@ -14,307 +14,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "アダルト"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "すべてのコードは @Lululla によって書き直されました - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "予期しないエラーが発生しました。後でもう一度試してください。"
 
 msgid "Australia"
-msgstr ""
+msgstr "オーストラリア"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "BBCインタラクティブ"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "最後のスキャンに基づいて地上のブーケを構築/再構築します。"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "実行をキャンセルしますか?"
 
 msgid "Category:"
-msgstr ""
+msgstr "カテゴリ："
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "接続を確認してください！"
 
 msgid "Children"
-msgstr ""
+msgstr "子供たち"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "おめでとうございます！すでに最新バージョンをお持ちです..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "ローカル送信機からの LCN データに基づいて、順序付けられた地上サービスのブーケを作成します。"
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "個別のラジオブーケを作成する"
 
 msgid "Del Line"
-msgstr ""
+msgstr "デルライン"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "@oktus によるデザインとグラフィック\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "重複したチャネルやインデックスのないチャネルをブーケに追加しないでください。"
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "クラインを追加しますか?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "LCNブーケを注文したいですか？"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "今すぐアップデート (%s) をインストールしますか?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "削除しますか?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Gui インターフェイスを再起動しますか?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "ダウンロードページが失敗しました..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "重複"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "行の編集"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "LCN (ロゴ チャネル番号) データに基づいて地上波ブーケを作成できるようにします。"
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "地上波 LCN を有効にする:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "地上の花束を有効にする"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "エンターテインメント"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "エラー: データが見つかりません。"
 
 msgid "Europe7"
-msgstr ""
+msgstr "ヨーロッパ7"
 
 msgid "Exit"
-msgstr ""
+msgstr "出口"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "更新情報の取得に失敗しました。インターネット接続を確認してください。"
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "更新情報の解析に失敗しました。後でもう一度試してください。"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "空き容量:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HDチャンネル"
 
 msgid "High Definition"
-msgstr ""
+msgstr "高精細度"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "それがボックスにとって便利なツールだと思われる場合\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "情報と文化"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "インスライン"
 
 msgid "Install"
-msgstr ""
+msgstr "インストール"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "インターネット: 接続済み"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "インターネット: 接続なし"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "インターネット: 不明"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "更新情報の日付形式が不正です。"
 
 msgid "Italy"
-msgstr ""
+msgstr "イタリア"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCNの重複"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN ルール:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat パネル"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "カテゴリをロード..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "地元放送局"
 
 msgid "Music"
-msgstr ""
+msgstr "音楽"
 
 msgid "News"
-msgstr ""
+msgstr "ニュース"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "対応する地上波サービスは見つかりませんでした。"
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "lcn db にエントリがありません。サービススキャンを実行してください。"
 
 msgid "No update information available."
-msgstr ""
+msgstr "更新情報はありません。"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "構成が完了すると、手動スキャンの実行時にブーケが自動的に更新されます。"
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "お待ちください..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "スキャン時にネットワーク検索が有効になっていることを確認してください。"
 
 msgid "Premium"
-msgstr ""
+msgstr "プレミアム"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 プロモーション"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "ラジオ サービスをテレビのメインの花束ではなく、別の花束に入れます。これは、プロバイダーがテレビとラジオのチャンネル番号を重複させる場合に必要です。"
 
 msgid "Radio"
-msgstr ""
+msgstr "無線"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "再構築"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "今すぐ LCN ブーケを再構築しますか?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "ブーケを再構築する"
 
 msgid "Region"
-msgstr ""
+msgstr "地域"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "地方放送局"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "地域ラジオ"
 
 msgid "Reload"
-msgstr ""
+msgstr "リロード"
 
 msgid "Remove"
-msgstr ""
+msgstr "取り除く"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%sを削除しています"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "謎を再起動する"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "暫定 SD"
 
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 msgid "Select your region."
-msgstr ""
+msgstr "地域を選択してください。"
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "準ゼネラリスト"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "設定がインストールされていません..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "重複をスキップする"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "スカイチャンネル"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "A から Z までの並べ替え"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "並べ替えのデフォルト"
 
 msgid "Sports"
-msgstr ""
+msgstr "スポーツ"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "提案者: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "地上波"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "地上の花束"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "地上波ブーケエラー"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Terrestrial Bouquet プラグインが有効になっていません。"
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "地上波ブーケのセットアップ"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "地上のブーケが正常に再構築されました。"
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "地上の花束:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "テストチャンネル"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "プラグインは皆さんの寄付のおかげで存続しています。\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "現在、LCN データは保存されていません。"
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "このプラグインは、ローカル送信者によってブロードキャストされる LCN データに依存します。"
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "ネットワーク スキャンを有効にして、地上波周波数の手動スキャンを実行してみてください。これが失敗した場合は、お住まいの地域に利用可能な LCN データがない可能性があります。"
 
 msgid "UK"
-msgstr ""
+msgstr "イギリス"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "アップデートをダウンロードできません!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "知られざる映像！"
 
 msgid "Update"
-msgstr ""
+msgstr "アップデート"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "アップデートが中止されました!"
 
 msgid "of"
-msgstr ""
+msgstr "の"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "寄付してください:\n"

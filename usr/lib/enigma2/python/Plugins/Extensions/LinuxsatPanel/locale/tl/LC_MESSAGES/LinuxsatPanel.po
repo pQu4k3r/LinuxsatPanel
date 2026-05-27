@@ -13,13 +13,13 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Matanda"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Ang lahat ng code ay muling isinulat ni @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "May naganap na hindi inaasahang error. Pakisubukang muli mamaya."
 
 msgid "Australia"
 msgstr ""
@@ -28,238 +28,238 @@ msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Bumuo/muling buuin ang terrestrial bouquet ngayon batay sa huling pag-scan."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Kanselahin ang pagpapatupad?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Kategorya:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Suriin ang Koneksyon!"
 
 msgid "Children"
-msgstr ""
+msgstr "Mga bata"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Congrats! Mayroon ka nang pinakabagong bersyon..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Gumawa ng inorder na bouquet ng mga serbisyong pang-terrestrial batay sa data ng LCN mula sa iyong lokal na transmitter."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Gumawa ng hiwalay na palumpon ng radyo"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Mga Disenyo at Graphics ni @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Huwag magdagdag ng mga duplicate o hindi naka-index na channel sa bouquet."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Gusto mo bang idagdag si Cline?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Gusto mo bang Umorder ng LCN Bouquet?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Gusto mo bang i-install ang update (%s) ngayon?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Gusto mo bang tanggalin?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Gusto mo bang i-restart ang Gui Interface?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Nabigo ang pag-download ng page..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Mga duplicate"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "I-edit ang Linya"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "I-enable ang paggawa ng terrestrial bouquet batay sa LCN (logocal channel number) data."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Paganahin ang terrestrial LCN:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Paganahin ang terrestrial bouquet"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Libangan"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Error: Walang Paghahanap ng Data."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Europa7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Lumabas"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Nabigong makuha ang impormasyon ng update. Pakisuri ang iyong koneksyon sa internet."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Nabigong i-parse ang impormasyon sa pag-update. Pakisubukang muli mamaya."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Libreng Space:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "Mga HD Channel"
 
 msgid "High Definition"
 msgstr ""
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Kung sa tingin mo ito ay isang kapaki-pakinabang na tool para sa iyong kahon\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Impormasyon at Kultura"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Install"
-msgstr ""
+msgstr "I-install"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Internet: Nakakonekta"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Internet: Walang Koneksyon"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Internet: Hindi kilala"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Di-wastong format ng petsa sa impormasyon sa pag-update."
 
 msgid "Italy"
-msgstr ""
+msgstr "Italya"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "Mga Duplicate ng LCN"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "Mga panuntunan ng LCN:"
 
 msgid "Linuxsat Panel"
 msgstr ""
 
 msgid "Load Category..."
-msgstr ""
+msgstr "I-load ang Kategorya..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Mga Lokal na Brodkaster"
 
 msgid "Music"
-msgstr ""
+msgstr "Musika"
 
 msgid "News"
-msgstr ""
+msgstr "Balita"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Walang nakitang kaukulang serbisyong panlupa."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Walang entry sa lcn db. Mangyaring magsagawa ng pag-scan ng serbisyo."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Walang magagamit na impormasyon sa pag-update."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Kapag na-configure ang bouquet ay awtomatikong maa-update kapag gumagawa ng manu-manong pag-scan."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Mangyaring Maghintay..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Mangyaring gawin ang ilang paghahanap sa network ay pinagana kapag nag-scan."
 
 msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 Promosyon"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Ilagay ang mga serbisyo sa radyo sa isang hiwalay na bouquet, hindi ang pangunahing bouquet sa tv. Kinakailangan ito kapag nadoble ng provider ang mga numero ng channel para sa tv at radyo."
 
 msgid "Radio"
-msgstr ""
+msgstr "Radyo"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Muling itayo"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Muling itayo ang LCN bouquet ngayon?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Muling itayo ang bouquet"
 
 msgid "Region"
-msgstr ""
+msgstr "Rehiyon"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Mga Panrehiyong Brodkaster"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Radyo ng rehiyon"
 
 msgid "Reload"
-msgstr ""
+msgstr "I-reload"
 
 msgid "Remove"
-msgstr ""
+msgstr "Alisin"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "Inaalis ang %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "I-restart ang enigma"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Mga pansamantalang SD"
 
 msgid "Save"
-msgstr ""
+msgstr "I-save"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Piliin ang iyong rehiyon."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Mga Semi-Heneral"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Hindi Naka-install ang Mga Setting..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Laktawan ang mga duplicate"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Mga Sky Channel"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Pagbukud-bukurin A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Pag-uri-uriin ang Default"
 
 msgid "Sports"
-msgstr ""
+msgstr "Palakasan"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Iminungkahi ni: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
 msgstr ""
@@ -271,49 +271,49 @@ msgid "Terrestrial Bouquet Error"
 msgstr ""
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Hindi pinagana ang plugin ng Terrestrial Bouquet."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Pag-setup ng Terrestrial Bouquet"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Matagumpay na naitayo muli ang terrestrial bouquet."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Terrestrial na palumpon:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Mga Channel sa Pagsubok"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Buhay ang Plugin salamat sa mga donasyon ng bawat isa sa inyo.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Kasalukuyang walang LCN data na nakaimbak."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Nakadepende ang plugin na ito sa data ng LCN na bino-broadcast ng iyong lokal na tansmitter."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Subukang magpatakbo ng manu-manong pag-scan ng mga terrestrial frequency na pinagana ang pag-scan ng network. Kung ito ay nabigo marahil walang lcn data na magagamit sa iyong lugar."
 
 msgid "UK"
 msgstr ""
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Hindi makapag-download ng mga update!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Hindi Kilalang Larawan!"
 
 msgid "Update"
 msgstr ""
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Na-abort ang Update!"
 
 msgid "of"
-msgstr ""
+msgstr "ng"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "mangyaring magbigay ng donasyon:\n"

@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "بالغ"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "همه کدها توسط @Lululla بازنویسی شد - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "یک خطای غیرمنتظره رخ داد. لطفاً بعداً دوباره امتحان کنید."
 
 msgid "Australia"
-msgstr ""
+msgstr "استرالیا"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "بی بی سی تعاملی"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "اکنون بر اساس آخرین اسکن دسته گل زمینی بسازید/بازسازی کنید."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "لغو اجرا؟"
 
 msgid "Category:"
-msgstr ""
+msgstr "دسته:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "اتصال را بررسی کنید!"
 
 msgid "Children"
-msgstr ""
+msgstr "بچه ها"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "تبریک میگم شما در حال حاضر آخرین نسخه را دارید ..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "یک دسته سفارش داده شده از خدمات زمینی بر اساس داده های LCN از فرستنده محلی خود ایجاد کنید."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "دسته گل رادیویی جداگانه ایجاد کنید"
 
 msgid "Del Line"
-msgstr ""
+msgstr "دل لاین"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "طراحی و گرافیک توسط @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "کانال های تکراری یا غیر ایندکس شده را به دسته گل اضافه نکنید."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "آیا می خواهید Cline را اضافه کنید؟"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "آیا می خواهید دسته گل LCN را سفارش دهید؟"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "آیا می خواهید به روز رسانی (%s) را اکنون نصب کنید؟"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "آیا می خواهید حذف کنید؟"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "آیا می خواهید رابط Gui را مجددا راه اندازی کنید؟"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "صفحه دانلود با شکست مواجه شد..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "موارد تکراری"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "ویرایش خط"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "ایجاد یک دسته گل زمینی بر اساس داده های LCN (شماره کانال منطقی) را فعال کنید."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "فعال کردن LCN زمینی:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "دسته گل زمینی را فعال کنید"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "سرگرمی"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "خطا: داده پیدا نشد."
 
 msgid "Europe7"
-msgstr ""
+msgstr "اروپا 7"
 
 msgid "Exit"
-msgstr ""
+msgstr "خارج شوید"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "اطلاعات به‌روزرسانی دریافت نشد. لطفا اتصال اینترنت خود را بررسی کنید."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "اطلاعات به روز رسانی تجزیه نشد. لطفاً بعداً دوباره امتحان کنید."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "فضای آزاد:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "کانال های HD"
 
 msgid "High Definition"
-msgstr ""
+msgstr "کیفیت بالا"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "اگر فکر می کنید ابزار مفیدی برای جعبه شماست\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "اطلاعات و فرهنگ"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "اینس لاین"
 
 msgid "Install"
-msgstr ""
+msgstr "نصب کنید"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "اینترنت: متصل"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "اینترنت: بدون اتصال"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "اینترنت: نامعلوم"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "قالب تاریخ در اطلاعات به‌روزرسانی نامعتبر است."
 
 msgid "Italy"
-msgstr ""
+msgstr "ایتالیا"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN تکراری"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "قوانین LCN:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "پنل Linuxsat"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "بارگیری دسته..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "پخش کننده های محلی"
 
 msgid "Music"
-msgstr ""
+msgstr "موسیقی"
 
 msgid "News"
-msgstr ""
+msgstr "اخبار"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "هیچ سرویس زمینی مربوطه یافت نشد."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "ورود به lcn db ممنوع است. لطفا یک سرویس اسکن انجام دهید."
 
 msgid "No update information available."
-msgstr ""
+msgstr "اطلاعات به روز رسانی در دسترس نیست."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "پس از پیکربندی دسته گل هنگام انجام اسکن دستی به طور خودکار به روز می شود."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "لطفا صبر کنید..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "لطفاً مطمئن شوید که جستجوی شبکه هنگام اسکن فعال باشد."
 
 msgid "Premium"
-msgstr ""
+msgstr "حق بیمه"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "تبلیغات H264"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "خدمات رادیویی را در یک دسته گل جداگانه قرار دهید، نه دسته گل اصلی تلویزیون. زمانی که ارائه‌دهنده شماره‌های کانال را برای تلویزیون و رادیو کپی می‌کند، این مورد ضروری است."
 
 msgid "Radio"
-msgstr ""
+msgstr "رادیو"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "بازسازی کنید"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "اکنون دسته گل LCN را بازسازی کنید؟"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "دسته گل را بازسازی کنید"
 
 msgid "Region"
-msgstr ""
+msgstr "منطقه"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "صدا و سیمای منطقه"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "رادیو منطقه ای"
 
 msgid "Reload"
-msgstr ""
+msgstr "بارگذاری مجدد"
 
 msgid "Remove"
-msgstr ""
+msgstr "حذف کنید"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "در حال حذف %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "انیگما را دوباره راه اندازی کنید"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "SD های موقت"
 
 msgid "Save"
-msgstr ""
+msgstr "ذخیره کنید"
 
 msgid "Select your region."
-msgstr ""
+msgstr "منطقه خود را انتخاب کنید"
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "نیمه ژنرالیست ها"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "تنظیمات نصب نشده ..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "از موارد تکراری بگذرید"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "کانال های آسمان"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "مرتب سازی A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "مرتب سازی پیش فرض"
 
 msgid "Sports"
-msgstr ""
+msgstr "ورزش"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "پیشنهاد شده توسط: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "زمینی"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "دسته گل زمینی"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "خطای دسته گل زمینی"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "افزونه Terestrial Bouquet فعال نیست."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "راه اندازی دسته گل زمینی"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "دسته گل زمینی با موفقیت بازسازی شد."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "دسته گل زمینی:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "کانال های تست"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "این افزونه به لطف کمک های مالی هر یک از شما زنده می ماند.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "در حال حاضر هیچ داده LCN ذخیره نشده است."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "این افزونه به داده های LCN بستگی دارد که توسط tansmitter محلی شما پخش می شود."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "سعی کنید یک اسکن دستی فرکانس های زمینی را با فعال بودن اسکن شبکه اجرا کنید. اگر این کار انجام نشد، شاید هیچ داده lcn در منطقه شما موجود نباشد."
 
 msgid "UK"
-msgstr ""
+msgstr "انگلستان"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "دانلود به روز رسانی ممکن نیست!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "تصویر ناشناخته!"
 
 msgid "Update"
-msgstr ""
+msgstr "به روز رسانی"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "به روز رسانی لغو شد!"
 
 msgid "of"
-msgstr ""
+msgstr "از"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "لطفا کمک مالی کنید:\n"

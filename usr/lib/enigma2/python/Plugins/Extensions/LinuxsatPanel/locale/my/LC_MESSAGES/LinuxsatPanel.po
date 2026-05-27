@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "လူကြီး"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "ကုဒ်အားလုံးကို @Lululla - 2024.07.20\n မှ ပြန်လည်ရေးသားထားပါသည်။"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "မမျှော်လင့်ထားသော အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်။ ကျေးဇူးပြု၍ နောက်မှ ထပ်စမ်းကြည့်ပါ။"
 
 msgid "Australia"
-msgstr ""
+msgstr "သြစတြေးလျ"
 
 msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "နောက်ဆုံးစကင်န်ကိုအခြေခံ၍ ကုန်းနေပန်းစည်းကို ယခုတည်ဆောက်/ပြန်လည်တည်ဆောက်ပါ။"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "လုပ်ဆောင်မှုကို ပယ်ဖျက်မလား။"
 
 msgid "Category:"
-msgstr ""
+msgstr "အမျိုးအစား-"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "ချိတ်ဆက်မှုကို စစ်ဆေးပါ။"
 
 msgid "Children"
-msgstr ""
+msgstr "ကလေးတွေ"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "ဂုဏ်ပြုပါသည်။ သင့်တွင် နောက်ဆုံးထွက်ဗားရှင်းရှိနေပြီဖြစ်သည်။"
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "သင်၏ဒေသခံထုတ်လွှင့်သူထံမှ LCN ဒေတာကိုအခြေခံ၍ ကုန်းတွင်းဝန်ဆောင်မှုများ မှာယူထားသော ပန်းစည်းတစ်ခုကို ဖန်တီးပါ။"
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "သီးခြားရေဒီယိုပန်းစည်းဖန်တီးပါ။"
 
 msgid "Del Line"
-msgstr ""
+msgstr "ဒယ်လ်လိုင်း"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "@oktus\n မှ ဒီဇိုင်းများနှင့် ဂရပ်ဖစ်များ"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "ပွားထားသော သို့မဟုတ် အညွှန်းမတင်ထားသော ချန်နယ်များကို ပန်းစည်းသို့ မထည့်ပါနှင့်။"
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Cline ထည့်ချင်ပါသလား။"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "LCN ပန်းစည်းကို မှာယူလိုပါသလား။"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "အပ်ဒိတ် (%s) ကို ယခု ထည့်သွင်းလိုပါသလား။"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "ဖယ်ရှားလိုပါသလား။"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Gui Interface ကို ပြန်လည်စတင်လိုပါသလား။"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "ဒေါင်းလုဒ်စာမျက်နှာ မအောင်မြင်ပါ..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "ထပ်တူ"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "လိုင်းကို တည်းဖြတ်ပါ။"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "LCN (logocal channel နံပါတ်) ဒေတာအပေါ် အခြေခံ၍ ကုန်းနေပန်းစည်း ဖန်တီးခြင်းကို ဖွင့်ပါ။"
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "ကုန်းနေ LCN ကို ဖွင့်ပါ-"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "ကုန်းပန်းစည်းကို ဖွင့်ပါ။"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "ဖျော်ဖြေရေး"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "အမှား- ဒေတာ ရှာမတွေ့ပါ။"
 
 msgid "Europe7"
-msgstr ""
+msgstr "ဥရောပ ၇"
 
 msgid "Exit"
-msgstr ""
+msgstr "ထွက်ပေါက်"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "အပ်ဒိတ်အချက်အလက်ကို ရယူ၍မရပါ။ သင့်အင်တာနက်ချိတ်ဆက်မှုကို စစ်ဆေးပါ။"
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "အပ်ဒိတ်အချက်အလက်ကို ခွဲခြမ်းစိတ်ဖြာရန် မအောင်မြင်ပါ။ ကျေးဇူးပြု၍ နောက်မှ ထပ်စမ်းကြည့်ပါ။"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "နေရာလွတ်-"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD ချန်နယ်များ"
 
 msgid "High Definition"
 msgstr ""
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "သင့်ဘောက်စ်အတွက် အသုံးဝင်သောကိရိယာတစ်ခုဖြစ်သည်ဟု သင်ထင်ပါက\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "သတင်းအချက်အလက်နှင့်ယဉ်ကျေးမှု"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Ins လိုင်း"
 
 msgid "Install"
-msgstr ""
+msgstr "တပ်ဆင်ပါ။"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "အင်တာနက်- ချိတ်ဆက်ထားသည်။"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "အင်တာနက်- ချိတ်ဆက်မှုမရှိပါ။"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "အင်တာနက်- အမည်မသိ"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "အပ်ဒိတ်အချက်အလက်တွင် မမှန်ကန်သော ရက်စွဲဖော်မတ်။"
 
 msgid "Italy"
-msgstr ""
+msgstr "အီတလီ"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN ပွားများ"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN စည်းမျဉ်းများ-"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat အကန့်"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "အမျိုးအစားဖွင့်ရန်..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "ပြည်တွင်းအသံလွှင့်ရုံများ"
 
 msgid "Music"
-msgstr ""
+msgstr "ဂီတ"
 
 msgid "News"
-msgstr ""
+msgstr "သတင်း"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "သက်ဆိုင်ရာ ကုန်းတွင်းဝန်ဆောင်မှုများ မတွေ့ပါ။"
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "lcn db တွင် ထည့်သွင်းခြင်း မရှိပါ။ ကျေးဇူးပြု၍ ဝန်ဆောင်မှုကို စကင်ဖတ်ပါ။"
 
 msgid "No update information available."
-msgstr ""
+msgstr "အပ်ဒိတ်အချက်အလက် မရရှိနိုင်ပါ။"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "ပြင်ဆင်ပြီးသည်နှင့် လူကိုယ်တိုင်စကင်န်လုပ်သည့်အခါ ပန်းစည်းကို အလိုအလျောက် အပ်ဒိတ်လုပ်ပါမည်။"
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "ကျေးဇူးပြုပြီးခဏစောင့်ပါ..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "စကင်န်ဖတ်သည့်အခါ အချို့သောကွန်ရက်ရှာဖွေမှုကို ဖွင့်ထားပေးပါ။"
 
 msgid "Premium"
-msgstr ""
+msgstr "ပရီမီယံ"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 ပရိုမိုးရှင်း"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "ရေဒီယိုဝန်ဆောင်မှုများကို ပင်မတီဗီပန်းစည်းမဟုတ်ဘဲ သီးခြားပန်းစည်းတစ်ခုတွင် ထည့်ပါ။ ဝန်ဆောင်မှုပေးသူက တီဗီနှင့် ရေဒီယိုအတွက် ချန်နယ်နံပါတ်များကို ပွားသည့်အခါ ၎င်းကို လိုအပ်ပါသည်။"
 
 msgid "Radio"
-msgstr ""
+msgstr "ရေဒီယို"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "ပြန်လည်တည်ဆောက်ပါ။"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "LCN ပန်းစည်းကို ယခု ပြန်လည်တည်ဆောက်မလား။"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "ပန်းစည်းပြန်ဆောက်"
 
 msgid "Region"
-msgstr ""
+msgstr "တိုင်းဒေသကြီး"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "ဒေသဆိုင်ရာ အသံလွှင့်ရုံများ"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "ဒေသဆိုင်ရာရေဒီယို"
 
 msgid "Reload"
-msgstr ""
+msgstr "ပြန်တင်ပါ။"
 
 msgid "Remove"
-msgstr ""
+msgstr "ဖယ်ရှားပါ။"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%s ကို ဖယ်ရှားခြင်း"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "စကားထာကို ပြန်စပါ။"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "ယာယီ SD များ"
 
 msgid "Save"
-msgstr ""
+msgstr "သိမ်းဆည်းပါ။"
 
 msgid "Select your region."
-msgstr ""
+msgstr "သင်၏ဒေသကိုရွေးချယ်ပါ။"
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "ဗိုလ်ချုပ်တစ်ပိုင်း"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "ဆက်တင်များ ထည့်သွင်းမထားပါ..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "ထပ်တူများကို ကျော်ပါ။"
 
 msgid "Sky Channels"
 msgstr ""
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "A-Z စီပါ။"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "ပုံသေ အမျိုးအစားခွဲပါ။"
 
 msgid "Sports"
-msgstr ""
+msgstr "အားကစား"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "အကြံပြုထားသည်- @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "ကုန်းနေ"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "ကုန်းပန်းစည်း"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "ကုန်းနေပန်းစည်း အမှား"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Terrestrial Bouquet ပလပ်အင်ကို ဖွင့်မထားပါ။"
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "ကုန်းနေပန်းစည်း တပ်ဆင်မှု"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "ကုန်းနေပန်းစည်းကို အောင်မြင်စွာ ပြန်လည်တည်ဆောက်ခဲ့သည်။"
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "ကုန်းနေပန်းစည်း-"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "စမ်းသပ်ချန်နယ်များ"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "သင်တစ်ဦးစီ၏လှူဒါန်းမှုများကြောင့် Plugin သည် အသက်ရှင်နေပါသည်။\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "လောလောဆယ် LCN ဒေတာကို သိမ်းဆည်းထားခြင်းမရှိပါ။"
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "ဤပလပ်အင်သည် သင့်ဒေသခံရေနံထုတ်စက်မှထုတ်လွှင့်နေသည့် LCN ဒေတာအပေါ် မူတည်သည်။"
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "ကွန်ရက်စကင်န်ဖွင့်ထားခြင်းဖြင့် ကုန်းတွင်းကြိမ်နှုန်းများကို ကိုယ်တိုင်စကင်န်လုပ်ကြည့်ပါ။ အကယ်၍ ၎င်းမအောင်မြင်ပါက သင့်ဧရိယာတွင် lcn data မရှိပါ။"
 
 msgid "UK"
-msgstr ""
+msgstr "ယူကေ"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "အပ်ဒိတ်များကို ဒေါင်းလုဒ်လုပ်၍မရပါ။"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "အမည်မသိပုံ။"
 
 msgid "Update"
-msgstr ""
+msgstr "အပ်ဒိတ်"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "အပ်ဒိတ်ကို ဖျက်သိမ်းလိုက်ပါပြီ။"
 
 msgid "of"
-msgstr ""
+msgstr "၏"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "ကျေးဇူးပြု၍ လှူဒါန်းပါ-\n"

@@ -14,13 +14,13 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Aikuinen"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "@Lululla kirjoitti koko koodin uudelleen - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Tapahtui odottamaton virhe. Yritä myöhemmin uudelleen."
 
 msgid "Australia"
 msgstr ""
@@ -29,292 +29,292 @@ msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Rakenna/rakenna uudelleen maanpäällinen kimppu nyt viimeisimmän skannauksen perusteella."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Peruutetaanko suoritus?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Luokka:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Tarkista yhteys!"
 
 msgid "Children"
-msgstr ""
+msgstr "Lapset"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Onnittelut! Sinulla on jo uusin versio..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Luo tilattu paketti maanpäällisiä palveluita paikallisen lähettimen LCN-tietojen perusteella."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Luo erillinen radiokimppu"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Suunnittelijat ja grafiikat @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Älä lisää monistettuja tai indeksoimattomia kanavia kimppuun."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Haluatko lisätä Clinen?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Haluatko tilata LCN-kimpun?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Haluatko asentaa päivityksen (%s) nyt?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Haluatko poistaa?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Haluatko käynnistää Gui Interfacen uudelleen?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Sivun lataus epäonnistui..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Kopiot"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Muokkaa riviä"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Ota käyttöön maanpäällisen kimpun luominen LCN-tietojen (logocal channel number) perusteella."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Ota maanpäällinen LCN käyttöön:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Ota maanpäällinen kimppu käyttöön"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Viihde"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Virhe: Tietoa ei löydy."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Eurooppa 7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Poistu"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Päivitystietojen nouto epäonnistui. Tarkista Internet-yhteytesi."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Päivitystietojen jäsentäminen epäonnistui. Yritä myöhemmin uudelleen."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Vapaa tila:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD-kanavat"
 
 msgid "High Definition"
 msgstr ""
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Jos uskot sen olevan hyödyllinen työkalu laatikollesi\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Tieto ja kulttuuri"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Install"
-msgstr ""
+msgstr "Asentaa"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Internet: yhdistetty"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Internet: Ei yhteyttä"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Internet: Tuntematon"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Virheellinen päivämäärämuoto päivitystiedoissa."
 
 msgid "Italy"
-msgstr ""
+msgstr "Italia"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN-kopiot"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN-säännöt:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat-paneeli"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Lataa luokka..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Paikalliset yleisradioyhtiöt"
 
 msgid "Music"
-msgstr ""
+msgstr "Musiikki"
 
 msgid "News"
-msgstr ""
+msgstr "Uutiset"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Vastaavia maanpäällisiä palveluita ei löytynyt."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Ei merkintää lcn db:ssa. Ole hyvä ja tee huoltoskannaus."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Päivitystietoja ei ole saatavilla."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Kun kimppu on määritetty, se päivitetään automaattisesti manuaalisen skannauksen yhteydessä."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Ole hyvä ja odota..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Varmista, että verkkohaku on käytössä skannauksen aikana."
 
 msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264-kampanja"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Laita radiopalvelut erilliseen kimppuun, älä pää-tv-kimppuun. Tämä vaaditaan, kun palveluntarjoaja kopioi kanavanumerot televisiolle ja radiolle."
 
 msgid "Radio"
 msgstr ""
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Rakenna uudelleen"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Rakennataanko LCN-kimppu uudelleen nyt?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Rakenna kimppu uudelleen"
 
 msgid "Region"
-msgstr ""
+msgstr "Alue"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Alueelliset yleisradioyhtiöt"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Alueradio"
 
 msgid "Reload"
-msgstr ""
+msgstr "Lataa uudelleen"
 
 msgid "Remove"
-msgstr ""
+msgstr "Poistaa"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "Poistetaan %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Käynnistä enigma uudelleen"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Väliaikaiset SD:t"
 
 msgid "Save"
-msgstr ""
+msgstr "Tallentaa"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Valitse alueesi."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Semi-generalistit"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Asetuksia ei asennettu..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Ohita kaksoiskappaleet"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Sky-kanavat"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Lajittele A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Lajittele oletusarvo"
 
 msgid "Sports"
-msgstr ""
+msgstr "Urheilu"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Suosittelija: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Maanpäällinen"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Maanpäällinen kukkakimppu"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Maanpäällinen kimppuvirhe"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Terrestrial Bouquet -laajennus ei ole käytössä."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Terrestrial Bouquet -asennus"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Maanpäällinen kimppu on rakennettu onnistuneesti uudelleen."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Maanpäällinen kimppu:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Testaa kanavat"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Plugin elää jokaisen teistä lahjoitusten ansiosta.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "LCN-tietoja ei tällä hetkellä ole tallennettu."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Tämä laajennus riippuu paikallisen tansmitterin lähettämistä LCN-tiedoista."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Yritä suorittaa maanpäällisten taajuuksien manuaalinen skannaus verkkoskannauksen ollessa käytössä. Jos tämä epäonnistuu, alueeltasi ei ehkä ole saatavilla lcn-tietoja."
 
 msgid "UK"
-msgstr ""
+msgstr "Iso-Britannia"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Päivityksiä ei voi ladata!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Tuntematon kuva!"
 
 msgid "Update"
-msgstr ""
+msgstr "Päivittää"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Päivitys keskeytetty!"
 
 msgid "of"
-msgstr ""
+msgstr "/"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "tee lahjoitus:\n"

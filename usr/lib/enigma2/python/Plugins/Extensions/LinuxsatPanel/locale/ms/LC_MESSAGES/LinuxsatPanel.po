@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Dewasa"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Semua kod telah ditulis semula oleh @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Ralat yang tidak dijangka berlaku. Sila cuba lagi kemudian."
 
 msgid "Australia"
 msgstr ""
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "BBC Interaktif"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Bina/bina semula sejambak darat sekarang berdasarkan imbasan terakhir."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Batalkan pelaksanaan?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Kategori:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Semak Sambungan!"
 
 msgid "Children"
-msgstr ""
+msgstr "Kanak-kanak"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "tahniah! Anda sudah mempunyai versi terkini..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Buat sejambak perkhidmatan terestrial yang dipesan berdasarkan data LCN daripada pemancar tempatan anda."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Buat sejambak radio berasingan"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Talian Del"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Reka Bentuk dan Grafik oleh @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Jangan tambahkan saluran pendua atau tidak diindeks pada sejambak."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Adakah anda mahu menambah Cline?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Adakah anda ingin Tempah LCN Bouquet?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Adakah anda mahu memasang kemas kini (%s) sekarang?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Adakah anda mahu mengalih keluar?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Adakah anda mahu memulakan semula Antara Muka Gui?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Halaman muat turun gagal ..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Pendua"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Edit Baris"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Dayakan mencipta sejambak darat berdasarkan data LCN (nombor saluran logo)."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Dayakan LCN daratan:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Dayakan sejambak darat"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Hiburan"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Ralat: Tiada Carian Data."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Eropah7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Keluar"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Gagal mengambil maklumat kemas kini. Sila semak sambungan internet anda."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Gagal menghuraikan maklumat kemas kini. Sila cuba lagi kemudian."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Ruang Bebas:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "Saluran HD"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Definisi Tinggi"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Jika anda fikir ia adalah alat yang berguna untuk kotak anda\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Maklumat dan Budaya"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Talian Ins"
 
 msgid "Install"
-msgstr ""
+msgstr "Pasang"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Internet: Bersambung"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Internet: Tiada Sambungan"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Internet: Tidak diketahui"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Format tarikh tidak sah dalam maklumat kemas kini."
 
 msgid "Italy"
-msgstr ""
+msgstr "Itali"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "Pendua LCN"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "Peraturan LCN:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Panel Linuxsat"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Muatkan Kategori..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Penyiar Tempatan"
 
 msgid "Music"
-msgstr ""
+msgstr "Muzik"
 
 msgid "News"
-msgstr ""
+msgstr "Berita"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Tiada perkhidmatan darat yang sepadan ditemui."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Tiada kemasukan dalam lcn db. Sila buat imbasan perkhidmatan."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Tiada maklumat kemas kini tersedia."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Setelah dikonfigurasikan, sejambak akan dikemas kini secara automatik apabila melakukan imbasan manual."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Sila Tunggu..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Sila pastikan carian rangkaian tertentu didayakan semasa mengimbas."
 
 msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 Promosi"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Letakkan perkhidmatan radio dalam sejambak yang berasingan, bukan sejambak tv utama. Ini diperlukan apabila pembekal menduplikasi nombor saluran untuk tv dan radio."
 
 msgid "Radio"
 msgstr ""
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Bina semula"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Bina semula sejambak LCN sekarang?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Bina semula sejambak"
 
 msgid "Region"
-msgstr ""
+msgstr "Wilayah"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Penyiar Serantau"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Radio Serantau"
 
 msgid "Reload"
-msgstr ""
+msgstr "Muat semula"
 
 msgid "Remove"
-msgstr ""
+msgstr "Alih keluar"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "Mengalih keluar %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Mulakan semula enigma"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "SD sementara"
 
 msgid "Save"
-msgstr ""
+msgstr "Jimat"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Pilih wilayah anda."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Separa Umum"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Tetapan Tidak Dipasang..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Langkau pendua"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Saluran Langit"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Isih A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Isih Lalai"
 
 msgid "Sports"
-msgstr ""
+msgstr "sukan"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Dicadangkan oleh: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
 msgstr ""
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Sejambak Terestrial"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Ralat Bouquet Terestrial"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Pemalam Terrestrial Bouquet tidak didayakan."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Persediaan Bouquet Terestrial"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Sejambak darat berjaya dibina semula."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "sejambak darat:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Saluran Ujian"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Plugin ini hidup berkat sumbangan anda masing-masing.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Pada masa ini tiada data LCN disimpan."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Pemalam ini bergantung pada data LCN yang disiarkan oleh pemancar tempatan anda."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Cuba jalankan imbasan manual bagi frekuensi daratan dengan imbasan rangkaian didayakan. Jika ini gagal mungkin tiada data lcn tersedia di kawasan anda."
 
 msgid "UK"
 msgstr ""
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Tidak dapat memuat turun kemas kini!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Imej Tidak Diketahui!"
 
 msgid "Update"
-msgstr ""
+msgstr "Kemas kini"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Kemas Kini Dibatalkan!"
 
 msgid "of"
-msgstr ""
+msgstr "daripada"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "sila berikan sumbangan:\n"

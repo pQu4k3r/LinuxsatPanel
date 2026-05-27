@@ -13,187 +13,187 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Odrasli"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Sav kod je prepisao @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Došlo je do neočekivane greške. Molimo pokušajte ponovo kasnije."
 
 msgid "Australia"
-msgstr ""
+msgstr "Australija"
 
 msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Izgradite/ponovo izgradite zemaljski buket sada na osnovu posljednjeg skeniranja."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Otkazati izvršenje?"
 
 msgid "Category:"
-msgstr ""
+msgstr "kategorija:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Provjerite vezu!"
 
 msgid "Children"
-msgstr ""
+msgstr "Djeca"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Congrats! Već imate najnoviju verziju..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Kreirajte naručeni buket zemaljskih usluga na osnovu LCN podataka sa vašeg lokalnog odašiljača."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Napravite poseban radio buket"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Dizajn i grafika @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Nemojte dodavati duplirane ili neindeksirane kanale u buket."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Želite li dodati Cline?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Želite li naručiti LCN buket?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Želite li sada instalirati ažuriranje (%s)?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Želite li ukloniti?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Želite li ponovo pokrenuti Gui interfejs?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Preuzimanje stranice nije uspjelo..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Duplikati"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Uredi liniju"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Omogućite kreiranje zemaljskog buketa na osnovu LCN (logokalnog broja kanala) podataka."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Omogući zemaljski LCN:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Omogući zemaljski buket"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Zabava"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Greška: Nema pronađenih podataka."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Evropa7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Izađi"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Dohvaćanje informacija o ažuriranju nije uspjelo. Provjerite svoju internetsku vezu."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Nije uspjelo raščlanjivanje informacija o ažuriranju. Molimo pokušajte ponovo kasnije."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Slobodan prostor:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD kanali"
 
 msgid "High Definition"
 msgstr ""
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Ako mislite da je to koristan alat za vašu kutiju\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Informacije i kultura"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Install"
-msgstr ""
+msgstr "Instaliraj"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Internet: povezan"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Internet: Nema veze"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Internet: nepoznato"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Nevažeći format datuma u informacijama o ažuriranju."
 
 msgid "Italy"
-msgstr ""
+msgstr "Italija"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN duplikati"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN pravila:"
 
 msgid "Linuxsat Panel"
 msgstr ""
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Učitaj kategoriju..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Lokalni emiteri"
 
 msgid "Music"
-msgstr ""
+msgstr "Muzika"
 
 msgid "News"
-msgstr ""
+msgstr "Vijesti"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Nisu pronađene odgovarajuće zemaljske usluge."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Nema unosa u lcn db. Molimo izvršite servisno skeniranje."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Nema dostupnih informacija o ažuriranju."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Jednom konfigurisan, buket će se automatski ažurirati prilikom ručnog skeniranja."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Pričekajte..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Uvjerite se da je određena pretraga mreže omogućena prilikom skeniranja."
 
 msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 Promocija"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Stavite radio usluge u poseban buket, a ne u glavni TV buket. Ovo je potrebno kada provajder duplira brojeve kanala za TV i radio."
 
 msgid "Radio"
 msgstr ""
@@ -202,64 +202,64 @@ msgid "Rebuild"
 msgstr ""
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Ponovo izgraditi LCN buket sada?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Rebuild buket"
 
 msgid "Region"
 msgstr ""
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Regionalni emiteri"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Regionalni radio"
 
 msgid "Reload"
-msgstr ""
+msgstr "Ponovo učitaj"
 
 msgid "Remove"
-msgstr ""
+msgstr "Ukloni"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "Uklanjanje %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Ponovo pokreni enigmu"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Privremeni SD-ovi"
 
 msgid "Save"
-msgstr ""
+msgstr "Sačuvaj"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Odaberite svoju regiju."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Polu-generalisti"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Postavke nisu instalirane..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Preskoči duplikate"
 
 msgid "Sky Channels"
 msgstr ""
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Sortiraj A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Sortiraj zadano"
 
 msgid "Sports"
-msgstr ""
+msgstr "Sport"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Predložio: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
 msgstr ""
@@ -271,49 +271,49 @@ msgid "Terrestrial Bouquet Error"
 msgstr ""
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Terrestrial Bouquet dodatak nije omogućen."
 
 msgid "Terrestrial Bouquet setup"
 msgstr ""
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Zemaljski buket uspješno obnovljen."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Zemaljski buket:"
 
 msgid "Test Channels"
 msgstr ""
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Dodatak živi zahvaljujući donacijama svakog od vas.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Trenutno nema pohranjenih LCN podataka."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Ovaj dodatak ovisi o LCN podacima koje emituje vaš lokalni predajnik."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Pokušajte pokrenuti ručno skeniranje zemaljskih frekvencija uz omogućeno skeniranje mreže. Ako ovo ne uspije, možda nema dostupnih lcn podataka u vašem području."
 
 msgid "UK"
 msgstr ""
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Nije moguće preuzeti ažuriranja!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Nepoznata slika!"
 
 msgid "Update"
-msgstr ""
+msgstr "Ažuriraj"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Ažuriranje je prekinuto!"
 
 msgid "of"
 msgstr ""
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "molimo da donirate:\n"

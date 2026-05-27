@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Voyaga etgan"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Barcha kod @Lululla tomonidan qayta yozilgan - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Kutilmagan xatolik yuz berdi. Keyinroq qayta urinib ko‘ring."
 
 msgid "Australia"
-msgstr ""
+msgstr "Avstraliya"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "BBC Interaktiv"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Oxirgi skanerlash asosida yer guldastasini hozir yarating/qayta tiklang."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Bajarish bekor qilinsinmi?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Turkum:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Ulanishni tekshiring!"
 
 msgid "Children"
-msgstr ""
+msgstr "Bolalar"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Tabriklaymiz! Sizda allaqachon oxirgi versiya mavjud..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Mahalliy transmitteringizdan LCN maʼlumotlari asosida buyurtma qilingan yer usti xizmatlari guldastasini yarating."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Alohida radio guldastasini yarating"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Del liniyasi"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Dizayn va grafikalar @oktus tomonidan\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Guldastaga takrorlangan yoki indekslanmagan kanallarni qo'shmang."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Cline qo'shmoqchimisiz?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "LCN guldastasiga buyurtma berishni xohlaysizmi?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Yangilanishni (%s) hozir oʻrnatmoqchimisiz?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Oʻchirib tashlamoqchimisiz?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Gui interfeysini qayta ishga tushirmoqchimisiz?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Yuklab olish sahifasi muvaffaqiyatsiz tugadi ..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Dublikatlar"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Chiziqni tahrirlash"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "LCN (logokal kanal raqami) maʼlumotlari asosida yer usti guldastasini yaratishni yoqing."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Er usti LCNni yoqish:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Er usti guldastasini yoqing"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "O'yin-kulgi"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Xato: Ma'lumot topilmadi."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Yevropa 7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Chiqish"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Yangilanish maʼlumotlarini olib boʻlmadi. Iltimos, internet aloqangizni tekshiring."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Yangilanish maʼlumotlarini tahlil qilib boʻlmadi. Keyinroq qayta urinib ko‘ring."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Bo'sh joy:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD kanallar"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Yuqori aniqlik"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Agar bu sizning qutingiz uchun foydali vosita deb hisoblasangiz\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Axborot va madaniyat"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Install"
-msgstr ""
+msgstr "O'rnatish"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Internet: ulangan"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Internet: Ulanish yo'q"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Internet: noma'lum"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Yangilanish maʼlumotlarida sana formati yaroqsiz."
 
 msgid "Italy"
-msgstr ""
+msgstr "Italiya"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN dublikatlari"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN qoidalari:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat paneli"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Turkumni yuklash..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Mahalliy teleradiokompaniyalar"
 
 msgid "Music"
-msgstr ""
+msgstr "Musiqa"
 
 msgid "News"
-msgstr ""
+msgstr "Yangiliklar"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Tegishli yer usti xizmatlari topilmadi."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "lcn db ga kirish yo'q. Iltimos, xizmatni skanerlang."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Yangilanish maʼlumotlari mavjud emas."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Sozlangandan so'ng, guldasta qo'lda skanerlashda avtomatik ravishda yangilanadi."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Iltimos kuting..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Skanerlashda tarmoq qidiruvi yoqilganligiga ishonch hosil qiling."
 
 msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 reklamasi"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Radio xizmatlarini asosiy televizor guldastasiga emas, balki alohida guldastaga qo'ying. Bu provayder televizor va radio uchun kanal raqamlarini takrorlaganda talab qilinadi."
 
 msgid "Radio"
 msgstr ""
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Qayta qurish"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "LCN guldastasini hozir qayta tiklaysizmi?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Guldastani qayta qurish"
 
 msgid "Region"
-msgstr ""
+msgstr "Mintaqa"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Mintaqaviy teleradiokompaniyalar"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Mintaqaviy radio"
 
 msgid "Reload"
-msgstr ""
+msgstr "Qayta yuklash"
 
 msgid "Remove"
-msgstr ""
+msgstr "O'chirish"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%s olib tashlanmoqda"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Enigmani qayta ishga tushiring"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Vaqtinchalik SD-lar"
 
 msgid "Save"
-msgstr ""
+msgstr "Saqlash"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Mintaqangizni tanlang."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Yarim generallar"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Sozlamalar oʻrnatilmagan..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Dublikatlarni o'tkazib yuboring"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Osmon kanallari"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "A dan Z gacha saralash"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Birlamchi saralash"
 
 msgid "Sports"
-msgstr ""
+msgstr "Sport"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Tavsiya qilgan: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Yerdagi"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Er usti guldastasi"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Erdagi guldasta xatosi"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Terrestrial Bouquet plagini yoqilmagan."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Er usti guldastasini sozlash"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Er usti guldastasi muvaffaqiyatli tiklandi."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Er usti guldastasi:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Sinov kanallari"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Plagin har biringiz xayriya hisobiga ishlaydi.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Hozirda LCN maʼlumotlari saqlanmaydi."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Ushbu plagin mahalliy tansmitter tomonidan uzatiladigan LCN ma'lumotlariga bog'liq."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Tarmoqni skanerlash yoqilgan holda yer usti chastotalarini qo‘lda skanerlashni amalga oshirib ko‘ring. Agar bu bajarilmasa, sizning hududingizda lcn ma'lumotlari mavjud emas."
 
 msgid "UK"
-msgstr ""
+msgstr "Buyuk Britaniya"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Yangilanishlarni yuklab bo'lmadi!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Noma'lum rasm!"
 
 msgid "Update"
-msgstr ""
+msgstr "Yangilash"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Yangilash bekor qilindi!"
 
 msgid "of"
-msgstr ""
+msgstr "ning"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "iltimos xayriya qiling:\n"

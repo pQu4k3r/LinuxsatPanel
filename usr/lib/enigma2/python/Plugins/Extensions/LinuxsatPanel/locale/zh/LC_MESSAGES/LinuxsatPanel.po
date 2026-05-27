@@ -17,25 +17,25 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "成人"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "所有代码均由 @Lululla 重写 - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "发生意外错误。请稍后重试。"
 
 msgid "Australia"
-msgstr ""
+msgstr "澳大利亚"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "英国广播公司互动"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "现在根据上次扫描构建/重建陆地花束。"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "取消执行？"
 
 #, fuzzy
 msgid "Category:"
@@ -45,25 +45,25 @@ msgid "Check Connection!"
 msgstr "检查连接！"
 
 msgid "Children"
-msgstr ""
+msgstr "孩子们"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "恭喜！您已经拥有最新版本..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "根据本地发射机的 LCN 数据创建一系列有序的地面服务。"
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "创建单独的单选花束"
 
 msgid "Del Line"
-msgstr ""
+msgstr "德尔线"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "设计和图形由 @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "请勿将重复或未索引的通道添加到集合中。"
 
 #, fuzzy
 msgid "Do you want add Cline?"
@@ -87,80 +87,80 @@ msgid "Download page get failed ..."
 msgstr "下载页面失败..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "重复项"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "编辑行"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "启用基于 LCN（逻辑频道号）数据创建地面花束。"
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "启用地面 LCN："
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "启用陆地花束"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "娱乐"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "错误：找不到数据。"
 
 msgid "Europe7"
-msgstr ""
+msgstr "欧洲7"
 
 msgid "Exit"
 msgstr "退出"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "获取更新信息失败。请检查您的互联网连接。"
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "无法解析更新信息。请稍后重试。"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "可用空间："
 
 msgid "HD Channels"
-msgstr ""
+msgstr "高清频道"
 
 msgid "High Definition"
-msgstr ""
+msgstr "高清"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "如果您认为它对您的盒子来说是一个有用的工具\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "信息与文化"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "INS线"
 
 msgid "Install"
 msgstr "安装"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "互联网：已连接"
 
 #, fuzzy
 msgid "Internet: No Connection"
 msgstr "检查连接！"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "互联网：未知"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "更新信息中的日期格式无效。"
 
 msgid "Italy"
-msgstr ""
+msgstr "意大利"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN 重复项"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN规则："
 
 msgid "Linuxsat Panel"
 msgstr "Linuxsat Panel"
@@ -169,64 +169,64 @@ msgid "Load Category..."
 msgstr "负载类别..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "当地广播公司"
 
 msgid "Music"
-msgstr ""
+msgstr "音乐"
 
 msgid "News"
-msgstr ""
+msgstr "消息"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "未找到相应的地面服务。"
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "lcn 数据库中没有条目。请进行服务扫描。"
 
 msgid "No update information available."
-msgstr ""
+msgstr "无可用更新信息。"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "配置完成后，花束将在手动扫描时自动更新。"
 
 msgid "Please Wait..."
 msgstr "0 次序.."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "扫描时请确保网络搜索已启用。"
 
 msgid "Premium"
-msgstr ""
+msgstr "优质的"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264促销"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "将广播服务放在单独的花束中，而不是主要的电视花束中。当提供商复制电视和广播的频道号码时，这是必需的。"
 
 msgid "Radio"
-msgstr ""
+msgstr "收音机"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "重建"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "现在重建 LCN 花束吗？"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "重建花束"
 
 msgid "Region"
-msgstr ""
+msgstr "地区"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "地区广播公司"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "地区广播电台"
 
 msgid "Reload"
-msgstr ""
+msgstr "重新加载"
 
 msgid "Remove"
 msgstr "删除"
@@ -238,95 +238,95 @@ msgid "Restart enigma"
 msgstr "是否现在重新启动GUI"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "临时 SD"
 
 msgid "Save"
 msgstr "保存"
 
 msgid "Select your region."
-msgstr ""
+msgstr "选择您所在的地区。"
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "半通才"
 
 msgid "Settings Not Installed ..."
 msgstr "设置未安装..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "跳过重复项"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "天空频道"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "从 A-Z 排序"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "默认排序"
 
 #, fuzzy
 msgid "Sports"
 msgstr "导出"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "建议者：@masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "陆地的"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "陆地花束"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "陆地花束错误"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "陆地花束插件未启用。"
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "陆地花束设置"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "陆地花束重建成功。"
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "陆地花束："
 
 msgid "Test Channels"
-msgstr ""
+msgstr "测试通道"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "该插件的存在得益于你们每个人的捐赠。\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "目前没有存储 LCN 数据。"
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "该插件依赖于本地发送器广播的 LCN 数据。"
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "尝试在启用网络扫描的情况下运行手动地面频率扫描。如果失败，可能您所在的地区没有可用的 lcn 数据。"
 
 msgid "UK"
-msgstr ""
+msgstr "英国"
 
 msgid "Unable to download updates!"
 msgstr "无法下载更新！"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "未知图像！"
 
 msgid "Update"
-msgstr ""
+msgstr "更新"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "更新中止！"
 
 msgid "of"
-msgstr ""
+msgstr "的"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "请捐款：\n"
 
 #, fuzzy, python-format
 #~| msgid ""

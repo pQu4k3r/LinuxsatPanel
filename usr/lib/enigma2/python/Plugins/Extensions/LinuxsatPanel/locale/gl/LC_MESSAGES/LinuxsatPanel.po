@@ -13,13 +13,13 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Adulto"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Todo o código foi reescrito por @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Produciuse un erro inesperado. Téntao de novo máis tarde."
 
 msgid "Australia"
 msgstr ""
@@ -28,292 +28,292 @@ msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Construír/reconstruír un ramo terrestre agora baseándose na última exploración."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Cancelar a execución?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Categoría:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Comproba a conexión!"
 
 msgid "Children"
-msgstr ""
+msgstr "Nenos"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Parabéns! Xa tes a última versión..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Crea un ramo ordenado de servizos terrestres baseado nos datos LCN do teu transmisor local."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Crea un ramo de radio separado"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Deseños e gráficos de @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Non engadas canles duplicadas ou non indexadas ao ramo."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Queres engadir Cline?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Queres pedir o ramo LCN?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Queres instalar a actualización (%s) agora?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Queres eliminar?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Queres reiniciar a interface Gui?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "A páxina de descarga fallou..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Duplicados"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Editar liña"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Permite crear un ramo terrestre baseado nos datos de LCN (número de canle logotipo)."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Activar LCN terrestre:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Activa o ramo terrestre"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Entretemento"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Erro: non se atopan datos."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Europa 7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Saír"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Produciuse un erro ao obter a información de actualización. Comproba a túa conexión a internet."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Produciuse un erro ao analizar a información da actualización. Téntao de novo máis tarde."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Espazo libre:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "Canles HD"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Alta Definición"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Se cres que é unha ferramenta útil para a túa caixa\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Información e Cultura"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Liña Ins"
 
 msgid "Install"
-msgstr ""
+msgstr "Instalar"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Internet: Conectado"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Internet: sen conexión"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Internet: descoñecido"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Formato de data non válido na información de actualización."
 
 msgid "Italy"
-msgstr ""
+msgstr "Italia"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "Duplicados LCN"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "Regras LCN:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Panel Linuxsat"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Cargar categoría..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Emisoras locais"
 
 msgid "Music"
-msgstr ""
+msgstr "Música"
 
 msgid "News"
-msgstr ""
+msgstr "Novas"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Non se atoparon servizos terrestres correspondentes."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Non hai entrada en lcn db. Fai unha exploración do servizo."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Non hai información de actualización dispoñible."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Unha vez configurado o ramo actualizarase automaticamente ao facer unha exploración manual."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Agarde por favor..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Asegúrese de que a busca na rede estea activada ao dixitalizar."
 
 msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "Promoción H264"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Pon os servizos de radio nun ramo separado, non no ramo de televisión principal. Isto é necesario cando o provedor duplica os números de canle para televisión e radio."
 
 msgid "Radio"
 msgstr ""
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Reconstruír"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Reconstruír o ramo de LCN agora?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Reconstruír ramo"
 
 msgid "Region"
-msgstr ""
+msgstr "Rexión"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Emisoras rexionais"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Radio Regional"
 
 msgid "Reload"
-msgstr ""
+msgstr "Recarga"
 
 msgid "Remove"
-msgstr ""
+msgstr "Eliminar"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "Eliminando %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Reiniciar enigma"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "SD provisionais"
 
 msgid "Save"
-msgstr ""
+msgstr "Gardar"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Seleccione a súa rexión."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Semixeralistas"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Configuración non instalada..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Saltar duplicados"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Canles do ceo"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Ordenar A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Ordenar por defecto"
 
 msgid "Sports"
-msgstr ""
+msgstr "Deportes"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Suxerido por: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Terrestre"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Bouquet Terrestre"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Erro do ramo terrestre"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "O complemento Terrestrial Bouquet non está activado."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Configuración do ramo terrestre"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Bouquet terrestre reconstruído con éxito."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Bouquet terrestre:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Canles de proba"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "O complemento vive grazas ás doazóns de cada un de vós.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Actualmente non hai datos LCN almacenados."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Este complemento depende dos datos LCN que estean transmitidos polo teu emisor local."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Proba a realizar unha exploración manual de frecuencias terrestres coa exploración de rede activada. Se isto falla, quizais non haxa datos lcn dispoñibles na súa zona."
 
 msgid "UK"
-msgstr ""
+msgstr "Reino Unido"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Non se poden descargar actualizacións!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Imaxe descoñecida!"
 
 msgid "Update"
-msgstr ""
+msgstr "Actualizar"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Actualización abortada!"
 
 msgid "of"
-msgstr ""
+msgstr "de"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "faga unha doazón:\n"

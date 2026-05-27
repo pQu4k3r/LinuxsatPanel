@@ -13,13 +13,13 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Mtu mzima"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Msimbo wote uliandikwa upya na @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Hitilafu isiyotarajiwa imetokea. Tafadhali jaribu tena baadaye."
 
 msgid "Australia"
 msgstr ""
@@ -28,292 +28,292 @@ msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Jenga/jenga upya shada la ardhi sasa kulingana na skanisho la mwisho."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Ungependa kughairi utekelezaji?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Kategoria:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Angalia Muunganisho!"
 
 msgid "Children"
-msgstr ""
+msgstr "Watoto"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Hongera! Tayari una toleo jipya zaidi..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Unda kundi lililoagizwa la huduma za nchi kavu kulingana na data ya LCN kutoka kwa kisambaza data cha karibu nawe."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Unda bouquet tofauti ya redio"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Miundo na Michoro ya @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Usiongeze idhaa zilizorudiwa au zisizo na faharasa kwenye shada."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Je, unataka kuongeza Cline?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Je, ungependa kuagiza LCN Bouquet?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Je, ungependa kusakinisha sasisho (%s) sasa?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Je, ungependa kuondoa?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Je, ungependa kuwasha upya Kiolesura cha Gui?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Upakuaji wa ukurasa umeshindwa ..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Nakala"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Badilisha Mstari"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Washa kuunda shada la ardhi kulingana na data ya LCN (nambari ya nembo ya kituo)."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Washa LCN ya duniani:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Washa bouquet ya nchi kavu"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Burudani"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Hitilafu: Hakuna Upataji wa Data."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Ulaya7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Utgång"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Imeshindwa kuleta taarifa ya sasisho. Tafadhali angalia muunganisho wako wa intaneti."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Imeshindwa kuchanganua taarifa ya sasisho. Tafadhali jaribu tena baadaye."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Nafasi ya Bure:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "Njia za HD"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Ufafanuzi wa Juu"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Ikiwa unafikiri ni zana muhimu kwa kisanduku chako\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Habari na Utamaduni"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Install"
-msgstr ""
+msgstr "Sakinisha"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Mtandao: Umeunganishwa"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Mtandao: Hakuna Muunganisho"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Mtandao: Haijulikani"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Umbizo la tarehe batili katika taarifa ya sasisho."
 
 msgid "Italy"
-msgstr ""
+msgstr "Italia"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "Nakala za LCN"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "Sheria za LCN:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Jopo la Linuxsat"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Pakia Aina..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Watangazaji wa Ndani"
 
 msgid "Music"
-msgstr ""
+msgstr "Muziki"
 
 msgid "News"
-msgstr ""
+msgstr "Habari"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Hakuna huduma za nchi kavu zinazolingana zilizopatikana."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Hakuna kiingilio katika lcn db. Tafadhali chunguza huduma."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Hakuna taarifa ya sasisho inayopatikana."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Mara baada ya kusanidi chumba cha maua kitasasishwa kiotomatiki wakati wa kufanya skanning ya mwongozo."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Tafadhali Subiri..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Tafadhali fanya utafutaji fulani wa mtandao kuwashwa unapochanganua."
 
 msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "Ukuzaji wa H264"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Weka huduma za redio kwenye bouquet tofauti, sio bouquet kuu ya tv. Hili linahitajika wakati mtoa huduma ananakili nambari za kituo cha televisheni na redio."
 
 msgid "Radio"
-msgstr ""
+msgstr "Redio"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Jenga upya"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Ungependa kujenga tena shada la LCN sasa?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Kujenga upya bouquet"
 
 msgid "Region"
-msgstr ""
+msgstr "Mkoa"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Watangazaji wa Mikoa"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Redio ya Mkoa"
 
 msgid "Reload"
-msgstr ""
+msgstr "Pakia upya"
 
 msgid "Remove"
-msgstr ""
+msgstr "Ondoa"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "Inaondoa %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Anzisha tena fumbo"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "SD za muda"
 
 msgid "Save"
-msgstr ""
+msgstr "Hifadhi"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Chagua eneo lako."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Nusu Jenerali"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Mipangilio Haijasakinishwa ..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Ruka nakala"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Njia za Sky"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Panga A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Panga Chaguomsingi"
 
 msgid "Sports"
-msgstr ""
+msgstr "Michezo"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Imependekezwa na: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Duniani"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Bouquet ya Dunia"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Hitilafu ya Bouquet ya Dunia"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Programu-jalizi ya Terrestrial Bouquet haijawashwa."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Mpangilio wa Bouquet ya Dunia"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "shada la nchi kavu limejengwa upya kwa mafanikio."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Bouquet ya Dunia:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Njia za majaribio"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Programu-jalizi huishi kutokana na michango ya kila mmoja wenu.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Kwa sasa hakuna data ya LCN iliyohifadhiwa."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Programu-jalizi hii inategemea data ya LCN inayotangazwa na tansmitter ya karibu nawe."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Jaribu kuchanganua mwenyewe masafa ya dunia ukiwasha upekuzi wa mtandao. Ikiwa hii itashindwa labda hakuna data ya lcn inayopatikana katika eneo lako."
 
 msgid "UK"
-msgstr ""
+msgstr "Uingereza"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Imeshindwa kupakua masasisho!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Picha Isiyojulikana!"
 
 msgid "Update"
-msgstr ""
+msgstr "Sasisha"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Usasishaji Umeghairiwa!"
 
 msgid "of"
-msgstr ""
+msgstr "ya"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "tafadhali toa mchango:\n"

@@ -10,310 +10,310 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "%s"
-msgstr ""
+msgstr "% s"
 
 msgid "Adult"
-msgstr ""
+msgstr "Ulular"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Codehli kody @Lululla - 2024.07.20 \ n gaýtadan ýazdy"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Garaşylmadyk ýalňyşlyk ýüze çykdy. Soňrak synanyşyň."
 
 msgid "Australia"
-msgstr ""
+msgstr "Awstraliýa"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "BBC Interaktiw"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Iň soňky skaneriň esasynda ýerüsti buket gurmak / täzeden gurmak."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Executionerine ýetirmekligi ýatyrmalymy?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Kategoriýa:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Baglanyşygy barlaň!"
 
 msgid "Children"
-msgstr ""
+msgstr "Çagalar"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Gutlaýarys! Sizde iň soňky wersiýa bar ..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Localerli iberijiňizden LCN maglumatlaryna esaslanyp, ýerüsti hyzmatlardan sargyt edilen buket dörediň."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Aýry radio buket dörediň"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "@Ktus \ n tarapyndan dizaýn we grafika"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Buketde köpeldilen ýa-da indekslenmedik kanallary goşmaň."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Cline goşmak isleýärsiňizmi?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "LCN buket zakaz etmek isleýärsiňizmi?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Indi täzelenme (% s) gurmak isleýärsiňizmi?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Aýyrmak isleýärsiňizmi?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Gui interfeýsini täzeden açmak isleýärsiňizmi?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Sahypany göçürip almak şowsuz ..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Göçürmeler"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Setiri redaktirläň"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "LCN (logokal kanal belgisi) maglumatlaryna esaslanýan ýerüsti buket döretmäge mümkinçilik beriň."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Lerüsti LCN-i işlediň:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Estrerdäki buket açyň"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Güýmenje"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Roralňyşlyk: Maglumat tapylmady."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Europeewropa7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Çyk"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Täzelenme maglumatlary alyp bilmedi. Internet birikmäňizi barlaň."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Täzelenme maglumatlary derňäp bilmedi. Soňrak synanyşyň."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Boş ýer:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD kanallar"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Defokary kesgitleme"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Gutyňyz üçin peýdaly gural diýip pikir edýän bolsaňyz \ n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Maglumat we medeniýet"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Install"
-msgstr ""
+msgstr "Gurnama"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Internet: Birikdirildi"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Internet: Baglanyşyk ýok"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Internet: Näbelli"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Täzelenme maglumatlarynda nädogry sene formaty."
 
 msgid "Italy"
-msgstr ""
+msgstr "Italiýa"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN dublikatlary"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN düzgünleri:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat paneli"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Categoryük kategoriýasy ..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Localerli ýaýlymçylar"
 
 msgid "Music"
-msgstr ""
+msgstr "Saz"
 
 msgid "News"
-msgstr ""
+msgstr "Habarlar"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Degişli ýerüsti hyzmatlar tapylmady."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Lcn db-de ýazgy ýok Hyzmat skanerini geçirmegiňizi haýyş edýäris."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Täzelenme barada maglumat ýok."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Buket düzülensoň, el bilen gözden geçirilende awtomatiki usulda täzelener."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Garaşyň ..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Skaner edeniňizde belli bir gözleg mümkinçiligini açmagyňyzy haýyş edýäris."
 
 msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 mahabat"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Radio hyzmatlaryny esasy teleýaýlym däl-de, aýratyn buketde goýuň. Bu üpjün ediji teleýaýlym we radio üçin kanal belgilerini köpeltse talap edilýär."
 
 msgid "Radio"
 msgstr ""
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Gaýtadan gur"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "LCN buketini täzeden guruňmy?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Buketi täzeden guruň"
 
 msgid "Region"
-msgstr ""
+msgstr "Sebit"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Sebit ýaýlymçylary"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Sebit radiosy"
 
 msgid "Reload"
-msgstr ""
+msgstr "Gaýtadan ýükläň"
 
 msgid "Remove"
-msgstr ""
+msgstr "Aýyr"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "% S aýyrmak"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Enigmany täzeden açyň"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Wagtlaýyn SD"
 
 msgid "Save"
-msgstr ""
+msgstr "Saklaň"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Sebitiňizi saýlaň."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Generalarym generallar"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Sazlamalar gurulmady ..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Dublikatlaryna geçiň"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Asman kanallary"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "A-Z tertipläň"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Bellenen tertipleşdir"
 
 msgid "Sports"
-msgstr ""
+msgstr "Sport"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Teklip eden: @masterG - @oktus - @pcd \ n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Estrerüsti"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Estrerüsti buket"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Orerüsti buket säwligi"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Estrerüsti buket plugin açyk däl."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Estrerüsti buket gurmak"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Estrer buketi üstünlikli täzeden guruldy."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Estrer togalagy:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Synag kanallary"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Plugin, her biriňiziň beren sadakalaryňyz sebäpli ýaşaýar. \ N."
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Häzirki wagtda LCN maglumatlary saklanmaýar."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Bu plugin, ýerli tansçy tarapyndan berilýän LCN maglumatlaryna baglydyr."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Tor skaneri açyk bolan ýerüsti ýygylyklary el bilen skanirlemäge synanyşyň. Bu başa barmasa, sebitiňizde lcn maglumatlary ýok bolmagy mümkin."
 
 msgid "UK"
-msgstr ""
+msgstr "Angliýa"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Täzelenmeleri göçürip alyp bolmaýar!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Näbelli surat!"
 
 msgid "Update"
-msgstr ""
+msgstr "Täzelen"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Täzelenme ýatyryldy!"
 
 msgid "of"
 msgstr ""
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "sadaka bermegiňizi haýyş edýäris: \ n"

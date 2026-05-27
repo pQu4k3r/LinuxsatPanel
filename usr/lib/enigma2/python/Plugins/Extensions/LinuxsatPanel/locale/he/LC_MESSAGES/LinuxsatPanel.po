@@ -14,307 +14,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "מְבוּגָר"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "כל הקוד נכתב מחדש על ידי @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "אירעה שגיאה בלתי צפויה. אנא נסה שוב מאוחר יותר."
 
 msgid "Australia"
-msgstr ""
+msgstr "אוֹסטְרַלִיָה"
 
 msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "בנה/בנה מחדש זר יבשתי כעת בהתבסס על הסריקה האחרונה."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "לבטל את הביצוע?"
 
 msgid "Category:"
-msgstr ""
+msgstr "קָטֵגוֹרִיָה:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "בדוק חיבור!"
 
 msgid "Children"
-msgstr ""
+msgstr "יְלָדִים"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "מזל טוב! כבר יש לך את הגרסה האחרונה..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "צור זר מסודר של שירותים יבשתיים המבוססים על נתוני LCN מהמשדר המקומי שלך."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "צור זר רדיו נפרד"
 
 msgid "Del Line"
-msgstr ""
+msgstr "דל ליין"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "עיצובים וגרפיקה מאת @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "אל תוסיף ערוצים משוכפלים או ללא אינדקס לזר."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "האם אתה רוצה להוסיף Cline?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "האם אתה רוצה להזמין זר LCN?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "האם ברצונך להתקין עדכון (%s) כעת?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "האם אתה רוצה להסיר?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "האם ברצונך להפעיל מחדש את ממשק Gui?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "דף ההורדה נכשל..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "כפילויות"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "ערוך שורה"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "אפשר יצירת זר יבשתי המבוסס על נתוני LCN (מספר ערוץ לוגו)."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "אפשר LCN יבשתי:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "אפשר זר פרחים יבשתי"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "בידור"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "שגיאה: אין חיפוש נתונים."
 
 msgid "Europe7"
-msgstr ""
+msgstr "אירופה 7"
 
 msgid "Exit"
-msgstr ""
+msgstr "יְצִיאָה"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "אחזור פרטי העדכון נכשל. אנא בדוק את חיבור האינטרנט שלך."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "ניתוח פרטי העדכון נכשל. אנא נסה שוב מאוחר יותר."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "מקום פנוי:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "ערוצי HD"
 
 msgid "High Definition"
 msgstr ""
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "אם אתה חושב שזה כלי שימושי עבור התיבה שלך\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "מידע ותרבות"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Install"
-msgstr ""
+msgstr "לְהַתְקִין"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "אינטרנט: מחובר"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "אינטרנט: אין חיבור"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "אינטרנט: לא ידוע"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "פורמט תאריך לא חוקי בפרטי העדכון."
 
 msgid "Italy"
-msgstr ""
+msgstr "אִיטַלִיָה"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "כפילויות של LCN"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "חוקי LCN:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "פאנל Linuxsat"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "טען קטגוריה..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "גופי שידור מקומיים"
 
 msgid "Music"
-msgstr ""
+msgstr "מוּסִיקָה"
 
 msgid "News"
-msgstr ""
+msgstr "חֲדָשׁוֹת"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "לא נמצאו שירותים יבשתיים מתאימים."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "אין ערך ב-lcn db. אנא בצע סריקת שירות."
 
 msgid "No update information available."
-msgstr ""
+msgstr "אין מידע עדכון זמין."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "לאחר ההגדרה, הזר יתעדכן אוטומטית בעת ביצוע סריקה ידנית."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "אנא המתן..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "אנא ודא שחיפוש רשת מופעל בעת הסריקה."
 
 msgid "Premium"
-msgstr ""
+msgstr "פּרֶמיָה"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "קידום H264"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "שים שירותי רדיו בזר נפרד, לא בזר הטלוויזיה הראשי. זה נדרש כאשר הספק משכפל מספרי ערוצים עבור טלוויזיה ורדיו."
 
 msgid "Radio"
-msgstr ""
+msgstr "רָדִיוֹ"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "לִבנוֹת מִחָדָשׁ"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "לבנות מחדש זר של LCN עכשיו?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "לבנות מחדש זר פרחים"
 
 msgid "Region"
-msgstr ""
+msgstr "אֵזוֹר"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "גופי שידור אזוריים"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "רדיו אזורי"
 
 msgid "Reload"
-msgstr ""
+msgstr "לִטעוֹן מִחָדָשׁ"
 
 msgid "Remove"
-msgstr ""
+msgstr "לְהַסִיר"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "מסיר את %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "הפעל מחדש את אניגמה"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "SDs זמניים"
 
 msgid "Save"
-msgstr ""
+msgstr "לְהַצִיל"
 
 msgid "Select your region."
-msgstr ""
+msgstr "בחר את האזור שלך."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "סמי-ג'נרליסטים"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "הגדרות לא מותקנות..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "דלג על כפילויות"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "ערוצי סקיי"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "מיון א'-ת'"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "מיון ברירת מחדל"
 
 msgid "Sports"
-msgstr ""
+msgstr "ספורט"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "הוצע על ידי: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "יַבַּשׁתִי"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "זר יבשתי"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "שגיאת זר יבשתי"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "תוסף זר קרקעי אינו מופעל."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "הגדרת זר יבשתי"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "זר יבשתי נבנה מחדש בהצלחה."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "זר יבשתי:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "ערוצי בדיקה"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "התוסף חי הודות לתרומות של כל אחד מכם.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "כרגע אין נתוני LCN מאוחסנים."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "תוסף זה תלוי בנתוני LCN המשודרים על ידי המשדר המקומי שלך."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "נסה להפעיל סריקה ידנית של תדרים יבשתיים עם סריקת רשת מופעלת. אם זה נכשל, אולי אין נתוני lcn זמינים באזור שלך."
 
 msgid "UK"
-msgstr ""
+msgstr "בְּרִיטַנִיָה"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "לא ניתן להוריד עדכונים!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "תמונה לא ידועה!"
 
 msgid "Update"
-msgstr ""
+msgstr "לְעַדְכֵּן"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "העדכון בוטל!"
 
 msgid "of"
-msgstr ""
+msgstr "שֶׁל"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "אנא תרומה:\n"

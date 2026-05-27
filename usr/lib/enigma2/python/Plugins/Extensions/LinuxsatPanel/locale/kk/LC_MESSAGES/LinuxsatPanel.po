@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Ересек"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Барлық кодты @Lululla қайта жазған - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Күтпеген қате орын алды. Тағы жасауды сәл кейінірек көріңізді өтінеміз."
 
 msgid "Australia"
-msgstr ""
+msgstr "Австралия"
 
 msgid "BBC Interactive"
 msgstr ""
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Соңғы сканерлеу негізінде қазір жердегі гүл шоғын құрастырыңыз/қайта жасаңыз."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Орындаудан бас тарту керек пе?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Санат:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Қосылымды тексеріңіз!"
 
 msgid "Children"
-msgstr ""
+msgstr "Балалар"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Құттықтаймыз! Сізде соңғы нұсқа әлдеқашан бар..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Жергілікті таратқыштың LCN деректері негізінде жерүсті қызметтерінің тапсырыс берілген шоғын жасаңыз."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Бөлек радио букет жасаңыз"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Дизайн мен графиканы @oktus авторы\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Букетке қайталанатын немесе индекстелмеген арналарды қоспаңыз."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Cline қосқыңыз келе ме?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "LCN букетіне тапсырыс бергіңіз келе ме?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Жаңартуды (%s) қазір орнатқыңыз келе ме?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Жоюды қалайсыз ба?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Gui интерфейсін қайта іске қосқыңыз келе ме?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Бет жүктелмеді..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Көшірмелер"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Өңдеу сызығы"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "LCN (логикалық арна нөмірі) деректеріне негізделген жердегі букет жасауды қосыңыз."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Жердегі LCN қосу:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Жер үсті букетін қосыңыз"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Ойын-сауық"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Қате: деректер табылмады."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Еуропа7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Шығу"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Жаңарту ақпаратын алу мүмкін болмады. Интернет байланысын тексеріңіз."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Жаңарту ақпаратын талдау мүмкін болмады. Тағы жасауды сәл кейінірек көріңізді өтінеміз."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Бос орын:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD арналары"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Жоғары ажыратымдылық"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Бұл сіздің қорапыңыз үшін пайдалы құрал деп ойласаңыз\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Ақпарат және мәдениет"
 
 msgid "Ins Line"
 msgstr ""
 
 msgid "Install"
-msgstr ""
+msgstr "Орнату"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Интернет: қосылған"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Интернет: қосылым жоқ"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Интернет: белгісіз"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Жаңарту ақпаратындағы күн пішімі жарамсыз."
 
 msgid "Italy"
-msgstr ""
+msgstr "Италия"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN көшірмелері"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "LCN ережелері:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat тақтасы"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Санатты жүктеу..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Жергілікті хабар таратушылар"
 
 msgid "Music"
-msgstr ""
+msgstr "Музыка"
 
 msgid "News"
-msgstr ""
+msgstr "Жаңалықтар"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Сәйкес жерүсті қызметтері табылмады."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "lcn db ішінде жазба жоқ. Қызметтік сканерлеуді жасаңыз."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Жаңарту туралы ақпарат жоқ."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Конфигурацияланғаннан кейін букет қолмен сканерлеу кезінде автоматты түрде жаңартылады."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Күте тұрыңыз..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Сканерлеу кезінде желі іздеуінің қосылғанын тексеріңіз."
 
 msgid "Premium"
-msgstr ""
+msgstr "Премиум"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 жылжыту"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Радио қызметтерін негізгі теледидар букетіне емес, бөлек букетке салыңыз. Бұл провайдер теледидар мен радио үшін арна нөмірлерін қайталағанда қажет."
 
 msgid "Radio"
-msgstr ""
+msgstr "Радио"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Қайта құру"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "LCN букетін қазір қайта құру керек пе?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Букетті қайта құру"
 
 msgid "Region"
-msgstr ""
+msgstr "Аймақ"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Аймақтық хабар таратушылар"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Облыстық радио"
 
 msgid "Reload"
-msgstr ""
+msgstr "Қайта жүктеңіз"
 
 msgid "Remove"
-msgstr ""
+msgstr "Жою"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "%s жойылуда"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Жұмбақты қайта іске қосыңыз"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Уақытша SD"
 
 msgid "Save"
-msgstr ""
+msgstr "Сақтау"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Аймақты таңдаңыз."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Жартылай генералдар"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Параметрлер орнатылмаған..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Көшірмелерді өткізіп жіберу"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Аспан арналары"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "A-Z сұрыптау"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Әдепкі сұрыптау"
 
 msgid "Sports"
-msgstr ""
+msgstr "Спорт"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Ұсынған: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Жерлік"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Жердегі букет"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Жердегі букет қатесі"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Terrestrial Bouquet плагині қосылмаған."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Жердегі букет орнату"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Жердегі гүл шоғы сәтті қайта құрылды."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Жердегі гүл шоғы:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Сынақ арналары"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Плагин әрқайсыңыздың қайырымдылықтарыңыздың арқасында өмір сүреді.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Қазіргі уақытта сақталған LCN деректері жоқ."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Бұл плагин жергілікті күйдіргіш арқылы таратылатын LCN деректеріне байланысты."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Желіні сканерлеу қосылған кезде жер бетіндегі жиіліктерді қолмен сканерлеуді іске қосып көріңіз. Бұл орындалмаса, аймағыңызда lcn деректері жоқ болуы мүмкін."
 
 msgid "UK"
-msgstr ""
+msgstr "Ұлыбритания"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Жаңартуларды жүктеп алу мүмкін емес!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Белгісіз сурет!"
 
 msgid "Update"
-msgstr ""
+msgstr "Жаңарту"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Жаңарту тоқтатылды!"
 
 msgid "of"
-msgstr ""
+msgstr "ның"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "садақа беріңіз:\n"

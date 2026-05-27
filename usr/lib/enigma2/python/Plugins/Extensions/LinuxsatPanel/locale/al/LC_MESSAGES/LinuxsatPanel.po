@@ -197,7 +197,7 @@ msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 Promotion"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
 msgstr ""
@@ -236,7 +236,7 @@ msgid "Restart enigma"
 msgstr "Të rindizet GUI tani"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Provisional SDs"
 
 msgid "Save"
 msgstr ""

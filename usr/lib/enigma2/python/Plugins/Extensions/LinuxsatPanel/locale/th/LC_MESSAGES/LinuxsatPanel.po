@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "ผู้ใหญ่"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "โค้ดทั้งหมดถูกเขียนใหม่โดย @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "เกิดข้อผิดพลาดที่ไม่คาดคิด โปรดลองอีกครั้งในภายหลัง"
 
 msgid "Australia"
-msgstr ""
+msgstr "ออสเตรเลีย"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "บีบีซีอินเทอร์แอคทีฟ"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "สร้าง/สร้างช่อดอกไม้ภาคพื้นดินใหม่ตามการสแกนครั้งล่าสุด"
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "ยกเลิกการดำเนินการใช่ไหม"
 
 msgid "Category:"
-msgstr ""
+msgstr "หมวดหมู่:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "ตรวจสอบการเชื่อมต่อ!"
 
 msgid "Children"
-msgstr ""
+msgstr "เด็ก"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "ยินดีด้วย! คุณมีเวอร์ชันล่าสุดแล้ว..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "สร้างกลุ่มบริการภาคพื้นดินที่ได้รับคำสั่งตามข้อมูล LCN จากเครื่องส่งสัญญาณในพื้นที่ของคุณ"
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "สร้างช่อดอกไม้วิทยุแยกต่างหาก"
 
 msgid "Del Line"
-msgstr ""
+msgstr "เดล ไลน์"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "การออกแบบและกราฟิกโดย @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "อย่าเพิ่มช่องที่ซ้ำกันหรือไม่ได้จัดทำดัชนีลงในช่อดอกไม้"
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "คุณต้องการเพิ่มไคลน์หรือไม่?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "คุณต้องการสั่งซื้อช่อดอกไม้ LCN หรือไม่?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "คุณต้องการติดตั้งการอัปเดต (%s) ตอนนี้หรือไม่?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "คุณต้องการลบออกหรือไม่?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "คุณต้องการรีสตาร์ทอินเทอร์เฟซ Gui หรือไม่"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "หน้าดาวน์โหลดล้มเหลว ..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "ซ้ำกัน"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "แก้ไขไลน์"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "เปิดใช้งานการสร้างช่อดอกไม้ภาคพื้นดินตามข้อมูล LCN (หมายเลขช่องโลโก้)"
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "เปิดใช้งาน LCN ภาคพื้นดิน:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "เปิดใช้งานช่อดอกไม้ภาคพื้นดิน"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "ความบันเทิง"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "ข้อผิดพลาด: ไม่พบข้อมูล"
 
 msgid "Europe7"
-msgstr ""
+msgstr "ยุโรป7"
 
 msgid "Exit"
-msgstr ""
+msgstr "ออก"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "ไม่สามารถเรียกข้อมูลอัปเดตได้ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ"
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "ไม่สามารถแยกวิเคราะห์ข้อมูลการอัปเดต โปรดลองอีกครั้งในภายหลัง"
 
 msgid "Free Space:"
-msgstr ""
+msgstr "พื้นที่ว่าง:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "ช่องเอชดี"
 
 msgid "High Definition"
-msgstr ""
+msgstr "ความคมชัดสูง"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "หากคุณคิดว่ามันเป็นเครื่องมือที่มีประโยชน์สำหรับกล่องของคุณ\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "สารสนเทศและวัฒนธรรม"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "อินไลน์"
 
 msgid "Install"
-msgstr ""
+msgstr "ติดตั้ง"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "อินเทอร์เน็ต: เชื่อมต่อแล้ว"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "อินเทอร์เน็ต: ไม่มีการเชื่อมต่อ"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "อินเทอร์เน็ต: ไม่ทราบ"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "รูปแบบวันที่ไม่ถูกต้องในข้อมูลอัปเดต"
 
 msgid "Italy"
-msgstr ""
+msgstr "อิตาลี"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN ซ้ำกัน"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "กฎ LCN:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "แผง Linuxsat"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "โหลดหมวดหมู่..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "โฆษกท้องถิ่น"
 
 msgid "Music"
-msgstr ""
+msgstr "ดนตรี"
 
 msgid "News"
-msgstr ""
+msgstr "ข่าว"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "ไม่พบบริการภาคพื้นดินที่เกี่ยวข้อง"
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "ไม่มีรายการใน lcn db กรุณาทำการสแกนบริการ"
 
 msgid "No update information available."
-msgstr ""
+msgstr "ไม่มีข้อมูลการอัพเดต"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "เมื่อกำหนดค่าแล้ว ช่อดอกไม้จะได้รับการอัปเดตโดยอัตโนมัติเมื่อทำการสแกนด้วยตนเอง"
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "โปรดรอ..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "โปรดเปิดใช้งานการค้นหาเครือข่ายบางอย่างเมื่อทำการสแกน"
 
 msgid "Premium"
-msgstr ""
+msgstr "พรีเมี่ยม"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 โปรโมชั่น"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "จัดบริการวิทยุแยกเป็นช่อ ไม่ใช่ช่อทีวีหลัก สิ่งนี้จำเป็นเมื่อผู้ให้บริการทำซ้ำหมายเลขช่องสำหรับทีวีและวิทยุ"
 
 msgid "Radio"
-msgstr ""
+msgstr "วิทยุ"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "สร้างใหม่"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "สร้างช่อดอกไม้ LCN ใหม่ตอนนี้หรือไม่"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "สร้างช่อดอกไม้ใหม่"
 
 msgid "Region"
-msgstr ""
+msgstr "ภูมิภาค"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "โฆษกประจำภูมิภาค"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "วิทยุภูมิภาค"
 
 msgid "Reload"
-msgstr ""
+msgstr "โหลดซ้ำ"
 
 msgid "Remove"
-msgstr ""
+msgstr "ลบ"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "กำลังลบ %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "เริ่มปริศนาอีกครั้ง"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "SD ชั่วคราว"
 
 msgid "Save"
-msgstr ""
+msgstr "บันทึก"
 
 msgid "Select your region."
-msgstr ""
+msgstr "เลือกภูมิภาคของคุณ"
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "กึ่งทั่วไป"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "ไม่ได้ติดตั้งการตั้งค่า ..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "ข้ามรายการที่ซ้ำกัน"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "ช่องสกาย"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "เรียง A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "เรียงลำดับค่าเริ่มต้น"
 
 msgid "Sports"
-msgstr ""
+msgstr "กีฬา"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "แนะนำโดย: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "ภาคพื้นดิน"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "ช่อดอกไม้ภาคพื้นดิน"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "ข้อผิดพลาดช่อดอกไม้ภาคพื้นดิน"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "ไม่ได้เปิดใช้งานปลั๊กอิน Terrestrial Bouquet"
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "การตั้งค่าช่อดอกไม้ภาคพื้นดิน"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "ช่อดอกไม้ภาคพื้นดินสร้างขึ้นใหม่ได้สำเร็จ"
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "ช่อดอกไม้ภาคพื้นดิน:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "ช่องทดสอบ"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "ปลั๊กอินใช้งานได้จริงเนื่องจากการบริจาคของพวกคุณแต่ละคน\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "ขณะนี้ไม่มีการจัดเก็บข้อมูล LCN"
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "ปลั๊กอินนี้ขึ้นอยู่กับข้อมูล LCN ที่ออกอากาศโดยแทนสมิตเตอร์ในพื้นที่ของคุณ"
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "ลองใช้การสแกนความถี่ภาคพื้นดินด้วยตนเองโดยเปิดใช้งานการสแกนเครือข่าย หากล้มเหลว อาจไม่มีข้อมูล LCN ในพื้นที่ของคุณ"
 
 msgid "UK"
-msgstr ""
+msgstr "สหราชอาณาจักร"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "ไม่สามารถดาวน์โหลดอัปเดตได้!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "ภาพที่ไม่รู้จัก!"
 
 msgid "Update"
-msgstr ""
+msgstr "อัปเดต"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "การอัปเดตถูกยกเลิก!"
 
 msgid "of"
-msgstr ""
+msgstr "ของ"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "กรุณาบริจาคเงิน:\n"

@@ -11,310 +11,310 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "%s"
-msgstr ""
+msgstr "%S"
 
 msgid "Adult"
-msgstr ""
+msgstr "Người lớn"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Tất cả mã được viết lại bởi @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Đã xảy ra lỗi không mong muốn. Vui lòng thử lại sau."
 
 msgid "Australia"
-msgstr ""
+msgstr "Úc"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "BBC tương tác"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Xây dựng/xây dựng lại bó hoa trên mặt đất dựa trên lần quét cuối cùng."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Hủy thực thi?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Loại:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Kiểm tra kết nối!"
 
 msgid "Children"
-msgstr ""
+msgstr "Những đứa trẻ"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Xin chúc mừng! Bạn đã có phiên bản mới nhất..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Tạo một loạt các dịch vụ mặt đất theo yêu cầu dựa trên dữ liệu LCN từ máy phát địa phương của bạn."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Tạo bó hoa radio riêng biệt"
 
 msgid "Del Line"
 msgstr ""
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Thiết kế và đồ họa của @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Không thêm các kênh trùng lặp hoặc không được lập chỉ mục vào bó hoa."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Bạn có muốn thêm Cline không?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Bạn có muốn đặt bó hoa LCN không?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Bạn có muốn cài đặt bản cập nhật (%s) ngay bây giờ không?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Bạn có muốn loại bỏ?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Bạn có muốn khởi động lại Giao diện Gui không?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Trang tải xuống bị lỗi ..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "trùng lặp"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Chỉnh sửa dòng"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Cho phép tạo bó hoa trên mặt đất dựa trên dữ liệu LCN (số kênh logic)."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Kích hoạt LCN mặt đất:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Kích hoạt bó hoa trên mặt đất"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Sự giải trí"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Lỗi: Không tìm thấy dữ liệu."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Châu Âu7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ra"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Không tìm nạp được thông tin cập nhật. Vui lòng kiểm tra kết nối internet của bạn."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Không thể phân tích thông tin cập nhật. Vui lòng thử lại sau."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Không gian trống:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "Kênh HD"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Độ nét cao"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Nếu bạn cho rằng đây là một công cụ hữu ích cho chiếc hộp của mình\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Thông tin và Văn hóa"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Dòng Ins"
 
 msgid "Install"
-msgstr ""
+msgstr "Cài đặt"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Internet: Đã kết nối"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Internet: Không có kết nối"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Internet: Không rõ"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Định dạng ngày không hợp lệ trong thông tin cập nhật."
 
 msgid "Italy"
-msgstr ""
+msgstr "Ý"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN trùng lặp"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "Quy tắc LCN:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Bảng điều khiển Linuxsat"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Tải danh mục..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Đài truyền hình địa phương"
 
 msgid "Music"
-msgstr ""
+msgstr "Âm nhạc"
 
 msgid "News"
-msgstr ""
+msgstr "Tin tức"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Không tìm thấy dịch vụ mặt đất tương ứng."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Không có mục nào trong lcn db. Vui lòng thực hiện quét dịch vụ."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Không có thông tin cập nhật có sẵn."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Sau khi định cấu hình bó hoa sẽ được cập nhật tự động khi thực hiện quét thủ công."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Vui lòng chờ..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Vui lòng bật tính năng tìm kiếm mạng nhất định khi quét."
 
 msgid "Premium"
-msgstr ""
+msgstr "Phần thưởng"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "Khuyến mãi H264"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Đặt các dịch vụ phát thanh vào một bó hoa riêng biệt, không phải bó hoa truyền hình chính. Điều này là bắt buộc khi nhà cung cấp sao chép số kênh cho truyền hình và đài phát thanh."
 
 msgid "Radio"
 msgstr ""
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Xây dựng lại"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Xây dựng lại bó hoa LCN bây giờ?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Làm lại bó hoa"
 
 msgid "Region"
-msgstr ""
+msgstr "Vùng đất"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Đài truyền hình khu vực"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Đài phát thanh khu vực"
 
 msgid "Reload"
-msgstr ""
+msgstr "Tải lại"
 
 msgid "Remove"
-msgstr ""
+msgstr "Di dời"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "Đang xóa %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Khởi động lại bí ẩn"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "SD tạm thời"
 
 msgid "Save"
-msgstr ""
+msgstr "Cứu"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Chọn khu vực của bạn."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Những người theo chủ nghĩa bán tổng quát"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Cài đặt chưa được cài đặt ..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Bỏ qua trùng lặp"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Kênh bầu trời"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Sắp xếp A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Sắp xếp mặc định"
 
 msgid "Sports"
-msgstr ""
+msgstr "Thể thao"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Được đề xuất bởi: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "trên mặt đất"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Bó hoa địa cầu"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Lỗi bó hoa trên mặt đất"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Plugin bó hoa trên mặt đất chưa được bật."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Thiết lập bó hoa trên mặt đất"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Bó hoa trên mặt đất được xây dựng lại thành công."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Bó hoa địa cầu:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Kênh thử nghiệm"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Plugin tồn tại là nhờ sự đóng góp của mỗi bạn.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Hiện tại không có dữ liệu LCN được lưu trữ."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Plugin này phụ thuộc vào dữ liệu LCN được phát sóng bởi nhà phát sóng địa phương của bạn."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Hãy thử chạy quét thủ công các tần số trên mặt đất khi bật quét mạng. Nếu điều này không thành công thì có thể không có sẵn dữ liệu lcn trong khu vực của bạn."
 
 msgid "UK"
-msgstr ""
+msgstr "Vương quốc Anh"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Không thể tải xuống bản cập nhật!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Hình ảnh không xác định!"
 
 msgid "Update"
-msgstr ""
+msgstr "Cập nhật"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Cập nhật bị hủy bỏ!"
 
 msgid "of"
-msgstr ""
+msgstr "của"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "vui lòng quyên góp:\n"

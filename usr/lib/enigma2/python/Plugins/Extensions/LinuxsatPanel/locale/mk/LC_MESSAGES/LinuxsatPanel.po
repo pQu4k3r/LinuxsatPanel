@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Возрасен"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Целиот код е препишан од @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Настана неочекувана грешка. Обидете се повторно подоцна."
 
 msgid "Australia"
-msgstr ""
+msgstr "Австралија"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "БиБиСи Интерактивна"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Направете/изградете го копнениот букет сега врз основа на последното скенирање."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Да се ​​откаже извршувањето?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Категорија:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Проверете ја врската!"
 
 msgid "Children"
-msgstr ""
+msgstr "Деца"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Честитки! Веќе ја имате најновата верзија..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Создадете нарачан букет копнени услуги врз основа на LCN податоци од вашиот локален предавател."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Направете посебен радио букет"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Дел Лајн"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Дизајн и графика од @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Не додавајте дупликати или неиндексирани канали во букетот."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "Дали сакате да додадете Cline?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "Дали сакате да нарачате букет LCN?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "Дали сакате да инсталирате ажурирање (%s) сега?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "Дали сакате да отстраните?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "Дали сакате да го рестартирате Gui интерфејсот?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Страницата за преземање не успеа..."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Дупликати"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Уреди линија"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Овозможете креирање копнеен букет врз основа на податоци LCN (логокален канал)."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Овозможи терестријален LCN:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Овозможи земјен букет"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Забава"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Грешка: Нема податоци за наоѓање."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Европа7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Излезете"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Не успеа да се преземат информациите за ажурирање. Ве молиме проверете ја вашата интернет конекција."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Не успеа да се анализираат информациите за ажурирање. Обидете се повторно подоцна."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Слободен простор:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "HD канали"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Висока дефиниција"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Ако мислите дека тоа е корисна алатка за вашата кутија\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Информации и култура"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Инс линија"
 
 msgid "Install"
-msgstr ""
+msgstr "Инсталирајте"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Интернет: Поврзан"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Интернет: Нема врска"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Интернет: Непознат"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Неважечки формат на датум во информациите за ажурирање."
 
 msgid "Italy"
-msgstr ""
+msgstr "Италија"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN дупликати"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "Правила за LCN:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Linuxsat панел"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Вчитај категорија..."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Локалните радиодифузери"
 
 msgid "Music"
-msgstr ""
+msgstr "Музика"
 
 msgid "News"
-msgstr ""
+msgstr "Вести"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Не се пронајдени соодветни копнени услуги."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Нема влез во lcn db. Ве молиме направете сервисно скенирање."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Нема достапни информации за ажурирање."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Штом ќе се конфигурира, букетот ќе се ажурира автоматски кога ќе правите рачно скенирање."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Ве молиме почекајте..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Уверете се дека пребарувањето на мрежата е овозможено при скенирање."
 
 msgid "Premium"
-msgstr ""
+msgstr "Премиум"
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 Промоција"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Ставете ги радио услугите во посебен букет, а не во главниот телевизиски букет. Ова е потребно кога давателот ги дуплира броевите на каналите за ТВ и радио."
 
 msgid "Radio"
-msgstr ""
+msgstr "Радио"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Обнова"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Обновете го букетот LCN сега?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Обнова букет"
 
 msgid "Region"
-msgstr ""
+msgstr "Регионот"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Регионални радиодифузери"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Регионално радио"
 
 msgid "Reload"
-msgstr ""
+msgstr "Вчитај повторно"
 
 msgid "Remove"
-msgstr ""
+msgstr "Отстрани"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "Се отстранува %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Рестартирајте ја енигмата"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "Привремени СД"
 
 msgid "Save"
-msgstr ""
+msgstr "Зачувај"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Изберете го вашиот регион."
 
 msgid "Semi-Generalists"
-msgstr ""
+msgstr "Полугенералисти"
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Поставките не се инсталирани ..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Прескокни дупликати"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Скај канали"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Подреди A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Подреди стандардно"
 
 msgid "Sports"
-msgstr ""
+msgstr "Спорт"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Предложено од: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "Копнеен"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Копнеен букет"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Грешка во копнениот букет"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Приклучокот Терестриален букет не е овозможен."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Поставување на копнениот букет"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Успешно повторно изграден копнеен букет."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Копнеен букет:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Тест канали"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Приклучокот живее благодарение на донациите на секој од вас.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Во моментов нема зачувани LCN податоци."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Овој приклучок зависи од LCN податоците што ги емитува вашиот локален штавеч."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Обидете се да извршите рачно скенирање на копнени фреквенции со овозможено мрежно скенирање. Ако ова не успее, можеби нема достапни lcn податоци во вашата област."
 
 msgid "UK"
-msgstr ""
+msgstr "ОК"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Не може да се преземат ажурирања!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Непозната слика!"
 
 msgid "Update"
-msgstr ""
+msgstr "Ажурирање"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Ажурирањето е прекинато!"
 
 msgid "of"
-msgstr ""
+msgstr "на"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "ве молиме донирајте:\n"

@@ -13,307 +13,307 @@ msgid "%s"
 msgstr ""
 
 msgid "Adult"
-msgstr ""
+msgstr "Inbheach"
 
 msgid "All code was rewritten by @Lululla - 2024.07.20\n"
-msgstr ""
+msgstr "Chaidh a h-uile còd ath-sgrìobhadh le @Lululla - 2024.07.20\n"
 
 msgid "An unexpected error occurred. Please try again later."
-msgstr ""
+msgstr "Thachair mearachd ris nach robh dùil. Feuch ris a-rithist nas anmoiche."
 
 msgid "Australia"
-msgstr ""
+msgstr "Astràilia"
 
 msgid "BBC Interactive"
-msgstr ""
+msgstr "BBC Eadar-ghnìomhach"
 
 msgid "Build/rebuild terrestrial bouquet now based on the last scan."
-msgstr ""
+msgstr "Tog / ath-thog bouquet talmhaidh a-nis stèidhichte air an scan mu dheireadh."
 
 msgid "Cancel execution?"
-msgstr ""
+msgstr "Sguir dheth buileachadh?"
 
 msgid "Category:"
-msgstr ""
+msgstr "Roinn-seòrsa:"
 
 msgid "Check Connection!"
-msgstr ""
+msgstr "Thoir sùil air Ceangal!"
 
 msgid "Children"
-msgstr ""
+msgstr "Clann"
 
 msgid "Congrats! You already have the latest version..."
-msgstr ""
+msgstr "Mealaibh ur naidheachd! Tha an tionndadh as ùire agad mu thràth ..."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
-msgstr ""
+msgstr "Cruthaich bouquet òrdaichte de sheirbheisean talmhaidh stèidhichte air dàta LCN bhon inneal-sgaoilidh ionadail agad."
 
 msgid "Create separate radio bouquet"
-msgstr ""
+msgstr "Cruthaich bouquet rèidio air leth"
 
 msgid "Del Line"
-msgstr ""
+msgstr "Loidhne Del"
 
 msgid "Designs and Graphics by @oktus\n"
-msgstr ""
+msgstr "Dealbhaidhean agus grafaigean le @oktus\n"
 
 msgid "Do not add duplicated or non indexed channels to the bouquet."
-msgstr ""
+msgstr "Na cuir a-steach seanalan dùblaichte no neo-chlàraichte ris a’ bhouquet."
 
 msgid "Do you want add Cline?"
-msgstr ""
+msgstr "A bheil thu airson Cline a chur ris?"
 
 msgid "Do you want to Order LCN Bouquet?"
-msgstr ""
+msgstr "A bheil thu airson LCN Bouquet òrdachadh?"
 
 msgid "Do you want to install update (%s) now?"
-msgstr ""
+msgstr "A bheil thu airson ùrachadh (%s) a stàladh an-dràsta?"
 
 msgid "Do you want to remove?"
-msgstr ""
+msgstr "A bheil thu airson a thoirt air falbh?"
 
 msgid "Do you want to restart Gui Interface?"
-msgstr ""
+msgstr "A bheil thu airson eadar-aghaidh Gui ath-thòiseachadh?"
 
 msgid "Download page get failed ..."
-msgstr ""
+msgstr "Dh'fhàillig an duilleag luchdaich a-nuas am faidhle. ."
 
 msgid "Duplicates"
-msgstr ""
+msgstr "Dùblachadh"
 
 msgid "Edit Line"
-msgstr ""
+msgstr "Deasaich loidhne"
 
 msgid "Enable creating a terrestrial bouquet based on LCN (logocal channel number) data."
-msgstr ""
+msgstr "Dèan comas air bouquet talmhaidh a chruthachadh stèidhichte air dàta LCN (àireamh seanail loidsigeach)."
 
 msgid "Enable terrestrial LCN:"
-msgstr ""
+msgstr "Dèan comas air LCN talmhaidh:"
 
 msgid "Enable terrestrial bouquet"
-msgstr ""
+msgstr "Dèan comas air bouquet talmhainn"
 
 msgid "Entertainment"
-msgstr ""
+msgstr "Cur-seachad"
 
 msgid "Error: No Data Find."
-msgstr ""
+msgstr "Mearachd: Gun lorg dàta."
 
 msgid "Europe7"
-msgstr ""
+msgstr "Roinn-Eòrpa7"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ar-a-mach"
 
 msgid "Failed to fetch update information. Please check your internet connection."
-msgstr ""
+msgstr "Cha b' urrainn dhuinn fiosrachadh ùrachaidh fhaighinn. Feuch an toir thu sùil air a’ cheangal eadar-lìn agad."
 
 msgid "Failed to parse update information. Please try again later."
-msgstr ""
+msgstr "Dh'fhàillig parsadh an fhiosrachaidh ùrachadh. Feuch ris a-rithist nas anmoiche."
 
 msgid "Free Space:"
-msgstr ""
+msgstr "Àite an-asgaidh:"
 
 msgid "HD Channels"
-msgstr ""
+msgstr "Sianalan HD"
 
 msgid "High Definition"
-msgstr ""
+msgstr "Mìneachadh Àrd"
 
 msgid "If you think it is a useful tool for your box\n"
-msgstr ""
+msgstr "Ma tha thu a’ smaoineachadh gur e inneal feumail a th’ ann airson do bhogsa\n"
 
 msgid "Information and Culture"
-msgstr ""
+msgstr "Fiosrachadh agus Cultar"
 
 msgid "Ins Line"
-msgstr ""
+msgstr "Loidhne a-staigh"
 
 msgid "Install"
-msgstr ""
+msgstr "Stàladh"
 
 msgid "Internet: Connected"
-msgstr ""
+msgstr "Eadar-lìon: Ceangailte"
 
 msgid "Internet: No Connection"
-msgstr ""
+msgstr "Eadar-lìon: Gun cheangal"
 
 msgid "Internet: Unknown"
-msgstr ""
+msgstr "Eadar-lìon: Neo-aithnichte"
 
 msgid "Invalid date format in update information."
-msgstr ""
+msgstr "Cruth ceann-latha mì-dhligheach ann am fiosrachadh ùrachadh."
 
 msgid "Italy"
-msgstr ""
+msgstr "An Eadailt"
 
 msgid "LCN Duplicates"
-msgstr ""
+msgstr "LCN a’ dùblachadh"
 
 msgid "LCN rules:"
-msgstr ""
+msgstr "Riaghailtean LCN:"
 
 msgid "Linuxsat Panel"
-msgstr ""
+msgstr "Pannal Linuxsat"
 
 msgid "Load Category..."
-msgstr ""
+msgstr "Luchdaich a-nuas an roinn-seòrsa.. ."
 
 msgid "Local Broadcasters"
-msgstr ""
+msgstr "Craoladairean Ionadail"
 
 msgid "Music"
-msgstr ""
+msgstr "Ceol"
 
 msgid "News"
-msgstr ""
+msgstr "Naidheachdan"
 
 msgid "No corresponding terrestrial services found."
-msgstr ""
+msgstr "Cha deach seirbheisean talmhaidh co-fhreagarrach a lorg."
 
 msgid "No entry in lcn db. Please do a service scan."
-msgstr ""
+msgstr "Gun inntrigeadh ann an lcn db. Feuch an dèan thu sgrùdadh seirbheis."
 
 msgid "No update information available."
-msgstr ""
+msgstr "Chan eil fiosrachadh ùrachaidh ri fhaighinn."
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
-msgstr ""
+msgstr "Aon uair ‘s gu bheil e air a rèiteachadh thèid am bouquet ùrachadh gu fèin-ghluasadach nuair a bhios tu a’ dèanamh sgan làimhe."
 
 msgid "Please Wait..."
-msgstr ""
+msgstr "Feuch an fuirich thu..."
 
 msgid "Please make certain network search is enabled when scanning."
-msgstr ""
+msgstr "Feuch an dèan thu sgrùdadh lìonra sònraichte air a chomasachadh nuair a bhios tu a’ sganadh."
 
 msgid "Premium"
 msgstr ""
 
 msgid "Promo H264"
-msgstr ""
+msgstr "H264 Brosnachadh"
 
 msgid "Put radio services in a separate bouquet, not the main tv bouquet. This is required when the provider duplicates channel numbers for tv and radio."
-msgstr ""
+msgstr "Cuir seirbheisean rèidio ann am bouquet air leth, chan e am prìomh bhouquet telebhisean. Tha seo riatanach nuair a bhios an solaraiche a’ dùblachadh àireamhan seanail airson telebhisean is rèidio."
 
 msgid "Radio"
-msgstr ""
+msgstr "Rèidio"
 
 msgid "Rebuild"
-msgstr ""
+msgstr "Ath-thog"
 
 msgid "Rebuild LCN bouquet now?"
-msgstr ""
+msgstr "Ath-thog bouquet LCN a-nis?"
 
 msgid "Rebuild bouquet"
-msgstr ""
+msgstr "Ath-thog bouquet"
 
 msgid "Region"
-msgstr ""
+msgstr "Roinn"
 
 msgid "Regional Broadcasters"
-msgstr ""
+msgstr "Craoladairean roinneil"
 
 msgid "Regional Radio"
-msgstr ""
+msgstr "Rèidio sgìreil"
 
 msgid "Reload"
-msgstr ""
+msgstr "Ath-luchdaich"
 
 msgid "Remove"
-msgstr ""
+msgstr "Thoir air falbh"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "A' toirt air falbh %s"
 
 msgid "Restart enigma"
-msgstr ""
+msgstr "Ath-thòisich enigma"
 
 msgid "SD Provisionals"
-msgstr ""
+msgstr "SDan sealach"
 
 msgid "Save"
-msgstr ""
+msgstr "Sàbhail"
 
 msgid "Select your region."
-msgstr ""
+msgstr "Tagh do sgìre."
 
 msgid "Semi-Generalists"
 msgstr ""
 
 msgid "Settings Not Installed ..."
-msgstr ""
+msgstr "Roghainnean nach deach a stàladh ..."
 
 msgid "Skip duplicates"
-msgstr ""
+msgstr "Seachain dùblaidhean"
 
 msgid "Sky Channels"
-msgstr ""
+msgstr "Sianalan Sky"
 
 msgid "Sort A-Z"
-msgstr ""
+msgstr "Deasaich A-Z"
 
 msgid "Sort Default"
-msgstr ""
+msgstr "Deasaich Default"
 
 msgid "Sports"
-msgstr ""
+msgstr "Spòrs"
 
 msgid "Suggested by: @masterG - @oktus - @pcd\n"
-msgstr ""
+msgstr "Air a mholadh le: @masterG - @oktus - @pcd\n"
 
 msgid "Terrestrial"
-msgstr ""
+msgstr "talmhaidh"
 
 msgid "Terrestrial Bouquet"
-msgstr ""
+msgstr "Bouquet na Talmhainn"
 
 msgid "Terrestrial Bouquet Error"
-msgstr ""
+msgstr "Mearachd bouquet talmhainn"
 
 msgid "Terrestrial Bouquet plugin is not enabled."
-msgstr ""
+msgstr "Chan eil plugan Terrestrial Bouquet air a chomasachadh."
 
 msgid "Terrestrial Bouquet setup"
-msgstr ""
+msgstr "Suidheachadh bouquet talmhainn"
 
 msgid "Terrestrial bouquet successfully rebuilt."
-msgstr ""
+msgstr "Chaidh bouquet talmhaidh ath-thogail gu soirbheachail."
 
 msgid "Terrestrial bouquet:"
-msgstr ""
+msgstr "Bouquet talmhainn:"
 
 msgid "Test Channels"
-msgstr ""
+msgstr "Sianalan deuchainn"
 
 msgid "The Plugin lives thanks to the donations of each of you.\n"
-msgstr ""
+msgstr "Tha am Plugin beò le taing do thabhartasan gach fear agaibh.\n"
 
 msgid "There is currently no LCN data stored."
-msgstr ""
+msgstr "Chan eil dàta LCN air a stòradh an-dràsta."
 
 msgid "This plugin depends on LCN data being broadcast by your local tansmitter."
-msgstr ""
+msgstr "Tha am plugan seo an urra ri dàta LCN a bhith air a chraoladh leis an tansmitter ionadail agad."
 
 msgid "Try running a manual scan of terrestrial frequencies with network scan enabled. If this fails maybe there is no lcn data available in your area."
-msgstr ""
+msgstr "Feuch ri sgan làimhe de thrictean talmhaidh a ruith le sgan lìonra air a chomasachadh. Ma dh’fhailicheas seo is dòcha nach eil dàta lcn ri fhaighinn san sgìre agad."
 
 msgid "UK"
-msgstr ""
+msgstr "RA"
 
 msgid "Unable to download updates!"
-msgstr ""
+msgstr "Chan urrainn dhuinn ùrachaidhean a luchdachadh sìos!"
 
 msgid "Unknown Image!"
-msgstr ""
+msgstr "Ìomhaigh neo-aithnichte!"
 
 msgid "Update"
-msgstr ""
+msgstr "Ùraich"
 
 msgid "Update Aborted!"
-msgstr ""
+msgstr "Ùrachadh air a sguireadh!"
 
 msgid "of"
-msgstr ""
+msgstr "à"
 
 msgid "please make a donation:\n"
-msgstr ""
+msgstr "feuch an toir thu tabhartas:\n"
