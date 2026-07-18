@@ -466,10 +466,12 @@ def add_menu_item(menu_list, titles, pics, urls, title, pic_name, url=""):
     urls.append(url)  # add missing string for URL
 
 
-class LinuxsatPanel(Screen):
+class LPGridScreen(Screen):
+    """Shared 20-tile grid engine used by all category screens."""
+
+    PIXMAPS_PER_PAGE = 20
 
     def __init__(self, session):
-
         Screen.__init__(self, session)
         try:
             Screen.setTitle(self, _("%s") % descplug + " V." + __version__)
@@ -481,13 +483,237 @@ class LinuxsatPanel(Screen):
         skin = join(skin_path, "LinuxsatPanel.xml")
         with codecs.open(skin, "r", encoding="utf-8") as f:
             self.skin = f.read()
-
         if isWQHD():
             self.pos = get_positions("WQHD")
         elif isFHD():
             self.pos = get_positions("FHD")
         elif isHD():
             self.pos = get_positions("HD")
+
+    def initGrid(self, menu_list):
+        """Wire widgets, actions and paging once the menu lists are filled."""
+        self.names = menu_list
+        self.sorted = False
+        self["frame"] = MovingPixmap()
+        self["info"] = Label()
+        self["info"].setText(_("Please Wait..."))
+        self["sort"] = Label(_("Sort A-Z"))
+        self["key_red"] = Label(_("Exit"))
+        self["pixmap"] = Pixmap()
+        self["actions"] = ActionMap(
+            [
+                "OkCancelActions",
+                "MenuActions",
+                "DirectionActions",
+                "NumberActions",
+                "ColorActions",
+                "EPGSelectActions",
+                "InfoActions"
+            ],
+            {
+                "ok": self.okbuttonClick,
+                "cancel": self.closeNonRecursive,
+                "exit": self.closeRecursive,
+                "back": self.closeNonRecursive,
+                "red": self.closeNonRecursive,
+                "0": self.list_sort,
+                "left": self.key_left,
+                "right": self.key_right,
+                "up": self.key_up,
+                "down": self.key_down,
+                "info": self.key_info,
+                "menu": self.closeRecursive
+            },
+            -1
+        )
+        i = 0
+        while i < self.PIXMAPS_PER_PAGE:
+            self["label" + str(i + 1)] = StaticText()
+            self["pixmap" + str(i + 1)] = Pixmap()
+            i += 1
+        self.npics = len(self.names)
+        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
+        self.index = 0
+        self.maxentry = len(menu_list) - 1
+        self.ipage = 1
+        self.onLayoutFinish.append(self.openTest)
+
+    def okbuttonClick(self):
+        pass
+
+    def paintFrame(self):
+        try:
+            # If the index exceeds the maximum number of items, it returns to
+            # the first item
+            if self.index > self.maxentry:
+                self.index = self.minentry
+            self.idx = self.index
+            name = self.names[self.idx]
+            self["info"].setText(str(name))
+            ifr = self.index - (self.PIXMAPS_PER_PAGE * (self.ipage - 1))
+            ipos = self.pos[ifr]
+            self["frame"].moveTo(ipos[0], ipos[1], 1)
+            self["frame"].startMoving()
+        except Exception as e:
+            print("Error in paintFrame: ", e)
+
+    def openTest(self):
+        if self.ipage < self.npage:
+            self.maxentry = (self.PIXMAPS_PER_PAGE * self.ipage) - 1
+            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
+
+        elif self.ipage == self.npage:
+            self.maxentry = len(self.pics) - 1
+            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
+            i1 = 0
+            while i1 < self.PIXMAPS_PER_PAGE:
+                self["label" + str(i1 + 1)].setText(" ")
+                self["pixmap" + str(i1 + 1)
+                     ].instance.setPixmapFromFile(nss_pic)
+                i1 += 1
+        self.npics = len(self.pics)
+        i = 0
+        i1 = 0
+        self.picnum = 0
+        ln = self.maxentry - (self.minentry - 1)
+        while i < ln:
+            idx = self.minentry + i
+            # self["label" + str(i + 1)].setText(self.names[idx])  # this show
+            # label to bottom of png pixmap
+            pic = self.pics[idx]
+            if not exists(self.pics[idx]):
+                pic = nss_pic
+            self["pixmap" + str(i + 1)].instance.setPixmapFromFile(pic)
+            i += 1
+        self.index = self.minentry
+        self.paintFrame()
+
+    def key_left(self):
+        # Decrement the index only if we are not at the first pixmap
+        if self.index >= 0:
+            self.index -= 1
+        else:
+            # If we are at the first pixmap, go back to the last pixmap of the
+            # last page
+            self.ipage = self.npage
+            self.index = self.npics - 1
+        # Check if we need to change pages
+        if self.index < self.minentry:
+            self.ipage -= 1
+            if self.ipage < 1:  # If we go beyond the first page
+                self.ipage = self.npage
+                self.index = self.npics - 1  # Back to the last pixmap of the last page
+            self.openTest()
+        else:
+            self.paintFrame()
+
+    def key_right(self):
+        # Increment the index only if we are not at the last pixmap
+        if self.index < self.npics - 1:
+            self.index += 1
+        else:
+            # If we are at the last pixmap, go back to the first pixmap of the
+            # first page
+            self.index = 0
+            self.ipage = 1
+            self.openTest()
+        # Check if we need to change pages
+        if self.index > self.maxentry:
+            self.ipage += 1
+            if self.ipage > self.npage:  # If we exceed the number of pages
+                self.index = 0
+                self.ipage = 1  # Back to first page
+            self.openTest()
+        else:
+            self.paintFrame()
+
+    def key_up(self):
+        if self.index == 0 and self.ipage == 1:
+            self.ipage = self.npage
+            self.index = self.minentry
+            self.openTest()
+
+        elif self.index >= 5 and not self.ipage == self.npage and self.index == self.minentry:
+            self.index -= 5
+        else:
+            if self.ipage == self.npage and self.index == self.minentry:
+                self.ipage = 1
+                self.index = 0
+                self.openTest()
+            else:
+                self.ipage = self.npage
+                self.index = self.npics - 1
+                self.openTest()
+        self.paintFrame()
+
+    def key_down(self):
+        if self.index <= self.maxentry - 5:
+            self.index += 5
+        else:
+            if self.ipage == self.npage:
+                self.ipage = 1
+                self.index = 0
+                self.openTest()
+            else:
+                self.ipage += 1
+                self.index = self.minentry
+                self.openTest()
+
+        self.paintFrame()
+
+    def list_sort(self):
+        if not hasattr(self, "original_data"):
+            self.original_data = (
+                self.names[:],
+                self.titles[:],
+                self.pics[:],
+                self.urls[:])
+            self.sorted = False
+
+        if self.sorted:
+            self.names, self.titles, self.pics, self.urls = self.original_data
+            self.sorted = False
+            self["sort"].setText(_("Sort A-Z"))
+        else:
+            self.names, self.titles, self.pics, self.urls = ListSortUtility.list_sort(
+                self.names, self.titles, self.pics, self.urls)
+            self.sorted = True
+            self["sort"].setText(_("Sort Default"))
+
+        self.openTest()
+
+    def closeNonRecursive(self):
+        self.close(False)
+
+    def closeRecursive(self):
+        self.close(True)
+
+    def createSummary(self):
+        return
+
+    def key_info(self):
+        self.session.open(LSinfo, " Information ")
+
+    def _view_log(self, answer):
+        if answer:
+            from enigma import eTimer
+
+            def open_fc():
+                from .addons.File_Commander import File_Commander
+                if fileExists(file_log):
+                    self.session.open(File_Commander, file_log)
+            # keep a reference or the timer is garbage collected
+            # before it fires
+            self._fc_timer = eTimer()
+            self._fc_timer.callback.append(open_fc)
+            self._fc_timer.start(0, True)
+
+
+class LinuxsatPanel(LPGridScreen):
+
+    def __init__(self, session):
+
+        LPGridScreen.__init__(self, session)
 
         self.data = checkGZIP(xmlurl)
         menu_list = []
@@ -836,56 +1062,7 @@ class LinuxsatPanel(Screen):
             " About ",
             "about.png")
 
-        self.names = menu_list
-        self.sorted = False
-        # self.combined_data = list(zip(self.names, self.titles, self.pics, self.urls))
-        self["frame"] = MovingPixmap()
-        self["info"] = Label()
-        self["info"].setText(_("Please Wait..."))
-        self["sort"] = Label(_("Sort A-Z"))
-        self["key_red"] = Label(_("Exit"))
-        self["pixmap"] = Pixmap()
-        self["actions"] = ActionMap(
-            [
-                "OkCancelActions",
-                "MenuActions",
-                "DirectionActions",
-                "NumberActions",
-                "ColorActions",
-                "EPGSelectActions",
-                "InfoActions"
-            ],
-            {
-                "ok": self.okbuttonClick,
-                "cancel": self.closeNonRecursive,
-                "exit": self.closeRecursive,
-                "back": self.closeNonRecursive,
-                "red": self.closeNonRecursive,
-                "0": self.list_sort,
-                "left": self.key_left,
-                "right": self.key_right,
-                "up": self.key_up,
-                "down": self.key_down,
-                "info": self.key_info,
-                "menu": self.closeRecursive
-            },
-            -1
-        )
-
-        self.PIXMAPS_PER_PAGE = 20
-        i = 0
-        while i < self.PIXMAPS_PER_PAGE:
-            self["label" + str(i + 1)] = StaticText()
-            self["pixmap" + str(i + 1)] = Pixmap()
-            i += 1
-
-        self.npics = len(self.names)
-        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
-        # self.npage = int(float(self.npics // self.PIXMAPS_PER_PAGE)) + 1
-        self.index = 0
-        self.maxentry = len(menu_list) - 1
-        self.ipage = 1
-        self.onLayoutFinish.append(self.openTest)
+        self.initGrid(menu_list)
         # self.onLayoutFinish.append(self.start_check_version)
 
     def start_check_version(self):
@@ -936,153 +1113,6 @@ class LinuxsatPanel(Screen):
         else:
             print("No new version available.")
 
-    def paintFrame(self):
-        try:
-            # If the index exceeds the maximum number of items, it returns to
-            # the first item
-            if self.index > self.maxentry:
-                self.index = self.minentry
-            self.idx = self.index
-            name = self.names[self.idx]
-            self["info"].setText(str(name))
-            ifr = self.index - (self.PIXMAPS_PER_PAGE * (self.ipage - 1))
-            ipos = self.pos[ifr]
-            self["frame"].moveTo(ipos[0], ipos[1], 1)
-            self["frame"].startMoving()
-        except Exception as e:
-            print("Error in paintFrame: ", e)
-
-    def openTest(self):
-        if self.ipage < self.npage:
-            self.maxentry = (self.PIXMAPS_PER_PAGE * self.ipage) - 1
-            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
-
-        elif self.ipage == self.npage:
-            self.maxentry = len(self.pics) - 1
-            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
-            i1 = 0
-            while i1 < self.PIXMAPS_PER_PAGE:
-                self["label" + str(i1 + 1)].setText(" ")
-                self["pixmap" + str(i1 + 1)
-                     ].instance.setPixmapFromFile(nss_pic)
-                i1 += 1
-        self.npics = len(self.pics)
-        i = 0
-        i1 = 0
-        self.picnum = 0
-        ln = self.maxentry - (self.minentry - 1)
-        while i < ln:
-            idx = self.minentry + i
-            # self["label" + str(i + 1)].setText(self.names[idx])  # this show
-            # label to bottom of png pixmap
-            pic = self.pics[idx]
-            if not exists(self.pics[idx]):
-                pic = nss_pic
-            self["pixmap" + str(i + 1)].instance.setPixmapFromFile(pic)
-            i += 1
-        self.index = self.minentry
-        self.paintFrame()
-
-    def key_left(self):
-        # Decrement the index only if we are not at the first pixmap
-        if self.index >= 0:
-            self.index -= 1
-        else:
-            # If we are at the first pixmap, go back to the last pixmap of the
-            # last page
-            self.ipage = self.npage
-            self.index = self.npics - 1
-        # Check if we need to change pages
-        if self.index < self.minentry:
-            self.ipage -= 1
-            if self.ipage < 1:  # If we go beyond the first page
-                self.ipage = self.npage
-                self.index = self.npics - 1  # Back to the last pixmap of the last page
-            self.openTest()
-        else:
-            self.paintFrame()
-
-    def key_right(self):
-        # Increment the index only if we are not at the last pixmap
-        if self.index < self.npics - 1:
-            self.index += 1
-        else:
-            # If we are at the last pixmap, go back to the first pixmap of the
-            # first page
-            self.index = 0
-            self.ipage = 1
-            self.openTest()
-        # Check if we need to change pages
-        if self.index > self.maxentry:
-            self.ipage += 1
-            if self.ipage > self.npage:  # If we exceed the number of pages
-                self.index = 0
-                self.ipage = 1  # Back to first page
-            self.openTest()
-        else:
-            self.paintFrame()
-
-    def key_up(self):
-        if self.index == 0 and self.ipage == 1:
-            self.ipage = self.npage
-            self.index = self.minentry
-            self.openTest()
-
-        elif self.index >= 5 and not self.ipage == self.npage and self.index == self.minentry:
-            self.index -= 5
-        else:
-            if self.ipage == self.npage and self.index == self.minentry:
-                self.ipage = 1
-                self.index = 0
-                self.openTest()
-            else:
-                self.ipage = self.npage
-                self.index = self.npics - 1
-                self.openTest()
-        self.paintFrame()
-
-    def key_down(self):
-        if self.index <= self.maxentry - 5:
-            self.index += 5
-        else:
-            if self.ipage == self.npage:
-                self.ipage = 1
-                self.index = 0
-                self.openTest()
-            else:
-                self.ipage += 1
-                self.index = self.minentry
-                self.openTest()
-
-        self.paintFrame()
-
-    def keyNumberGlobal(self, number):
-        number -= 1
-        if len(self["menu"].list) > number:
-            self["menu"].setIndex(number)
-            self.okbuttonClick()
-
-    def list_sort(self):
-        if not hasattr(self, "original_data"):
-            self.original_data = (
-                self.names[:],
-                self.titles[:],
-                self.pics[:],
-                self.urls[:])
-            self.sorted = False
-
-        if self.sorted:
-            self.names, self.titles, self.pics, self.urls = self.original_data
-            self.sorted = False
-            self["sort"].setText(_("Sort A-Z"))
-        else:
-            self.names, self.titles, self.pics, self.urls = ListSortUtility.list_sort(
-                self.names, self.titles, self.pics, self.urls)
-            self.sorted = True
-            self["sort"].setText(_("Sort Default"))
-
-        self.openTest()
-
     def refreshPlugins(self):
         plugins.clearPluginList()
         plugins.readPluginList(resolveFilename(SCOPE_PLUGINS))
@@ -1094,12 +1124,6 @@ class LinuxsatPanel(Screen):
 
     def closeNonRecursive(self):
         self.session.openWithCallback(self.close, AboutLSS)
-
-    def createSummary(self):
-        return
-
-    def key_info(self):
-        self.session.open(LSinfo, " Information ")
 
     def okbuttonClick(self):
         self.idx = self.index
@@ -1160,30 +1184,11 @@ class LinuxsatPanel(Screen):
                 )
 
 
-class LSskin(Screen):
+class LSskin(LPGridScreen):
 
     def __init__(self, session, name):
-        Screen.__init__(self, session)
-
-        try:
-            Screen.setTitle(self, _("%s") % descplug + " V." + __version__)
-        except BaseException:
-            try:
-                self.setTitle(_("%s") % descplug + " V." + __version__)
-            except BaseException:
-                pass
-        skin = join(skin_path, "LinuxsatPanel.xml")
-        with codecs.open(skin, "r", encoding="utf-8") as f:
-            self.skin = f.read()
-
+        LPGridScreen.__init__(self, session)
         self.data = checkGZIP(xmlurl)
-        # self.data = fetch_url(xmlurl)
-        if isWQHD():
-            self.pos = get_positions("WQHD")
-        elif isFHD():
-            self.pos = get_positions("FHD")
-        elif isHD():
-            self.pos = get_positions("HD")
 
         self.name = name
         menu_list = []
@@ -1263,215 +1268,7 @@ class LSskin(Screen):
             "Skins Oe Based ",
             "oebased.png")
 
-        self.names = menu_list
-        self.sorted = False
-        # self.combined_data = zip(self.names, self.titles, self.pics, self.urls)
-        self["frame"] = MovingPixmap()
-        self["info"] = Label()
-        self["info"].setText(_("Please Wait..."))
-        self["sort"] = Label(_("Sort A-Z"))
-        self["key_red"] = Label(_("Exit"))
-        self["pixmap"] = Pixmap()
-        self["actions"] = ActionMap(
-            [
-                "OkCancelActions",
-                "MenuActions",
-                "DirectionActions",
-                "NumberActions",
-                "ColorActions",
-                "EPGSelectActions",
-                "InfoActions"
-            ],
-            {
-                "ok": self.okbuttonClick,
-                "cancel": self.closeNonRecursive,
-                "exit": self.closeRecursive,
-                "back": self.closeNonRecursive,
-                "red": self.closeNonRecursive,
-                "0": self.list_sort,
-                "left": self.key_left,
-                "right": self.key_right,
-                "up": self.key_up,
-                "down": self.key_down,
-                "info": self.key_info,
-                "menu": self.closeRecursive
-            },
-            -1
-        )
-
-        self.PIXMAPS_PER_PAGE = 20
-        i = 0
-        while i < self.PIXMAPS_PER_PAGE:
-            self["label" + str(i + 1)] = StaticText()
-            self["pixmap" + str(i + 1)] = Pixmap()
-            i += 1
-
-        self.npics = len(self.names)
-        # self.npage = int(float(self.npics // self.PIXMAPS_PER_PAGE)) + 1
-        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
-        self.index = 0
-        self.maxentry = len(menu_list) - 1
-        self.ipage = 1
-        self.onLayoutFinish.append(self.openTest)
-
-    def paintFrame(self):
-        try:
-            # If the index exceeds the maximum number of items, it returns to
-            # the first item
-            if self.index > self.maxentry:
-                self.index = self.minentry
-            self.idx = self.index
-            name = self.names[self.idx]
-            self["info"].setText(str(name))
-            ifr = self.index - (self.PIXMAPS_PER_PAGE * (self.ipage - 1))
-            ipos = self.pos[ifr]
-            self["frame"].moveTo(ipos[0], ipos[1], 1)
-            self["frame"].startMoving()
-        except Exception as e:
-            print("Error in paintFrame: ", e)
-
-    def openTest(self):
-        if self.ipage < self.npage:
-            self.maxentry = (self.PIXMAPS_PER_PAGE * self.ipage) - 1
-            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
-
-        elif self.ipage == self.npage:
-            self.maxentry = len(self.pics) - 1
-            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
-            i1 = 0
-            while i1 < self.PIXMAPS_PER_PAGE:
-                self["label" + str(i1 + 1)].setText(" ")
-                self["pixmap" + str(i1 + 1)
-                     ].instance.setPixmapFromFile(nss_pic)
-                i1 += 1
-        self.npics = len(self.pics)
-        i = 0
-        i1 = 0
-        self.picnum = 0
-        ln = self.maxentry - (self.minentry - 1)
-        while i < ln:
-            idx = self.minentry + i
-            # self["label" + str(i + 1)].setText(self.names[idx])  # this show
-            # label to bottom of png pixmap
-            pic = self.pics[idx]
-            if not exists(self.pics[idx]):
-                pic = nss_pic
-            self["pixmap" + str(i + 1)].instance.setPixmapFromFile(pic)
-            i += 1
-        self.index = self.minentry
-        self.paintFrame()
-
-    def key_left(self):
-        # Decrement the index only if we are not at the first pixmap
-        if self.index >= 0:
-            self.index -= 1
-        else:
-            # If we are at the first pixmap, go back to the last pixmap of the
-            # last page
-            self.ipage = self.npage
-            self.index = self.npics - 1
-        # Check if we need to change pages
-        if self.index < self.minentry:
-            self.ipage -= 1
-            if self.ipage < 1:  # If we go beyond the first page
-                self.ipage = self.npage
-                self.index = self.npics - 1  # Back to the last pixmap of the last page
-            self.openTest()
-        else:
-            self.paintFrame()
-
-    def key_right(self):
-        # Increment the index only if we are not at the last pixmap
-        if self.index < self.npics - 1:
-            self.index += 1
-        else:
-            # If we are at the last pixmap, go back to the first pixmap of the
-            # first page
-            self.index = 0
-            self.ipage = 1
-            self.openTest()
-        # Check if we need to change pages
-        if self.index > self.maxentry:
-            self.ipage += 1
-            if self.ipage > self.npage:  # If we exceed the number of pages
-                self.index = 0
-                self.ipage = 1  # Back to first page
-            self.openTest()
-        else:
-            self.paintFrame()
-
-    def key_up(self):
-        if self.index == 0 and self.ipage == 1:
-            self.ipage = self.npage
-            self.index = self.minentry
-            self.openTest()
-
-        elif self.index >= 5 and not self.ipage == self.npage and self.index == self.minentry:
-            self.index -= 5
-        else:
-            if self.ipage == self.npage and self.index == self.minentry:
-                self.ipage = 1
-                self.index = 0
-                self.openTest()
-            else:
-                self.ipage = self.npage
-                self.index = self.npics - 1
-                self.openTest()
-        self.paintFrame()
-
-    def key_down(self):
-        if self.index <= self.maxentry - 5:
-            self.index += 5
-        else:
-            if self.ipage == self.npage:
-                self.ipage = 1
-                self.index = 0
-                self.openTest()
-            else:
-                self.ipage += 1
-                self.index = self.minentry
-                self.openTest()
-
-        self.paintFrame()
-
-    def keyNumberGlobal(self, number):
-        number -= 1
-        if len(self["menu"].list) > number:
-            self["menu"].setIndex(number)
-            self.okbuttonClick()
-
-    def list_sort(self):
-        if not hasattr(self, "original_data"):
-            self.original_data = (
-                self.names[:],
-                self.titles[:],
-                self.pics[:],
-                self.urls[:])
-            self.sorted = False
-
-        if self.sorted:
-            self.names, self.titles, self.pics, self.urls = self.original_data
-            self.sorted = False
-            self["sort"].setText(_("Sort A-Z"))
-        else:
-            self.names, self.titles, self.pics, self.urls = ListSortUtility.list_sort(
-                self.names, self.titles, self.pics, self.urls)
-            self.sorted = True
-            self["sort"].setText(_("Sort Default"))
-
-        self.openTest()
-
-    def closeNonRecursive(self):
-        self.close(False)
-
-    def closeRecursive(self):
-        self.close(True)
-
-    def createSummary(self):
-        return
-
-    def key_info(self):
-        self.session.open(LSinfo, " Information ")
+        self.initGrid(menu_list)
 
     def okbuttonClick(self):
         self.idx = self.index
@@ -1492,28 +1289,10 @@ class LSskin(Screen):
             )
 
 
-class LSChannel(Screen):
+class LSChannel(LPGridScreen):
 
     def __init__(self, session, name):
-        Screen.__init__(self, session)
-
-        try:
-            Screen.setTitle(self, _("%s") % descplug + " V." + __version__)
-        except BaseException:
-            try:
-                self.setTitle(_("%s") % descplug + " V." + __version__)
-            except BaseException:
-                pass
-        skin = join(skin_path, "LinuxsatPanel.xml")
-        with codecs.open(skin, "r", encoding="utf-8") as f:
-            self.skin = f.read()
-
-        if isWQHD():
-            self.pos = get_positions("WQHD")
-        elif isFHD():
-            self.pos = get_positions("FHD")
-        elif isHD():
-            self.pos = get_positions("HD")
+        LPGridScreen.__init__(self, session)
 
         self.name = name
         menu_list = []
@@ -1571,214 +1350,7 @@ class LSChannel(Screen):
             "vhannibal2.png",
             "https://sat.alfa-tech.net/upload/settings/vhannibal/")
 
-        self.names = menu_list
-        # self.combined_data = zip(self.names, self.titles, self.pics, self.urls)
-        self["frame"] = MovingPixmap()
-        self["info"] = Label()
-        self["info"].setText(_("Please Wait..."))
-        self["sort"] = Label(_("Sort A-Z"))
-        self["key_red"] = Label(_("Exit"))
-        self["pixmap"] = Pixmap()
-        self["actions"] = ActionMap(
-            [
-                "OkCancelActions",
-                "MenuActions",
-                "DirectionActions",
-                "NumberActions",
-                "ColorActions",
-                "EPGSelectActions",
-                "InfoActions"
-            ],
-            {
-                "ok": self.okbuttonClick,
-                "cancel": self.closeNonRecursive,
-                "exit": self.closeRecursive,
-                "back": self.closeNonRecursive,
-                "red": self.closeNonRecursive,
-                "0": self.list_sort,
-                "left": self.key_left,
-                "right": self.key_right,
-                "up": self.key_up,
-                "down": self.key_down,
-                "info": self.key_info,
-                "menu": self.closeRecursive
-            },
-            -1
-        )
-
-        self.PIXMAPS_PER_PAGE = 20
-        i = 0
-        while i < self.PIXMAPS_PER_PAGE:
-            self["label" + str(i + 1)] = StaticText()
-            self["pixmap" + str(i + 1)] = Pixmap()
-            i += 1
-
-        self.npics = len(self.names)
-        # self.npage = int(float(self.npics // self.PIXMAPS_PER_PAGE)) + 1
-        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
-        self.index = 0
-        self.maxentry = len(menu_list) - 1
-        self.ipage = 1
-        self.onLayoutFinish.append(self.openTest)
-
-    def paintFrame(self):
-        try:
-            # If the index exceeds the maximum number of items, it returns to
-            # the first item
-            if self.index > self.maxentry:
-                self.index = self.minentry
-            self.idx = self.index
-            name = self.names[self.idx]
-            self["info"].setText(str(name))
-            ifr = self.index - (self.PIXMAPS_PER_PAGE * (self.ipage - 1))
-            ipos = self.pos[ifr]
-            self["frame"].moveTo(ipos[0], ipos[1], 1)
-            self["frame"].startMoving()
-        except Exception as e:
-            print("Error in paintFrame: ", e)
-
-    def openTest(self):
-        if self.ipage < self.npage:
-            self.maxentry = (self.PIXMAPS_PER_PAGE * self.ipage) - 1
-            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
-
-        elif self.ipage == self.npage:
-            self.maxentry = len(self.pics) - 1
-            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
-            i1 = 0
-            while i1 < self.PIXMAPS_PER_PAGE:
-                self["label" + str(i1 + 1)].setText(" ")
-                self["pixmap" + str(i1 + 1)
-                     ].instance.setPixmapFromFile(nss_pic)
-                i1 += 1
-        self.npics = len(self.pics)
-        i = 0
-        i1 = 0
-        self.picnum = 0
-        ln = self.maxentry - (self.minentry - 1)
-        while i < ln:
-            idx = self.minentry + i
-            # self["label" + str(i + 1)].setText(self.names[idx])  # this show
-            # label to bottom of png pixmap
-            pic = self.pics[idx]
-            if not exists(self.pics[idx]):
-                pic = nss_pic
-            self["pixmap" + str(i + 1)].instance.setPixmapFromFile(pic)
-            i += 1
-        self.index = self.minentry
-        self.paintFrame()
-
-    def key_left(self):
-        # Decrement the index only if we are not at the first pixmap
-        if self.index >= 0:
-            self.index -= 1
-        else:
-            # If we are at the first pixmap, go back to the last pixmap of the
-            # last page
-            self.ipage = self.npage
-            self.index = self.npics - 1
-        # Check if we need to change pages
-        if self.index < self.minentry:
-            self.ipage -= 1
-            if self.ipage < 1:  # If we go beyond the first page
-                self.ipage = self.npage
-                self.index = self.npics - 1  # Back to the last pixmap of the last page
-            self.openTest()
-        else:
-            self.paintFrame()
-
-    def key_right(self):
-        # Increment the index only if we are not at the last pixmap
-        if self.index < self.npics - 1:
-            self.index += 1
-        else:
-            # If we are at the last pixmap, go back to the first pixmap of the
-            # first page
-            self.index = 0
-            self.ipage = 1
-            self.openTest()
-        # Check if we need to change pages
-        if self.index > self.maxentry:
-            self.ipage += 1
-            if self.ipage > self.npage:  # If we exceed the number of pages
-                self.index = 0
-                self.ipage = 1  # Back to first page
-            self.openTest()
-        else:
-            self.paintFrame()
-
-    def key_up(self):
-        if self.index == 0 and self.ipage == 1:
-            self.ipage = self.npage
-            self.index = self.minentry
-            self.openTest()
-
-        elif self.index >= 5 and not self.ipage == self.npage and self.index == self.minentry:
-            self.index -= 5
-        else:
-            if self.ipage == self.npage and self.index == self.minentry:
-                self.ipage = 1
-                self.index = 0
-                self.openTest()
-            else:
-                self.ipage = self.npage
-                self.index = self.npics - 1
-                self.openTest()
-        self.paintFrame()
-
-    def key_down(self):
-        if self.index <= self.maxentry - 5:
-            self.index += 5
-        else:
-            if self.ipage == self.npage:
-                self.ipage = 1
-                self.index = 0
-                self.openTest()
-            else:
-                self.ipage += 1
-                self.index = self.minentry
-                self.openTest()
-
-        self.paintFrame()
-
-    def keyNumberGlobal(self, number):
-        number -= 1
-        if len(self["menu"].list) > number:
-            self["menu"].setIndex(number)
-            self.okbuttonClick()
-
-    def list_sort(self):
-        if not hasattr(self, "original_data"):
-            self.original_data = (
-                self.names[:],
-                self.titles[:],
-                self.pics[:],
-                self.urls[:])
-            self.sorted = False
-
-        if self.sorted:
-            self.names, self.titles, self.pics, self.urls = self.original_data
-            self.sorted = False
-            self["sort"].setText(_("Sort A-Z"))
-        else:
-            self.names, self.titles, self.pics, self.urls = ListSortUtility.list_sort(
-                self.names, self.titles, self.pics, self.urls)
-            self.sorted = True
-            self["sort"].setText(_("Sort Default"))
-
-        self.openTest()
-
-    def closeNonRecursive(self):
-        self.close(False)
-
-    def closeRecursive(self):
-        self.close(True)
-
-    def createSummary(self):
-        return
-
-    def key_info(self):
-        self.session.open(LSinfo, " Information ")
+        self.initGrid(menu_list)
 
     def okbuttonClick(self):
         self.idx = self.index
@@ -1789,28 +1361,10 @@ class LSChannel(Screen):
         self.session.open(addInstall, url, name, "")
 
 
-class LulullaScript(Screen):
+class LulullaScript(LPGridScreen):
 
     def __init__(self, session, name):
-        Screen.__init__(self, session)
-
-        try:
-            Screen.setTitle(self, _("%s") % descplug + " V." + __version__)
-        except BaseException:
-            try:
-                self.setTitle(_("%s") % descplug + " V." + __version__)
-            except BaseException:
-                pass
-        skin = join(skin_path, "LinuxsatPanel.xml")
-        with codecs.open(skin, "r", encoding="utf-8") as f:
-            self.skin = f.read()
-
-        if isWQHD():
-            self.pos = get_positions("WQHD")
-        elif isFHD():
-            self.pos = get_positions("FHD")
-        elif isHD():
-            self.pos = get_positions("HD")
+        LPGridScreen.__init__(self, session)
 
         self.name = name
         menu_list = []
@@ -2144,215 +1698,7 @@ class LulullaScript(Screen):
             "xxx_plugin.png",
             "wget -q --no-check-certificate https://raw.githubusercontent.com/Belfagor2005/xxxplugin/main/installer.sh -O - | /bin/sh")
 
-        self.names = menu_list
-        self.sorted = False
-        # self.combined_data = zip(self.names, self.titles, self.pics, self.urls)
-        self["frame"] = MovingPixmap()
-        self["info"] = Label()
-        self["info"].setText(_("Please Wait..."))
-        self["sort"] = Label(_("Sort A-Z"))
-        self["key_red"] = Label(_("Exit"))
-        self["pixmap"] = Pixmap()
-        self["actions"] = ActionMap(
-            [
-                "OkCancelActions",
-                "MenuActions",
-                "DirectionActions",
-                "NumberActions",
-                "ColorActions",
-                "EPGSelectActions",
-                "InfoActions"
-            ],
-            {
-                "ok": self.okbuttonClick,
-                "cancel": self.closeNonRecursive,
-                "exit": self.closeRecursive,
-                "back": self.closeNonRecursive,
-                "red": self.closeNonRecursive,
-                "0": self.list_sort,
-                "left": self.key_left,
-                "right": self.key_right,
-                "up": self.key_up,
-                "down": self.key_down,
-                "info": self.key_info,
-                "menu": self.closeRecursive
-            },
-            -1
-        )
-
-        self.PIXMAPS_PER_PAGE = 20
-        i = 0
-        while i < self.PIXMAPS_PER_PAGE:
-            self["label" + str(i + 1)] = StaticText()
-            self["pixmap" + str(i + 1)] = Pixmap()
-            i += 1
-
-        self.npics = len(self.names)
-        # self.npage = int(float(self.npics // self.PIXMAPS_PER_PAGE)) + 1
-        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
-        self.index = 0
-        self.maxentry = len(menu_list) - 1
-        self.ipage = 1
-        self.onLayoutFinish.append(self.openTest)
-
-    def paintFrame(self):
-        try:
-            # If the index exceeds the maximum number of items, it returns to
-            # the first item
-            if self.index > self.maxentry:
-                self.index = self.minentry
-            self.idx = self.index
-            name = self.names[self.idx]
-            self["info"].setText(str(name))
-            ifr = self.index - (self.PIXMAPS_PER_PAGE * (self.ipage - 1))
-            ipos = self.pos[ifr]
-            self["frame"].moveTo(ipos[0], ipos[1], 1)
-            self["frame"].startMoving()
-        except Exception as e:
-            print("Error in paintFrame: ", e)
-
-    def openTest(self):
-        if self.ipage < self.npage:
-            self.maxentry = (self.PIXMAPS_PER_PAGE * self.ipage) - 1
-            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
-
-        elif self.ipage == self.npage:
-            self.maxentry = len(self.pics) - 1
-            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
-            i1 = 0
-            while i1 < self.PIXMAPS_PER_PAGE:
-                self["label" + str(i1 + 1)].setText(" ")
-                self["pixmap" + str(i1 + 1)
-                     ].instance.setPixmapFromFile(nss_pic)
-                i1 += 1
-        self.npics = len(self.pics)
-        i = 0
-        i1 = 0
-        self.picnum = 0
-        ln = self.maxentry - (self.minentry - 1)
-        while i < ln:
-            idx = self.minentry + i
-            # self["label" + str(i + 1)].setText(self.names[idx])  # this show
-            # label to bottom of png pixmap
-            pic = self.pics[idx]
-            if not exists(self.pics[idx]):
-                pic = nss_pic
-            self["pixmap" + str(i + 1)].instance.setPixmapFromFile(pic)
-            i += 1
-        self.index = self.minentry
-        self.paintFrame()
-
-    def key_left(self):
-        # Decrement the index only if we are not at the first pixmap
-        if self.index >= 0:
-            self.index -= 1
-        else:
-            # If we are at the first pixmap, go back to the last pixmap of the
-            # last page
-            self.ipage = self.npage
-            self.index = self.npics - 1
-        # Check if we need to change pages
-        if self.index < self.minentry:
-            self.ipage -= 1
-            if self.ipage < 1:  # If we go beyond the first page
-                self.ipage = self.npage
-                self.index = self.npics - 1  # Back to the last pixmap of the last page
-            self.openTest()
-        else:
-            self.paintFrame()
-
-    def key_right(self):
-        # Increment the index only if we are not at the last pixmap
-        if self.index < self.npics - 1:
-            self.index += 1
-        else:
-            # If we are at the last pixmap, go back to the first pixmap of the
-            # first page
-            self.index = 0
-            self.ipage = 1
-            self.openTest()
-        # Check if we need to change pages
-        if self.index > self.maxentry:
-            self.ipage += 1
-            if self.ipage > self.npage:  # If we exceed the number of pages
-                self.index = 0
-                self.ipage = 1  # Back to first page
-            self.openTest()
-        else:
-            self.paintFrame()
-
-    def key_up(self):
-        if self.index == 0 and self.ipage == 1:
-            self.ipage = self.npage
-            self.index = self.minentry
-            self.openTest()
-
-        elif self.index >= 5 and not self.ipage == self.npage and self.index == self.minentry:
-            self.index -= 5
-        else:
-            if self.ipage == self.npage and self.index == self.minentry:
-                self.ipage = 1
-                self.index = 0
-                self.openTest()
-            else:
-                self.ipage = self.npage
-                self.index = self.npics - 1
-                self.openTest()
-        self.paintFrame()
-
-    def key_down(self):
-        if self.index <= self.maxentry - 5:
-            self.index += 5
-        else:
-            if self.ipage == self.npage:
-                self.ipage = 1
-                self.index = 0
-                self.openTest()
-            else:
-                self.ipage += 1
-                self.index = self.minentry
-                self.openTest()
-
-        self.paintFrame()
-
-    def keyNumberGlobal(self, number):
-        number -= 1
-        if len(self["menu"].list) > number:
-            self["menu"].setIndex(number)
-            self.okbuttonClick()
-
-    def list_sort(self):
-        if not hasattr(self, "original_data"):
-            self.original_data = (
-                self.names[:],
-                self.titles[:],
-                self.pics[:],
-                self.urls[:])
-            self.sorted = False
-
-        if self.sorted:
-            self.names, self.titles, self.pics, self.urls = self.original_data
-            self.sorted = False
-            self["sort"].setText(_("Sort A-Z"))
-        else:
-            self.names, self.titles, self.pics, self.urls = ListSortUtility.list_sort(
-                self.names, self.titles, self.pics, self.urls)
-            self.sorted = True
-            self["sort"].setText(_("Sort Default"))
-
-        self.openTest()
-
-    def closeNonRecursive(self):
-        self.close(False)
-
-    def closeRecursive(self):
-        self.close(True)
-
-    def createSummary(self):
-        return
-
-    def key_info(self):
-        self.session.open(LSinfo, " Information ")
+        self.initGrid(menu_list)
 
     def okbuttonClick(self):
         idx = self.index
@@ -2406,42 +1752,11 @@ class LulullaScript(Screen):
         else:
             return
 
-    def _view_log(self, answer):
-        if answer:
-            # Timer needed to open File_Commander from a safe context
-            from enigma import eTimer
 
-            def open_fc():
-                from .addons.File_Commander import File_Commander
-                if fileExists(file_log):
-                    self.session.open(File_Commander, file_log)
-            timer = eTimer()
-            timer.callback.append(open_fc)
-            timer.start(0, True)
-
-
-class CiefpInstaller(Screen):
+class CiefpInstaller(LPGridScreen):
 
     def __init__(self, session, name):
-        Screen.__init__(self, session)
-
-        try:
-            Screen.setTitle(self, _("%s") % descplug + " V." + __version__)
-        except BaseException:
-            try:
-                self.setTitle(_("%s") % descplug + " V." + __version__)
-            except BaseException:
-                pass
-        skin = join(skin_path, "LinuxsatPanel.xml")
-        with codecs.open(skin, "r", encoding="utf-8") as f:
-            self.skin = f.read()
-
-        if isWQHD():
-            self.pos = get_positions("WQHD")
-        elif isFHD():
-            self.pos = get_positions("FHD")
-        elif isHD():
-            self.pos = get_positions("HD")
+        LPGridScreen.__init__(self, session)
         self.name = name
         menu_list = []
         self.titles = []
@@ -2649,215 +1964,7 @@ class CiefpInstaller(Screen):
             "ciefp_webcam.png",
             "wget -q --no-check-certificate https://raw.githubusercontent.com/ciefp/WebCamE2PrenjSF/main/installer.sh -O - | /bin/sh")
 
-        self.names = menu_list
-        self.sorted = False
-        # self.combined_data = zip(self.names, self.titles, self.pics, self.urls)
-        self["frame"] = MovingPixmap()
-        self["info"] = Label()
-        self["info"].setText(_("Please Wait..."))
-        self["sort"] = Label(_("Sort A-Z"))
-        self["key_red"] = Label(_("Exit"))
-        self["pixmap"] = Pixmap()
-        self["actions"] = ActionMap(
-            [
-                "OkCancelActions",
-                "MenuActions",
-                "DirectionActions",
-                "NumberActions",
-                "ColorActions",
-                "EPGSelectActions",
-                "InfoActions"
-            ],
-            {
-                "ok": self.okbuttonClick,
-                "cancel": self.closeNonRecursive,
-                "exit": self.closeRecursive,
-                "back": self.closeNonRecursive,
-                "red": self.closeNonRecursive,
-                "0": self.list_sort,
-                "left": self.key_left,
-                "right": self.key_right,
-                "up": self.key_up,
-                "down": self.key_down,
-                "info": self.key_info,
-                "menu": self.closeRecursive
-            },
-            -1
-        )
-
-        self.PIXMAPS_PER_PAGE = 20
-        i = 0
-        while i < self.PIXMAPS_PER_PAGE:
-            self["label" + str(i + 1)] = StaticText()
-            self["pixmap" + str(i + 1)] = Pixmap()
-            i += 1
-
-        self.npics = len(self.names)
-        # self.npage = int(float(self.npics // self.PIXMAPS_PER_PAGE)) + 1
-        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
-        self.index = 0
-        self.maxentry = len(menu_list) - 1
-        self.ipage = 1
-        self.onLayoutFinish.append(self.openTest)
-
-    def paintFrame(self):
-        try:
-            # If the index exceeds the maximum number of items, it returns to
-            # the first item
-            if self.index > self.maxentry:
-                self.index = self.minentry
-            self.idx = self.index
-            name = self.names[self.idx]
-            self["info"].setText(str(name))
-            ifr = self.index - (self.PIXMAPS_PER_PAGE * (self.ipage - 1))
-            ipos = self.pos[ifr]
-            self["frame"].moveTo(ipos[0], ipos[1], 1)
-            self["frame"].startMoving()
-        except Exception as e:
-            print("Error in paintFrame: ", e)
-
-    def openTest(self):
-        if self.ipage < self.npage:
-            self.maxentry = (self.PIXMAPS_PER_PAGE * self.ipage) - 1
-            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
-
-        elif self.ipage == self.npage:
-            self.maxentry = len(self.pics) - 1
-            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
-            i1 = 0
-            while i1 < self.PIXMAPS_PER_PAGE:
-                self["label" + str(i1 + 1)].setText(" ")
-                self["pixmap" + str(i1 + 1)
-                     ].instance.setPixmapFromFile(nss_pic)
-                i1 += 1
-        self.npics = len(self.pics)
-        i = 0
-        i1 = 0
-        self.picnum = 0
-        ln = self.maxentry - (self.minentry - 1)
-        while i < ln:
-            idx = self.minentry + i
-            # self["label" + str(i + 1)].setText(self.names[idx])  # this show
-            # label to bottom of png pixmap
-            pic = self.pics[idx]
-            if not exists(self.pics[idx]):
-                pic = nss_pic
-            self["pixmap" + str(i + 1)].instance.setPixmapFromFile(pic)
-            i += 1
-        self.index = self.minentry
-        self.paintFrame()
-
-    def key_left(self):
-        # Decrement the index only if we are not at the first pixmap
-        if self.index >= 0:
-            self.index -= 1
-        else:
-            # If we are at the first pixmap, go back to the last pixmap of the
-            # last page
-            self.ipage = self.npage
-            self.index = self.npics - 1
-        # Check if we need to change pages
-        if self.index < self.minentry:
-            self.ipage -= 1
-            if self.ipage < 1:  # If we go beyond the first page
-                self.ipage = self.npage
-                self.index = self.npics - 1  # Back to the last pixmap of the last page
-            self.openTest()
-        else:
-            self.paintFrame()
-
-    def key_right(self):
-        # Increment the index only if we are not at the last pixmap
-        if self.index < self.npics - 1:
-            self.index += 1
-        else:
-            # If we are at the last pixmap, go back to the first pixmap of the
-            # first page
-            self.index = 0
-            self.ipage = 1
-            self.openTest()
-        # Check if we need to change pages
-        if self.index > self.maxentry:
-            self.ipage += 1
-            if self.ipage > self.npage:  # If we exceed the number of pages
-                self.index = 0
-                self.ipage = 1  # Back to first page
-            self.openTest()
-        else:
-            self.paintFrame()
-
-    def key_up(self):
-        if self.index == 0 and self.ipage == 1:
-            self.ipage = self.npage
-            self.index = self.minentry
-            self.openTest()
-
-        elif self.index >= 5 and not self.ipage == self.npage and self.index == self.minentry:
-            self.index -= 5
-        else:
-            if self.ipage == self.npage and self.index == self.minentry:
-                self.ipage = 1
-                self.index = 0
-                self.openTest()
-            else:
-                self.ipage = self.npage
-                self.index = self.npics - 1
-                self.openTest()
-        self.paintFrame()
-
-    def key_down(self):
-        if self.index <= self.maxentry - 5:
-            self.index += 5
-        else:
-            if self.ipage == self.npage:
-                self.ipage = 1
-                self.index = 0
-                self.openTest()
-            else:
-                self.ipage += 1
-                self.index = self.minentry
-                self.openTest()
-
-        self.paintFrame()
-
-    def keyNumberGlobal(self, number):
-        number -= 1
-        if len(self["menu"].list) > number:
-            self["menu"].setIndex(number)
-            self.okbuttonClick()
-
-    def list_sort(self):
-        if not hasattr(self, "original_data"):
-            self.original_data = (
-                self.names[:],
-                self.titles[:],
-                self.pics[:],
-                self.urls[:])
-            self.sorted = False
-
-        if self.sorted:
-            self.names, self.titles, self.pics, self.urls = self.original_data
-            self.sorted = False
-            self["sort"].setText(_("Sort A-Z"))
-        else:
-            self.names, self.titles, self.pics, self.urls = ListSortUtility.list_sort(
-                self.names, self.titles, self.pics, self.urls)
-            self.sorted = True
-            self["sort"].setText(_("Sort Default"))
-
-        self.openTest()
-
-    def closeNonRecursive(self):
-        self.close(False)
-
-    def closeRecursive(self):
-        self.close(True)
-
-    def createSummary(self):
-        return
-
-    def key_info(self):
-        self.session.open(LSinfo, " Information ")
+        self.initGrid(menu_list)
 
     def okbuttonClick(self):
         idx = self.index
@@ -2922,41 +2029,11 @@ class CiefpInstaller(Screen):
         else:
             return
 
-    def _view_log(self, answer):
-        if answer:
-            from enigma import eTimer
 
-            def open_fc():
-                from .addons.File_Commander import File_Commander
-                if fileExists(file_log):
-                    self.session.open(File_Commander, file_log)
-            timer = eTimer()
-            timer.callback.append(open_fc)
-            timer.start(0, True)
-
-
-class ScriptInstaller(Screen):
+class ScriptInstaller(LPGridScreen):
 
     def __init__(self, session, name):
-        Screen.__init__(self, session)
-
-        try:
-            Screen.setTitle(self, _("%s") % descplug + " V." + __version__)
-        except BaseException:
-            try:
-                self.setTitle(_("%s") % descplug + " V." + __version__)
-            except BaseException:
-                pass
-        skin = join(skin_path, "LinuxsatPanel.xml")
-        with codecs.open(skin, "r", encoding="utf-8") as f:
-            self.skin = f.read()
-
-        if isWQHD():
-            self.pos = get_positions("WQHD")
-        elif isFHD():
-            self.pos = get_positions("FHD")
-        elif isHD():
-            self.pos = get_positions("HD")
+        LPGridScreen.__init__(self, session)
 
         self.name = name
         menu_list = []
@@ -3283,56 +2360,7 @@ class ScriptInstaller(Screen):
                 "serviceapp.png",
                 'opkg update && opkg --force-reinstall --force-overwrite install ffmpeg gstplayer exteplayer3 enigma2-plugin-systemplugins-serviceapp')
 
-        self.names = menu_list
-        self.sorted = False
-        # self.combined_data = zip(self.names, self.titles, self.pics, self.urls)
-        self["frame"] = MovingPixmap()
-        self["info"] = Label()
-        self["info"].setText(_("Please Wait..."))
-        self["sort"] = Label(_("Sort A-Z"))
-        self["key_red"] = Label(_("Exit"))
-        self["pixmap"] = Pixmap()
-        self["actions"] = ActionMap(
-            [
-                "OkCancelActions",
-                "MenuActions",
-                "DirectionActions",
-                "NumberActions",
-                "ColorActions",
-                "EPGSelectActions",
-                "InfoActions"
-            ],
-            {
-                "ok": self.okbuttonClick,
-                "cancel": self.closeNonRecursive,
-                "exit": self.closeRecursive,
-                "back": self.closeNonRecursive,
-                "red": self.closeNonRecursive,
-                "0": self.list_sort,
-                "left": self.key_left,
-                "right": self.key_right,
-                "up": self.key_up,
-                "down": self.key_down,
-                "info": self.key_info,
-                "menu": self.closeRecursive
-            },
-            -1
-        )
-
-        self.PIXMAPS_PER_PAGE = 20
-        i = 0
-        while i < self.PIXMAPS_PER_PAGE:
-            self["label" + str(i + 1)] = StaticText()
-            self["pixmap" + str(i + 1)] = Pixmap()
-            i += 1
-
-        self.npics = len(self.names)
-        # self.npage = int(float(self.npics // self.PIXMAPS_PER_PAGE)) + 1
-        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
-        self.index = 0
-        self.maxentry = len(menu_list) - 1
-        self.ipage = 1
-        self.onLayoutFinish.append(self.openTest)
+        self.initGrid(menu_list)
 
     def Lcn(self, answer=None):
         if answer is None:
@@ -3399,165 +2427,6 @@ class ScriptInstaller(Screen):
                 _("Skin check completed.\nDo you want to view the log?"),
                 MessageBox.TYPE_YESNO
             )
-
-    def paintFrame(self):
-        try:
-            # If the index exceeds the maximum number of items, it returns to
-            # the first item
-            if self.index > self.maxentry:
-                self.index = self.minentry
-            self.idx = self.index
-            name = self.names[self.idx]
-            self["info"].setText(str(name))
-            ifr = self.index - (self.PIXMAPS_PER_PAGE * (self.ipage - 1))
-            ipos = self.pos[ifr]
-            self["frame"].moveTo(ipos[0], ipos[1], 1)
-            self["frame"].startMoving()
-        except Exception as e:
-            print("Error in paintFrame: ", e)
-
-    def openTest(self):
-        if self.ipage < self.npage:
-            self.maxentry = (self.PIXMAPS_PER_PAGE * self.ipage) - 1
-            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
-
-        elif self.ipage == self.npage:
-            self.maxentry = len(self.pics) - 1
-            self.minentry = (self.ipage - 1) * self.PIXMAPS_PER_PAGE
-            i1 = 0
-            while i1 < self.PIXMAPS_PER_PAGE:
-                self["label" + str(i1 + 1)].setText(" ")
-                self["pixmap" + str(i1 + 1)
-                     ].instance.setPixmapFromFile(nss_pic)
-                i1 += 1
-        self.npics = len(self.pics)
-        i = 0
-        i1 = 0
-        self.picnum = 0
-        ln = self.maxentry - (self.minentry - 1)
-        while i < ln:
-            idx = self.minentry + i
-            # self["label" + str(i + 1)].setText(self.names[idx])  # this show
-            # label to bottom of png pixmap
-            pic = self.pics[idx]
-            if not exists(self.pics[idx]):
-                pic = nss_pic
-            self["pixmap" + str(i + 1)].instance.setPixmapFromFile(pic)
-            i += 1
-        self.index = self.minentry
-        self.paintFrame()
-
-    def key_left(self):
-        # Decrement the index only if we are not at the first pixmap
-        if self.index >= 0:
-            self.index -= 1
-        else:
-            # If we are at the first pixmap, go back to the last pixmap of the
-            # last page
-            self.ipage = self.npage
-            self.index = self.npics - 1
-        # Check if we need to change pages
-        if self.index < self.minentry:
-            self.ipage -= 1
-            if self.ipage < 1:  # If we go beyond the first page
-                self.ipage = self.npage
-                self.index = self.npics - 1  # Back to the last pixmap of the last page
-            self.openTest()
-        else:
-            self.paintFrame()
-
-    def key_right(self):
-        # Increment the index only if we are not at the last pixmap
-        if self.index < self.npics - 1:
-            self.index += 1
-        else:
-            # If we are at the last pixmap, go back to the first pixmap of the
-            # first page
-            self.index = 0
-            self.ipage = 1
-            self.openTest()
-        # Check if we need to change pages
-        if self.index > self.maxentry:
-            self.ipage += 1
-            if self.ipage > self.npage:  # If we exceed the number of pages
-                self.index = 0
-                self.ipage = 1  # Back to first page
-            self.openTest()
-        else:
-            self.paintFrame()
-
-    def key_up(self):
-        if self.index == 0 and self.ipage == 1:
-            self.ipage = self.npage
-            self.index = self.minentry
-            self.openTest()
-
-        elif self.index >= 5 and not self.ipage == self.npage and self.index == self.minentry:
-            self.index -= 5
-        else:
-            if self.ipage == self.npage and self.index == self.minentry:
-                self.ipage = 1
-                self.index = 0
-                self.openTest()
-            else:
-                self.ipage = self.npage
-                self.index = self.npics - 1
-                self.openTest()
-        self.paintFrame()
-
-    def key_down(self):
-        if self.index <= self.maxentry - 5:
-            self.index += 5
-        else:
-            if self.ipage == self.npage:
-                self.ipage = 1
-                self.index = 0
-                self.openTest()
-            else:
-                self.ipage += 1
-                self.index = self.minentry
-                self.openTest()
-
-        self.paintFrame()
-
-    def keyNumberGlobal(self, number):
-        number -= 1
-        if len(self["menu"].list) > number:
-            self["menu"].setIndex(number)
-            self.okbuttonClick()
-
-    def list_sort(self):
-        if not hasattr(self, "original_data"):
-            self.original_data = (
-                self.names[:],
-                self.titles[:],
-                self.pics[:],
-                self.urls[:])
-            self.sorted = False
-
-        if self.sorted:
-            self.names, self.titles, self.pics, self.urls = self.original_data
-            self.sorted = False
-            self["sort"].setText(_("Sort A-Z"))
-        else:
-            self.names, self.titles, self.pics, self.urls = ListSortUtility.list_sort(
-                self.names, self.titles, self.pics, self.urls)
-            self.sorted = True
-            self["sort"].setText(_("Sort Default"))
-
-        self.openTest()
-
-    def closeNonRecursive(self):
-        self.close(False)
-
-    def closeRecursive(self):
-        self.close(True)
-
-    def createSummary(self):
-        return
-
-    def key_info(self):
-        self.session.open(LSinfo, " Information ")
 
     def okbuttonClick(self):
         idx = self.index
@@ -3638,18 +2507,6 @@ class ScriptInstaller(Screen):
                 )
         else:
             return
-
-    def _view_log(self, answer):
-        if answer:
-            from enigma import eTimer
-
-            def open_fc():
-                from .addons.File_Commander import File_Commander
-                if fileExists(file_log):
-                    self.session.open(File_Commander, file_log)
-            timer = eTimer()
-            timer.callback.append(open_fc)
-            timer.start(0, True)
 
     def askForFcl(self):
         self.session.openWithCallback(
