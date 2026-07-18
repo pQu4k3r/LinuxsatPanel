@@ -74,6 +74,9 @@ class StbInfo:
         self.pip = self.get_public_ip()
 
     def to_string(self):
+        def fmt(label, value):
+            return '%s: %s' % (label, value if value else 'Unknown')
+
         lines = []
         try:
             lines.append(
@@ -81,52 +84,28 @@ class StbInfo:
                 ('OpenWebif' if self.boxinfo else 'proc'))
             lines.append('\n')
             lines.append('HW Info:')
-            lines.append('Vendor: %s' %
-                         str(self.hw_vendor) if self.hw_vendor else 'Unknown')
-            lines.append('Model: %s' %
-                         str(self.hw_model) if self.hw_model else 'Unknown')
-            lines.append('Chipset: %s' % str(self.hw_chipset)
-                         if self.hw_chipset else 'Unknown')
-            lines.append('Architecture: %s' %
-                         str(self.hw_arch) if self.hw_arch else 'Unknown')
-            lines.append('Local Ip: %s' %
-                         str(self.ipub) if self.ipub else 'Unknown')
-            lines.append('Public IP: %s' %
-                         str(self.pip) if self.pip else 'Unknown')
-            lines.append('Internet: %s' % str(self.internetline)
-                         if self.internetline else 'Unknown')
+            lines.append(fmt('Vendor', self.hw_vendor))
+            lines.append(fmt('Model', self.hw_model))
+            lines.append(fmt('Chipset', self.hw_chipset))
+            lines.append(fmt('Architecture', self.hw_arch))
+            lines.append(fmt('Local Ip', self.ipub))
+            lines.append(fmt('Public IP', self.pip))
+            lines.append(fmt('Internet', self.internetline))
             lines.append('\n')
             lines.append('SW Info:')
-            lines.append(
-                'Installation ID: %s' % str(
-                    self.installation_id) if self.installation_id else 'Unknown')
-            lines.append(
-                'Python version: %s' % str(
-                    self.python_version) if self.python_version else 'Unknown')
-            lines.append('Distro: %s' %
-                         str(self.sw_distro) if self.sw_distro else 'Unknown')
-            lines.append(
-                'Distro version: %s' % str(
-                    self.sw_distro_ver) if self.sw_distro_ver else 'Unknown')
-            lines.append(
-                'Enigma version: %s' % str(
-                    self.sw_enigma_ver) if self.sw_enigma_ver else 'Unknown')
-            lines.append('OE version: %s' %
-                         str(self.sw_oe_ver) if self.sw_oe_ver else 'Unknown')
+            lines.append(fmt('Installation ID', self.installation_id))
+            lines.append(fmt('Python version', self.python_version))
+            lines.append(fmt('Distro', self.sw_distro))
+            lines.append(fmt('Distro version', self.sw_distro_ver))
+            lines.append(fmt('Enigma version', self.sw_enigma_ver))
+            lines.append(fmt('OE version', self.sw_oe_ver))
             lines.append('\n')
-            lines.append(
-                'Video Format: %s' % str(
-                    self.current_format) if self.current_format else 'Unknown')
-            lines.append('Mount Info: %s' %
-                         str(self.mountid) if self.mountid else 'Unknown')
-            lines.append('Storage Info: %s' %
-                         str(self.storhdd) if self.storhdd else 'Unknown')
-            lines.append('Memory Info: %s' %
-                         str(self.memin) if self.memin else 'Unknown')
-            lines.append('Is VTi image: %s' % str(self.is_vti_image)
-                         if self.is_vti_image else 'Unknown')
-            lines.append('Is DMM image: %s' % str(self.is_dmm_image)
-                         if self.is_dmm_image else 'Unknown')
+            lines.append(fmt('Video Format', self.current_format))
+            lines.append(fmt('Mount Info', self.mountid))
+            lines.append(fmt('Storage Info', self.storhdd))
+            lines.append(fmt('Memory Info', self.memin))
+            lines.append('Is VTi image: %s' % self.is_vti_image)
+            lines.append('Is DMM image: %s' % self.is_dmm_image)
         except Exception as e:
             print("Error formatting info:", e)
         return '\n'.join(lines)
