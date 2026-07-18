@@ -3733,6 +3733,8 @@ class ScriptInstaller(Screen):
             dat = RequestUrl()
             print("Request Server url is:", dat)
             data = make_request(dat)
+            if not data:
+                raise ValueError("No data received from server")
 
             if PY3:
                 data = six.ensure_str(data)
@@ -3764,7 +3766,7 @@ class ScriptInstaller(Screen):
                 regex_patterns = [
                     r'">C:\s+([\w.-]+)\s+(\d+)\s+(\w+)\s+([\w.-]+)\s*</h3>',
                     r'<strong>c:\s+([\w.-]+)\s+(\d+)\s+(\w+)\s+([\w.-]+)\s*</strong',
-                    r'cline">\s*C:\s+([\w.-]+)\s+(\d+)\s+(\w+)\s+([\w.-]+)\s*'
+                    r'cline">\s*C:\s+([\w.-]+)\s+(\d+)\s+(\w+)\s+([\w.-]+)\s*',
                     r'<h1>C:\s+([\w.-]+)\s+(\d+)\s+(\w+)\s+([\w.-]+)\s*',
                     r'"C: (.*?) (.*?) (.*?) (.*?)"',
                     r'"c: (.*?) (.*?) (.*?) (.*?)"',
@@ -3826,6 +3828,8 @@ class ScriptInstaller(Screen):
                             MessageBox.TYPE_INFO,
                             timeout=6
                         )
+
+                    break
 
         except Exception as e:
             # Error handling
