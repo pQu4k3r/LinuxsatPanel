@@ -3340,7 +3340,7 @@ class ScriptInstaller(Screen):
                 MessageBox,
                 _("Do you want to Order LCN Bouquet?"),
                 MessageBox.TYPE_YESNO)
-        else:
+        elif answer:
             print("Starting LCN scan...")
             try:
                 from .LCNScanner.Terrestrial import PluginSetup
@@ -3351,11 +3351,11 @@ class ScriptInstaller(Screen):
     def LcnXX(self, answer=None):
         if answer is None:
             self.session.openWithCallback(
-                self.Lcn,
+                self.LcnXX,
                 MessageBox,
                 _("Do you want to Order LCN Bouquet?"),
                 MessageBox.TYPE_YESNO)
-        else:
+        elif answer:
             print("Starting LCN scan...")
             try:
                 lcn_scanner_instance = LCNScanner()
@@ -3389,15 +3389,9 @@ class ScriptInstaller(Screen):
                 MessageBox,
                 _("[Checkskin] This operation checks if the skin has its components (is not sure)..\nDo you really want to continue?"),
                 MessageBox.TYPE_YESNO)
-        else:
+        elif answer:
             from .addons import checkskin
-            check = checkskin.check_module_skin()
-            self.timer = eTimer()
-            try:
-                self.timer_conn = self.timer.timeout.connect(check)
-            except BaseException:
-                self.timer.callback.append(check)
-            self.timer.start(100, True)
+            checkskin.check_module_skin()
             self.session.openWithCallback(
                 self._view_log,
                 MessageBox,
@@ -4282,7 +4276,7 @@ class addInstall(Screen):
                 _("Do you want to Order LCN Bouquet?"),
                 MessageBox.TYPE_YESNO
             )
-        else:
+        elif answer:
             print("Starting LCN scan...")
             try:
                 from .LCNScanner.Terrestrial import PluginSetup
@@ -4293,11 +4287,11 @@ class addInstall(Screen):
     def LcnXX(self, answer=None):
         if answer is None:
             self.session.openWithCallback(
-                self.Lcn,
+                self.LcnXX,
                 MessageBox,
                 _("Do you want to Order LCN Bouquet?"),
                 MessageBox.TYPE_YESNO)
-        else:
+        elif answer:
             print("Starting LCN scan...")
             try:
                 lcn_scanner_instance = LCNScanner()
