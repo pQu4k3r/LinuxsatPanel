@@ -879,7 +879,7 @@ class LinuxsatPanel(Screen):
             i += 1
 
         self.npics = len(self.names)
-        self.npage = int(round(self.npics // self.PIXMAPS_PER_PAGE)) + 1
+        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
         # self.npage = int(float(self.npics // self.PIXMAPS_PER_PAGE)) + 1
         self.index = 0
         self.maxentry = len(menu_list) - 1
@@ -1307,7 +1307,7 @@ class LSskin(Screen):
 
         self.npics = len(self.names)
         # self.npage = int(float(self.npics // self.PIXMAPS_PER_PAGE)) + 1
-        self.npage = int(round(self.npics // self.PIXMAPS_PER_PAGE)) + 1
+        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
         self.index = 0
         self.maxentry = len(menu_list) - 1
         self.ipage = 1
@@ -1614,7 +1614,7 @@ class LSChannel(Screen):
 
         self.npics = len(self.names)
         # self.npage = int(float(self.npics // self.PIXMAPS_PER_PAGE)) + 1
-        self.npage = int(round(self.npics // self.PIXMAPS_PER_PAGE)) + 1
+        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
         self.index = 0
         self.maxentry = len(menu_list) - 1
         self.ipage = 1
@@ -2188,7 +2188,7 @@ class LulullaScript(Screen):
 
         self.npics = len(self.names)
         # self.npage = int(float(self.npics // self.PIXMAPS_PER_PAGE)) + 1
-        self.npage = int(round(self.npics // self.PIXMAPS_PER_PAGE)) + 1
+        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
         self.index = 0
         self.maxentry = len(menu_list) - 1
         self.ipage = 1
@@ -2693,7 +2693,7 @@ class CiefpInstaller(Screen):
 
         self.npics = len(self.names)
         # self.npage = int(float(self.npics // self.PIXMAPS_PER_PAGE)) + 1
-        self.npage = int(round(self.npics // self.PIXMAPS_PER_PAGE)) + 1
+        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
         self.index = 0
         self.maxentry = len(menu_list) - 1
         self.ipage = 1
@@ -3327,7 +3327,7 @@ class ScriptInstaller(Screen):
 
         self.npics = len(self.names)
         # self.npage = int(float(self.npics // self.PIXMAPS_PER_PAGE)) + 1
-        self.npage = int(round(self.npics // self.PIXMAPS_PER_PAGE)) + 1
+        self.npage = max(1, (self.npics + self.PIXMAPS_PER_PAGE - 1) // self.PIXMAPS_PER_PAGE)
         self.index = 0
         self.maxentry = len(menu_list) - 1
         self.ipage = 1
@@ -3662,7 +3662,7 @@ class ScriptInstaller(Screen):
             script_path = "/usr/lib/enigma2/python/Plugins/Extensions/LinuxsatPanel/sh/Fcl.sh"
             url = "https://raw.githubusercontent.com/Belfagor2005/LinuxsatPanel/refs/heads/main/usr/lib/enigma2/python/Plugins/Extensions/LinuxsatPanel/sh/Fcl.sh"
             try:
-                response = requests.get(url)
+                response = requests.get(url, timeout=15)
                 response.raise_for_status()
                 with io.open(script_path, "w", encoding="utf-8") as file:
                     file.write(response.text)
@@ -4136,7 +4136,7 @@ class addInstall(Screen):
 
     def retfile(self, dest):
         import requests
-        response = requests.get(self.url)
+        response = requests.get(self.url, timeout=30)
         if response.status_code == 200:
             with open(dest, "wb") as f:
                 f.write(response.content)
@@ -4399,7 +4399,7 @@ class addInstall(Screen):
             if ".zip" in ipk:
                 return
             n2 = ipk.find("_", 0)
-            self.iname = ipk[:n2]
+            self.iname = ipk[:n2] if n2 != -1 else ipk.rsplit(".", 1)[0]
             cmd = "opkg remove '" + self.iname + "'"
             title = (_("Removing %s") % self.iname)
             self.session.open(lsConsole, _(title), cmdlist=[cmd])
