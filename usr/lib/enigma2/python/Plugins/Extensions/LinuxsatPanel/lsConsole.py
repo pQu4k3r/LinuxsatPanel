@@ -29,15 +29,27 @@ def getDesktopSize():
     return (s.width(), s.height())
 
 
+def isWQHD():
+    desktopSize = getDesktopSize()
+    return desktopSize[0] >= 2560
+
+
+def isFHD():
+    desktopSize = getDesktopSize()
+    return desktopSize[0] >= 1920
+
+
 def isHD():
     desktopSize = getDesktopSize()
     return desktopSize[0] == 1280
 
 
-if isHD():
-    skin_path = plugin_path + '/skins/hd'
-else:
+if isWQHD():
+    skin_path = plugin_path + '/skins/wqhd'
+elif isFHD():
     skin_path = plugin_path + '/skins/fhd'
+else:
+    skin_path = plugin_path + '/skins/hd'
 
 
 class lsConsole(Screen):

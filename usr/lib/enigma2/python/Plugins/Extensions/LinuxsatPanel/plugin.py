@@ -2194,12 +2194,6 @@ class LulullaScript(Screen):
         self.ipage = 1
         self.onLayoutFinish.append(self.openTest)
 
-    def openVi(self):
-        """Versione semplificata senza callback"""
-        from .addons.File_Commander import File_Commander
-        if fileExists(file_log):
-            self.session.open(File_Commander, file_log)
-
     def paintFrame(self):
         try:
             # If the index exceeds the maximum number of items, it returns to
@@ -2380,7 +2374,14 @@ class LulullaScript(Screen):
                 cmd = str(self.url) + " 2>&1"
             print("[OKClicked] Command to execute:", cmd)
 
+            # Flag to prevent double callback (loop fix)
+            self._callback_done = False
+
             def console_closed(*args, **kwargs):
+                if self._callback_done:
+                    return
+                self._callback_done = True
+
                 result = True
                 if args and len(args) > 0:
                     result = args[0]
@@ -2388,7 +2389,12 @@ class LulullaScript(Screen):
                     result = kwargs['result']
 
                 if result:
-                    self.openVi()
+                    self.session.openWithCallback(
+                        self._view_log,
+                        MessageBox,
+                        _("Script execution completed.\nDo you want to view the log?"),
+                        MessageBox.TYPE_YESNO
+                    )
 
             self.session.openWithCallback(
                 console_closed,
@@ -2399,6 +2405,19 @@ class LulullaScript(Screen):
             )
         else:
             return
+
+    def _view_log(self, answer):
+        if answer:
+            # Timer needed to open File_Commander from a safe context
+            from enigma import eTimer
+
+            def open_fc():
+                from .addons.File_Commander import File_Commander
+                if fileExists(file_log):
+                    self.session.open(File_Commander, file_log)
+            timer = eTimer()
+            timer.callback.append(open_fc)
+            timer.start(0, True)
 
 
 class CiefpInstaller(Screen):
@@ -2423,7 +2442,6 @@ class CiefpInstaller(Screen):
             self.pos = get_positions("FHD")
         elif isHD():
             self.pos = get_positions("HD")
-
         self.name = name
         menu_list = []
         self.titles = []
@@ -2682,11 +2700,6 @@ class CiefpInstaller(Screen):
         self.ipage = 1
         self.onLayoutFinish.append(self.openTest)
 
-    def openVi(self, callback=""):
-        from .addons.File_Commander import File_Commander
-        if fileExists(file_log):
-            self.session.open(File_Commander, file_log)
-
     def paintFrame(self):
         try:
             # If the index exceeds the maximum number of items, it returns to
@@ -2861,16 +2874,9 @@ class CiefpInstaller(Screen):
     def okClicked(self, answer=False):
         if answer:
             title = (_("Executing %s\nPlease Wait...") % self.namev)
-            keywords = [
-                "google",
-                "cloudfaire",
-                "quad9",
-                "emm",
-                "keys",
-                "source"]
+            keywords = ["google", "cloudfaire", "quad9", "emm", "keys", "source"]
             lower_namev = self.namev.lower()
             keyword_found = any(keyword in lower_namev for keyword in keywords)
-            # cmd = str(self.url) + " > %s 2>&1" % file_log
             try:
                 cmd = str(self.url) + " > %s 2>&1" % file_log
             except TypeError:
@@ -2882,14 +2888,45 @@ class CiefpInstaller(Screen):
                     cmdlist=[cmd],
                     closeOnSuccess=False)
             else:
+                self._callback_done = False
+
+                def console_closed(*args, **kwargs):
+                    if self._callback_done:
+                        return
+                    self._callback_done = True
+                    result = True
+                    if args and len(args) > 0:
+                        result = args[0]
+                    elif 'result' in kwargs:
+                        result = kwargs['result']
+                    if result:
+                        self.session.openWithCallback(
+                            self._view_log,
+                            MessageBox,
+                            _("Script execution completed.\nDo you want to view the log?"),
+                            MessageBox.TYPE_YESNO
+                        )
+
                 self.session.openWithCallback(
-                    self.openVi,
+                    console_closed,
                     lsConsole,
                     _(title),
                     cmdlist=[cmd],
-                    closeOnSuccess=True)
+                    closeOnSuccess=True
+                )
         else:
             return
+
+    def _view_log(self, answer):
+        if answer:
+            from enigma import eTimer
+            def open_fc():
+                from .addons.File_Commander import File_Commander
+                if fileExists(file_log):
+                    self.session.open(File_Commander, file_log)
+            timer = eTimer()
+            timer.callback.append(open_fc)
+            timer.start(0, True)
 
 
 class ScriptInstaller(Screen):
@@ -3347,7 +3384,6 @@ class ScriptInstaller(Screen):
                 MessageBox,
                 _("[Checkskin] This operation checks if the skin has its components (is not sure)..\nDo you really want to continue?"),
                 MessageBox.TYPE_YESNO)
-
         else:
             from .addons import checkskin
             check = checkskin.check_module_skin()
@@ -3357,12 +3393,12 @@ class ScriptInstaller(Screen):
             except BaseException:
                 self.timer.callback.append(check)
             self.timer.start(100, True)
-            self.openVi()
-
-    def openVi(self, callback=""):
-        from .addons.File_Commander import File_Commander
-        if fileExists(file_log):
-            self.session.open(File_Commander, file_log)
+            self.session.openWithCallback(
+                self._view_log,
+                MessageBox,
+                _("Skin check completed.\nDo you want to view the log?"),
+                MessageBox.TYPE_YESNO
+            )
 
     def paintFrame(self):
         try:
@@ -3555,16 +3591,9 @@ class ScriptInstaller(Screen):
     def okClicked(self, answer=False):
         if answer:
             title = (_("Executing %s\nPlease Wait...") % self.namev)
-            keywords = [
-                "google",
-                "cloudfaire",
-                "quad9",
-                "emm",
-                "keys",
-                "source"]
+            keywords = ["google", "cloudfaire", "quad9", "emm", "keys", "source"]
             lower_namev = self.namev.lower()
             keyword_found = any(keyword in lower_namev for keyword in keywords)
-            # cmd = str(self.url) + " > %s 2>&1" % file_log
             try:
                 cmd = str(self.url) + " > %s 2>&1" % file_log
             except TypeError:
@@ -3576,14 +3605,45 @@ class ScriptInstaller(Screen):
                     cmdlist=[cmd],
                     closeOnSuccess=False)
             else:
+                self._callback_done = False
+
+                def console_closed(*args, **kwargs):
+                    if self._callback_done:
+                        return
+                    self._callback_done = True
+                    result = True
+                    if args and len(args) > 0:
+                        result = args[0]
+                    elif 'result' in kwargs:
+                        result = kwargs['result']
+                    if result:
+                        self.session.openWithCallback(
+                            self._view_log,
+                            MessageBox,
+                            _("Script execution completed.\nDo you want to view the log?"),
+                            MessageBox.TYPE_YESNO
+                        )
+
                 self.session.openWithCallback(
-                    self.openVi,
+                    console_closed,
                     lsConsole,
                     _(title),
                     cmdlist=[cmd],
-                    closeOnSuccess=True)
+                    closeOnSuccess=True
+                )
         else:
             return
+
+    def _view_log(self, answer):
+        if answer:
+            from enigma import eTimer
+            def open_fc():
+                from .addons.File_Commander import File_Commander
+                if fileExists(file_log):
+                    self.session.open(File_Commander, file_log)
+            timer = eTimer()
+            timer.callback.append(open_fc)
+            timer.start(0, True)
 
     def askForFcl(self):
         self.session.openWithCallback(
