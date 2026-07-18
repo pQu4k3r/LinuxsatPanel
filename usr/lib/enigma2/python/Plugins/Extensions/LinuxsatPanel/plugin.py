@@ -466,7 +466,88 @@ def add_menu_item(menu_list, titles, pics, urls, title, pic_name, url=""):
     urls.append(url)  # add missing string for URL
 
 
-class LPGridScreen(Screen):
+class AsyncCall:
+    """Run a blocking function in a thread and deliver its result to a
+    callback on the enigma main thread (polled via eTimer)."""
+
+    def __init__(self, fn, callback, poll_ms=100):
+        import threading
+        self._fn_result = None
+        self._done = False
+        self._cancelled = False
+        self._callback = callback
+        self._timer = eTimer()
+        try:
+            self._timer_conn = self._timer.timeout.connect(self._poll)
+        except BaseException:
+            self._timer.callback.append(self._poll)
+        thread = threading.Thread(target=self._run, args=(fn,))
+        thread.daemon = True
+        thread.start()
+        self._timer.start(poll_ms, False)
+
+    def _run(self, fn):
+        try:
+            self._fn_result = fn()
+        except Exception as e:
+            print("[AsyncCall] error:", e)
+            self._fn_result = None
+        self._done = True
+
+    def cancel(self):
+        self._cancelled = True
+        try:
+            self._timer.stop()
+        except BaseException:
+            pass
+
+    def _poll(self):
+        if self._cancelled:
+            return
+        if self._done:
+            self._timer.stop()
+            self._callback(self._fn_result)
+
+
+class AsyncMixin:
+    """Lets a screen start AsyncCalls that are cancelled automatically
+    when the screen closes, so a late result never touches a dead
+    widget."""
+
+    def _startAsync(self, fn, callback):
+        if not hasattr(self, "_async_calls"):
+            self._async_calls = []
+            self.onClose.append(self._cancelAsync)
+        call = AsyncCall(fn, callback)
+        self._async_calls.append(call)
+        return call
+
+    def _cancelAsync(self):
+        for call in getattr(self, "_async_calls", []):
+            call.cancel()
+
+
+# The addon catalog is fetched once and shared for the whole session;
+# a category click hits the cache and is instant
+_catalog_cache = {"data": None, "time": 0}
+CATALOG_TTL = 300
+
+
+def get_catalog(force=False):
+    """Blocking fetch with a session cache - call it from a thread."""
+    import time
+    now = time.time()
+    if not force and _catalog_cache["data"] is not None and \
+            now - _catalog_cache["time"] < CATALOG_TTL:
+        return _catalog_cache["data"]
+    data = checkGZIP(xmlurl)
+    if data:
+        _catalog_cache["data"] = data
+        _catalog_cache["time"] = now
+    return _catalog_cache["data"]
+
+
+class LPGridScreen(AsyncMixin, Screen):
     """Shared 20-tile grid engine used by all category screens."""
 
     PIXMAPS_PER_PAGE = 20
@@ -540,6 +621,28 @@ class LPGridScreen(Screen):
 
     def okbuttonClick(self):
         pass
+
+    def _catalogReady(self, data):
+        self.data = data
+
+    def _openCategory(self, title, name):
+        self["info"].setText(_("Loading..."))
+
+        def catalog_ready(data):
+            self.data = data
+            self["info"].setText(str(name))
+            if data is not None:
+                n1 = data.find(title, 0)
+                n2 = data.find("</plugins>", n1)
+                url = data[n1:n2]
+                self.session.open(addInstall, url, name, None)
+            else:
+                self.session.open(
+                    MessageBox, _("Error: No Data Find."),
+                    MessageBox.TYPE_ERROR
+                )
+
+        self._startAsync(get_catalog, catalog_ready)
 
     def paintFrame(self):
         try:
@@ -715,7 +818,10 @@ class LinuxsatPanel(LPGridScreen):
 
         LPGridScreen.__init__(self, session)
 
-        self.data = checkGZIP(xmlurl)
+        # Warm the catalog cache in the background so the first
+        # category click is instant
+        self.data = None
+        self._startAsync(get_catalog, self._catalogReady)
         menu_list = []
         self.titles = []
         self.pics = []
@@ -1171,24 +1277,15 @@ class LinuxsatPanel(LPGridScreen):
 
         else:
             title = self.titles[self.idx]
-            self.data = checkGZIP(xmlurl)
-            if self.data is not None:
-                n1 = self.data.find(title, 0)
-                n2 = self.data.find("</plugins>", n1)
-                url = self.data[n1:n2]
-                self.session.open(addInstall, url, name, None)
-            else:
-                self.session.open(
-                    MessageBox, _("Error: No Data Find."),
-                    MessageBox.TYPE_ERROR
-                )
+            self._openCategory(title, name)
 
 
 class LSskin(LPGridScreen):
 
     def __init__(self, session, name):
         LPGridScreen.__init__(self, session)
-        self.data = checkGZIP(xmlurl)
+        self.data = None
+        self._startAsync(get_catalog, self._catalogReady)
 
         self.name = name
         menu_list = []
@@ -1276,17 +1373,7 @@ class LSskin(LPGridScreen):
             return
         name = self.names[self.idx]
         title = self.titles[self.idx]
-        self.data = checkGZIP(xmlurl)
-        if self.data is not None:
-            n1 = self.data.find(title, 0)
-            n2 = self.data.find("</plugins>", n1)
-            url = self.data[n1:n2]
-            self.session.open(addInstall, url, name, None)
-        else:
-            self.session.open(
-                MessageBox, _("Error: No Data Find."),
-                MessageBox.TYPE_ERROR
-            )
+        self._openCategory(title, name)
 
 
 class LSChannel(LPGridScreen):
@@ -2696,7 +2783,7 @@ class ScriptInstaller(LPGridScreen):
                 str(e), type=MessageBox.TYPE_INFO, timeout=8)
 
 
-class addInstall(Screen):
+class addInstall(AsyncMixin, Screen):
 
     def __init__(self, session, data, name, dest):
         Screen.__init__(self, session)
@@ -2932,7 +3019,17 @@ class addInstall(Screen):
 
         if choice == "install":
             folddest = "/tmp/" + self.plug
-            if self.retfile(folddest):
+            self["info"].setText(_("Downloading %s ...") % self.plug)
+
+            def downloaded(ok):
+                self["info"].setText(_("Category: ") + self.name)
+                if not ok:
+                    self.session.open(
+                        MessageBox,
+                        _("Download failed!"),
+                        MessageBox.TYPE_ERROR,
+                        timeout=5)
+                    return
                 command = ""
                 if ".deb" in self.plug:
                     command = "dpkg -i '/tmp/" + self.plug + "'"
@@ -2954,6 +3051,8 @@ class addInstall(Screen):
                     "Installing Extension",
                     [command],
                     closeOnSuccess=False)
+
+            self._startAsync(lambda: self.retfile(folddest), downloaded)
 
         elif choice == "uninstall":
             if ".deb" in self.plug:
@@ -3005,10 +3104,17 @@ class addInstall(Screen):
         return False
 
     def downxmlpage(self):
+        # The provider page is fetched in the background; parsing happens
+        # on the main thread once the data is here
         self.downloading = False
-        r = make_request(self.fxml)
+        self["info"].setText(_("Loading list..."))
+        self._startAsync(lambda: make_request(self.fxml), self._xmlPageReady)
+
+    def _xmlPageReady(self, r):
+        self["info"].setText(_("Category: ") + self.name)
         if r is None:
             print("Error: No data received from make_request")
+            self["info"].setText(_("Download page get failed ..."))
             return
         self.names = []
         self.urls = []
@@ -3190,92 +3296,103 @@ class addInstall(Screen):
     def okRun1(self, answer=False):
         dest = "/tmp/settings.zip"
         if answer:
-            global setx
             if self.downloading is True:
                 idx = self["list"].getSelectionIndex()
                 url = self.urls[idx]
                 self.namel = ""
-                if "dtt" not in url.lower():
-                    setx = 1
-                    terrestrial()
-                if keepiptv():
-                    print("-----save iptv channels-----")
-
-                fdest1 = "/tmp/unzipped"
-                fdest2 = "/etc/enigma2"
-                backup = "/tmp/settings_backup.tar.gz"
-
-                def cleanup_tmp():
-                    system("rm -rf " + fdest1)
-                    system("rm -f " + dest)
-
-                # Download and verify BEFORE touching /etc/enigma2, so a
-                # failed transfer can never leave the box without channels
-                try:
-                    response = requests.get(url, timeout=30)
-                    response.raise_for_status()
-                    with open(dest, "wb") as f:
-                        f.write(response.content)
-                except Exception as e:
-                    print("[Settings] download failed:", e)
-                    self["info"].setText(
-                        _("Download failed! Settings NOT installed."))
-                    return
-
-                if exists(fdest1):
-                    system("rm -rf " + fdest1)
-                makedirs(fdest1)
-                if system("unzip -o -q '%s' -d %s" % (dest, fdest1)) != 0:
-                    print("[Settings] corrupted archive:", url)
-                    self["info"].setText(
-                        _("Corrupted archive! Settings NOT installed."))
-                    cleanup_tmp()
-                    return
-
-                # The channel list may live at the root of the zip or in a
-                # single top-level folder
-                srcdir = fdest1
-                for root, dirs, files in walk(fdest1):
-                    if dirs and not files:
-                        self.namel = dirs[0]
-                        srcdir = join(fdest1, self.namel)
-                    break
-                payload = []
-                for root, dirs, files in walk(srcdir):
-                    payload.extend(files)
-                    break
-                if "lamedb" not in payload and not any(
-                        name.endswith(".tv") for name in payload):
-                    print("[Settings] no channel list in archive:", url)
-                    self["info"].setText(
-                        _("No channel list in archive! Settings NOT installed."))
-                    cleanup_tmp()
-                    return
-
-                # Safety net: keep the current configuration until reboot
-                system("tar -czf %s -C / etc/enigma2 2>/dev/null" % backup)
-
-                system("rm -rf /etc/enigma2/lamedb")
-                system("rm -rf /etc/enigma2/*.radio")
-                system("rm -rf /etc/enigma2/*.tv")
-                system("rm -rf /etc/enigma2/*.del")
-                if system("cp -rf '%s/'* %s" % (srcdir, fdest2)) != 0:
-                    system("tar -xzf %s -C / 2>/dev/null" % backup)
-                    print("[Settings] install failed, backup restored")
-                    self["info"].setText(
-                        _("Install failed! Previous settings restored."))
-                    cleanup_tmp()
-                    return
-                cleanup_tmp()
-                title = (_("Installing %s\nPlease Wait...") % self.name)
-                self.session.openWithCallback(
-                    self.yes,
-                    lsConsole,
-                    title=_(title),
-                    cmdlist=["wget -qO - http://127.0.0.1/web/servicelistreload?mode=0 > /tmp/inst.txt 2>&1 &"],
-                    closeOnSuccess=False)
+                self["info"].setText(_("Installing settings..."))
+                self._startAsync(
+                    lambda: self._installSettings(url, dest),
+                    self._settingsDone)
             else:
                 self["info"].setText(_("Settings Not Installed ..."))
+
+    def _installSettings(self, url, dest):
+        """Download, verify, backup, wipe, install. Runs in a background
+        thread; returns an error message, or "" on success."""
+        global setx
+        if "dtt" not in url.lower():
+            setx = 1
+            terrestrial()
+        if keepiptv():
+            print("-----save iptv channels-----")
+
+        fdest1 = "/tmp/unzipped"
+        fdest2 = "/etc/enigma2"
+        backup = "/tmp/settings_backup.tar.gz"
+
+        def cleanup_tmp():
+            system("rm -rf " + fdest1)
+            system("rm -f " + dest)
+
+        # Download and verify BEFORE touching /etc/enigma2, so a
+        # failed transfer can never leave the box without channels
+        try:
+            response = requests.get(url, timeout=30)
+            response.raise_for_status()
+            with open(dest, "wb") as f:
+                f.write(response.content)
+        except Exception as e:
+            print("[Settings] download failed:", e)
+            return _("Download failed! Settings NOT installed.")
+
+        if exists(fdest1):
+            system("rm -rf " + fdest1)
+        makedirs(fdest1)
+        if system("unzip -o -q '%s' -d %s" % (dest, fdest1)) != 0:
+            print("[Settings] corrupted archive:", url)
+            cleanup_tmp()
+            return _("Corrupted archive! Settings NOT installed.")
+
+        # The channel list may live at the root of the zip or in a
+        # single top-level folder
+        srcdir = fdest1
+        for root, dirs, files in walk(fdest1):
+            if dirs and not files:
+                self.namel = dirs[0]
+                srcdir = join(fdest1, self.namel)
+            break
+        payload = []
+        for root, dirs, files in walk(srcdir):
+            payload.extend(files)
+            break
+        if "lamedb" not in payload and not any(
+                name.endswith(".tv") for name in payload):
+            print("[Settings] no channel list in archive:", url)
+            cleanup_tmp()
+            return _("No channel list in archive! Settings NOT installed.")
+
+        # Safety net: keep the current configuration until reboot
+        system("tar -czf %s -C / etc/enigma2 2>/dev/null" % backup)
+
+        system("rm -rf /etc/enigma2/lamedb")
+        system("rm -rf /etc/enigma2/*.radio")
+        system("rm -rf /etc/enigma2/*.tv")
+        system("rm -rf /etc/enigma2/*.del")
+        if system("cp -rf '%s/'* %s" % (srcdir, fdest2)) != 0:
+            system("tar -xzf %s -C / 2>/dev/null" % backup)
+            print("[Settings] install failed, backup restored")
+            cleanup_tmp()
+            return _("Install failed! Previous settings restored.")
+        cleanup_tmp()
+        return ""
+
+    def _settingsDone(self, error):
+        if error is None:
+            # the worker raised unexpectedly
+            self["info"].setText(_("Install failed! Settings NOT installed."))
+            return
+        if error:
+            self["info"].setText(error)
+            return
+        self["info"].setText(_("Category: ") + self.name)
+        title = (_("Installing %s\nPlease Wait...") % self.name)
+        self.session.openWithCallback(
+            self.yes,
+            lsConsole,
+            title=_(title),
+            cmdlist=["wget -qO - http://127.0.0.1/web/servicelistreload?mode=0 > /tmp/inst.txt 2>&1 &"],
+            closeOnSuccess=False)
 
     def pas(self, call=None):
         pass
