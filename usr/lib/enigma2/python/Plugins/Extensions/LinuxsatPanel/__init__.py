@@ -40,7 +40,7 @@ __version__ = "3.0.0"
 
 def check_and_install_requests():
     try:
-        import requests
+        import requests  # noqa: F401  (availability probe)
         return
     except ImportError:
         pass
