@@ -47,8 +47,14 @@ msgstr "检查连接！"
 msgid "Children"
 msgstr "孩子们"
 
+msgid "Collecting system information..."
+msgstr "正在收集系统信息..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "恭喜！您已经拥有最新版本..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "存档损坏！未安装设置。"
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "根据本地发射机的 LCN 数据创建一系列有序的地面服务。"
@@ -83,7 +89,19 @@ msgstr "是否要删除？"
 msgid "Do you want to restart Gui Interface?"
 msgstr "是否要重新启动 Gui Interface？"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "下载页面失败..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "设置未安装..."
+
 msgid "Download page get failed ..."
+msgstr "下载页面失败..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "下载页面失败..."
 
 msgid "Duplicates"
@@ -140,6 +158,19 @@ msgstr "INS线"
 msgid "Install"
 msgstr "安装"
 
+msgid "Install failed! Previous settings restored."
+msgstr "安装失败！恢复之前的设置。"
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "设置未安装..."
+
+#, fuzzy
+msgid "Installing settings..."
+msgstr "正在安装设置..."
+"安装 %s\n"
+"请稍候。。。"
+
 msgid "Internet: Connected"
 msgstr "互联网：已连接"
 
@@ -168,6 +199,13 @@ msgstr "Linuxsat Panel"
 msgid "Load Category..."
 msgstr "负载类别..."
 
+msgid "Loading list..."
+msgstr "正在加载列表..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "负载类别..."
+
 msgid "Local Broadcasters"
 msgstr "当地广播公司"
 
@@ -177,6 +215,9 @@ msgstr "音乐"
 msgid "News"
 msgstr "消息"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "存档中没有频道列表！未安装设置。"
+
 msgid "No corresponding terrestrial services found."
 msgstr "未找到相应的地面服务。"
 
@@ -185,6 +226,9 @@ msgstr "lcn 数据库中没有条目。请进行服务扫描。"
 
 msgid "No update information available."
 msgstr "无可用更新信息。"
+
+msgid "Nothing found for '%s'"
+msgstr "没有找到“%s”的内容"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "配置完成后，花束将在手动扫描时自动更新。"
@@ -242,6 +286,20 @@ msgstr "临时 SD"
 
 msgid "Save"
 msgstr "保存"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Search addon..."
+msgstr "搜索插件..."
+
+#, fuzzy
+msgid "Search: %s"
+msgstr "搜索"
+
+#, fuzzy
+msgid "Searching..."
+msgstr "搜索"
 
 msgid "Select your region."
 msgstr "选择您所在的地区。"
@@ -431,14 +489,6 @@ msgstr "请捐款：\n"
 #~ msgid "Info Vavoo"
 #~ msgstr "Vavoo相关"
 
-#, python-format
-#~ msgid ""
-#~ "Installing %s\n"
-#~ "Please Wait..."
-#~ msgstr ""
-#~ "安装 %s\n"
-#~ "请稍候。。。"
-
 #, fuzzy
 #~| msgid "Ipv6 state lan (On/Off), now is:"
 #~ msgid "Ipv6 State Of Lan (On/Off)"
@@ -482,9 +532,6 @@ msgstr "请捐款：\n"
 #~| msgid "Schedule type:"
 #~ msgid "Scheduled Bouquet Update:"
 #~ msgstr "计划类型:"
-
-#~ msgid "Search"
-#~ msgstr "搜索"
 
 #~ msgid "Select Fonts"
 #~ msgstr "选择字体"

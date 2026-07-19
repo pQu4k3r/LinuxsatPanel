@@ -42,8 +42,14 @@ msgstr "Periksa Koneksi!"
 msgid "Children"
 msgstr "Anak-anak"
 
+msgid "Collecting system information..."
+msgstr "Mengumpulkan informasi sistem..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Selamat! Anda sudah memiliki versi terbaru..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Arsip rusak! Pengaturan TIDAK diinstal."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Buat rangkaian layanan terestrial yang dipesan berdasarkan data LCN dari pemancar lokal Anda."
@@ -75,7 +81,19 @@ msgstr "Apakah Anda ingin menghapus?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Apakah Anda ingin memulai ulang Antarmuka Gui?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Halaman pengunduhan gagal ..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Pengaturan Tidak Dipasang ..."
+
 msgid "Download page get failed ..."
+msgstr "Halaman pengunduhan gagal ..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Halaman pengunduhan gagal ..."
 
 msgid "Duplicates"
@@ -132,6 +150,16 @@ msgstr "Garis In"
 msgid "Install"
 msgstr "Memasang"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Penginstalan gagal! Pengaturan sebelumnya dipulihkan."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Pengaturan Tidak Dipasang ..."
+
+msgid "Installing settings..."
+msgstr "Menginstal pengaturan..."
+
 msgid "Internet: Connected"
 msgstr "Internet: Terhubung"
 
@@ -159,6 +187,13 @@ msgstr "Panel Linuxsat"
 msgid "Load Category..."
 msgstr "Muat Kategori..."
 
+msgid "Loading list..."
+msgstr "Memuat daftar..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Muat Kategori..."
+
 msgid "Local Broadcasters"
 msgstr "Penyiar Lokal"
 
@@ -168,6 +203,9 @@ msgstr "Musik"
 msgid "News"
 msgstr "Berita"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Tidak ada daftar saluran di arsip! Pengaturan TIDAK diinstal."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Tidak ditemukan layanan terestrial terkait."
 
@@ -176,6 +214,9 @@ msgstr "Tidak ada entri di lcn db. Silakan lakukan pemindaian layanan."
 
 msgid "No update information available."
 msgstr "Tidak ada informasi pembaruan yang tersedia."
+
+msgid "Nothing found for '%s'"
+msgstr "Tidak ditemukan apa pun untuk '%s'"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Setelah dikonfigurasi, buket akan diperbarui secara otomatis saat melakukan pemindaian manual."
@@ -233,6 +274,18 @@ msgstr "SD Sementara"
 
 msgid "Save"
 msgstr "Menyimpan"
+
+msgid "Search"
+msgstr "Mencari"
+
+msgid "Search addon..."
+msgstr "Cari tambahan..."
+
+msgid "Search: %s"
+msgstr "Pencarian: %s"
+
+msgid "Searching..."
+msgstr "Mencari..."
 
 msgid "Select your region."
 msgstr "Pilih wilayah Anda."

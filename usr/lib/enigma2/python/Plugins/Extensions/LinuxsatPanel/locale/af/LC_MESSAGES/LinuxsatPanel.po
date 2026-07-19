@@ -49,8 +49,14 @@ msgstr "Kontroleer verbinding!"
 msgid "Children"
 msgstr "Kinders"
 
+msgid "Collecting system information..."
+msgstr "Samel tans stelselinligting in..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Baie geluk! Jy het reeds die nuutste weergawe..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Korrupte argief! Instellings NIE geïnstalleer nie."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Skep 'n geordende boeket van terrestriële dienste gebaseer op LCN-data van jou plaaslike sender."
@@ -82,7 +88,19 @@ msgstr "Wil jy verwyder?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Wil jy die GUI-koppelvlak herbegin?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Laai bladsy af het misluk..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Instellings nie geïnstalleer nie..."
+
 msgid "Download page get failed ..."
+msgstr "Laai bladsy af het misluk..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Laai bladsy af het misluk..."
 
 msgid "Duplicates"
@@ -139,6 +157,16 @@ msgstr "Voeg lyn in"
 msgid "Install"
 msgstr "Installeer"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Installering het misluk! Vorige instellings is teruggestel."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Instellings nie geïnstalleer nie..."
+
+msgid "Installing settings..."
+msgstr "Installeer tans instellings …"
+
 msgid "Internet: Connected"
 msgstr "Internet: Gekoppel"
 
@@ -166,6 +194,13 @@ msgstr "Linuxsat Paneel"
 msgid "Load Category..."
 msgstr "Laai kategorie..."
 
+msgid "Loading list..."
+msgstr "Laai tans lys …"
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Laai kategorie..."
+
 msgid "Local Broadcasters"
 msgstr "Plaaslike uitsaaiers"
 
@@ -175,6 +210,9 @@ msgstr "Musiek"
 msgid "News"
 msgstr "Nuus"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Geen kanaallys in argief nie! Instellings NIE geïnstalleer nie."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Geen ooreenstemmende terrestriële dienste gevind nie."
 
@@ -183,6 +221,9 @@ msgstr "Geen inskrywing in lcn db nie. Doen asseblief 'n diens skandering."
 
 msgid "No update information available."
 msgstr "Geen opdateringsinligting beskikbaar nie."
+
+msgid "Nothing found for '%s'"
+msgstr "Niks gevind vir '%s' nie"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Sodra dit gekonfigureer is, sal die boeket outomaties opgedateer word wanneer 'n handskandering gedoen word."
@@ -240,6 +281,18 @@ msgstr "SD voorlopiges"
 
 msgid "Save"
 msgstr "Stoor"
+
+msgid "Search"
+msgstr "Soek"
+
+msgid "Search addon..."
+msgstr "Soek byvoeging..."
+
+msgid "Search: %s"
+msgstr "Soek: %s"
+
+msgid "Searching..."
+msgstr "Soek tans …"
 
 msgid "Select your region."
 msgstr "Kies jou streek."

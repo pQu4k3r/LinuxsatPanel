@@ -45,8 +45,14 @@ msgstr "Kontrollera anslutning!"
 msgid "Children"
 msgstr "Barn"
 
+msgid "Collecting system information..."
+msgstr "Samlar systeminformation..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Grattis! Du har redan den senaste versionen..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Skadat arkiv! Inställningar INTE installerade."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Skapa en ordnad bukett av markbundna tjänster baserat på LCN-data från din lokala sändare."
@@ -78,7 +84,19 @@ msgstr "Vill du ta bort?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Vill du starta om gränssnittet?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Nedladdning av sida misslyckades..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Inställningar inte installerade..."
+
 msgid "Download page get failed ..."
+msgstr "Nedladdning av sida misslyckades..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Nedladdning av sida misslyckades..."
 
 msgid "Duplicates"
@@ -135,6 +153,16 @@ msgstr "Infoga rad"
 msgid "Install"
 msgstr "Installera"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Installationen misslyckades! Tidigare inställningar återställda."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Inställningar inte installerade..."
+
+msgid "Installing settings..."
+msgstr "Installerar inställningar..."
+
 msgid "Internet: Connected"
 msgstr "Internet: Ansluten"
 
@@ -162,6 +190,13 @@ msgstr "Linuxsat-panel"
 msgid "Load Category..."
 msgstr "Ladda kategori..."
 
+msgid "Loading list..."
+msgstr "Laddar lista..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Ladda kategori..."
+
 msgid "Local Broadcasters"
 msgstr "Lokala sändare"
 
@@ -171,6 +206,9 @@ msgstr "Musik"
 msgid "News"
 msgstr "Nyheter"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Ingen kanallista i arkivet! Inställningar INTE installerade."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Inga motsvarande markbundna tjänster hittades."
 
@@ -179,6 +217,9 @@ msgstr "Ingen post i LCN-databasen. Utför en tjänsteskanning."
 
 msgid "No update information available."
 msgstr "Ingen uppdateringsinformation tillgänglig."
+
+msgid "Nothing found for '%s'"
+msgstr "Inget hittades för '%s'"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "När den är konfigurerad kommer buketten att uppdateras automatiskt vid manuell skanning."
@@ -236,6 +277,18 @@ msgstr "SD-tillfälliga"
 
 msgid "Save"
 msgstr "Spara"
+
+msgid "Search"
+msgstr "Söka"
+
+msgid "Search addon..."
+msgstr "Sök tillägg..."
+
+msgid "Search: %s"
+msgstr "Sök: %s"
+
+msgid "Searching..."
+msgstr "Sökande..."
 
 msgid "Select your region."
 msgstr "Välj din region."

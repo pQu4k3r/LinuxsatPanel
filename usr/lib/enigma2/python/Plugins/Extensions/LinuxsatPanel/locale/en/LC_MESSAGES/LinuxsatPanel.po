@@ -44,8 +44,14 @@ msgstr "Check Connection!"
 msgid "Children"
 msgstr "Children"
 
+msgid "Collecting system information..."
+msgstr ""
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Congrats! You already have the latest version..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr ""
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr ""
@@ -77,7 +83,19 @@ msgstr "Do you want to remove?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Do you want to restart Gui Interface?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Download page get failed ..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Settings Not Installed ..."
+
 msgid "Download page get failed ..."
+msgstr "Download page get failed ..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Download page get failed ..."
 
 msgid "Duplicates"
@@ -135,6 +153,16 @@ msgstr ""
 msgid "Install"
 msgstr "Install"
 
+msgid "Install failed! Previous settings restored."
+msgstr ""
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Settings Not Installed ..."
+
+msgid "Installing settings..."
+msgstr ""
+
 msgid "Internet: Connected"
 msgstr ""
 
@@ -163,6 +191,13 @@ msgstr "Linuxsat Panel"
 msgid "Load Category..."
 msgstr "Load Category..."
 
+msgid "Loading list..."
+msgstr ""
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Load Category..."
+
 msgid "Local Broadcasters"
 msgstr "Local Broadcasters"
 
@@ -172,6 +207,9 @@ msgstr "Music"
 msgid "News"
 msgstr "News"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr ""
+
 msgid "No corresponding terrestrial services found."
 msgstr "No corresponding terrestrial services found."
 
@@ -180,6 +218,9 @@ msgstr "No entry in lcn db. Please do a service scan."
 
 msgid "No update information available."
 msgstr "No update information available."
+
+msgid "Nothing found for '%s'"
+msgstr ""
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr ""
@@ -236,6 +277,18 @@ msgid "SD Provisionals"
 msgstr "SD Provisionals"
 
 msgid "Save"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search addon..."
+msgstr ""
+
+msgid "Search: %s"
+msgstr ""
+
+msgid "Searching..."
 msgstr ""
 
 msgid "Select your region."

@@ -49,8 +49,14 @@ msgstr "Проверьте подключение!"
 msgid "Children"
 msgstr "Детские"
 
+msgid "Collecting system information..."
+msgstr "Сбор информации о системе..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Поздравляю! У вас уже установлена последняя версия..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Поврежденный архив! Настройки НЕ установлены."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Создать упорядоченный букет эфирных служб на основе данных LCN от вашего местного передатчика."
@@ -82,7 +88,19 @@ msgstr "Вы хотите удалить?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Вы хотите перезапустить интерфейс GUI?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Страница загрузки не удалась..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Настройки не установлены..."
+
 msgid "Download page get failed ..."
+msgstr "Страница загрузки не удалась..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Страница загрузки не удалась..."
 
 msgid "Duplicates"
@@ -139,6 +157,16 @@ msgstr "Вставить строку"
 msgid "Install"
 msgstr "Установить"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Установить не удалось! Предыдущие настройки восстановлены."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Настройки не установлены..."
+
+msgid "Installing settings..."
+msgstr "Установка настроек..."
+
 msgid "Internet: Connected"
 msgstr "Интернет: Подключен"
 
@@ -166,6 +194,13 @@ msgstr "Панель Linuxsat"
 msgid "Load Category..."
 msgstr "Загрузить категорию..."
 
+msgid "Loading list..."
+msgstr "Загрузка списка..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Загрузить категорию..."
+
 msgid "Local Broadcasters"
 msgstr "Местные вещатели"
 
@@ -175,6 +210,9 @@ msgstr "Музыка"
 msgid "News"
 msgstr "Новости"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "В архиве нет списка каналов! Настройки НЕ установлены."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Соответствующие эфирные службы не найдены."
 
@@ -183,6 +221,9 @@ msgstr "Нет записи в базе данных LCN. Пожалуйста, 
 
 msgid "No update information available."
 msgstr "Нет доступной информации об обновлении."
+
+msgid "Nothing found for '%s'"
+msgstr "По запросу "%s" ничего не найдено"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "После настройки букет будет автоматически обновляться при выполнении ручного сканирования."
@@ -240,6 +281,18 @@ msgstr "SD временные"
 
 msgid "Save"
 msgstr "Сохранить"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Search addon..."
+msgstr "Поиск дополнения..."
+
+msgid "Search: %s"
+msgstr "Поиск: %s"
+
+msgid "Searching..."
+msgstr "Идет поиск..."
 
 msgid "Select your region."
 msgstr "Выберите ваш регион."

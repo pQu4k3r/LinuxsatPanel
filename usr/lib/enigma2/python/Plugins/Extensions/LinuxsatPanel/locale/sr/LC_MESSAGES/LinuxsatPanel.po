@@ -45,8 +45,14 @@ msgstr "Провери везу!"
 msgid "Children"
 msgstr "Дечији"
 
+msgid "Collecting system information..."
+msgstr "Прикупљање информација о систему..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Честитамо! Већ имате најновију верзију..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Оштећена архива! Подешавања НИСУ инсталирана."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Направи уређени букет земаљских услуга на основу ЛЦН података са вашег локалног предајника."
@@ -78,7 +84,19 @@ msgstr "Желите ли уклонити?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Желите ли поново покренути графички интерфејс?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Преузимање странице није успело..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Подешавања нису инсталирана..."
+
 msgid "Download page get failed ..."
+msgstr "Преузимање странице није успело..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Преузимање странице није успело..."
 
 msgid "Duplicates"
@@ -135,6 +153,16 @@ msgstr "Уметни линију"
 msgid "Install"
 msgstr "Инсталирај"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Инсталација није успела! Претходна подешавања су враћена."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Подешавања нису инсталирана..."
+
+msgid "Installing settings..."
+msgstr "Инсталирање подешавања..."
+
 msgid "Internet: Connected"
 msgstr "Интернет: Повезан"
 
@@ -162,6 +190,13 @@ msgstr "Линуксат панел"
 msgid "Load Category..."
 msgstr "Учитај категорију..."
 
+msgid "Loading list..."
+msgstr "Учитавање листе..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Учитај категорију..."
+
 msgid "Local Broadcasters"
 msgstr "Локални емитери"
 
@@ -171,6 +206,9 @@ msgstr "Музика"
 msgid "News"
 msgstr "Вести"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Нема листе канала у архиви! Подешавања НИСУ инсталирана."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Нису пронађене одговарајуће земаљске услуге."
 
@@ -179,6 +217,9 @@ msgstr "Нема уноса у ЛЦН бази података. Молимо и
 
 msgid "No update information available."
 msgstr "Нема доступних информација о ажурирању."
+
+msgid "Nothing found for '%s'"
+msgstr "Ништа није пронађено за '%с'"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Једном конфигурисан, букет ће се аутоматски ажурирати приликом ручног скенирања."
@@ -236,6 +277,18 @@ msgstr "СД привремени"
 
 msgid "Save"
 msgstr "Сачувај"
+
+msgid "Search"
+msgstr "Тражи"
+
+msgid "Search addon..."
+msgstr "Додатак за претрагу..."
+
+msgid "Search: %s"
+msgstr "Претрага: %с"
+
+msgid "Searching..."
+msgstr "Тражи се..."
 
 msgid "Select your region."
 msgstr "Изаберите свој регион."

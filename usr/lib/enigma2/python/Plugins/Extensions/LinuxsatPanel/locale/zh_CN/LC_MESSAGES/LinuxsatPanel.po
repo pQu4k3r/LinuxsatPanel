@@ -44,8 +44,14 @@ msgstr "检查连接！"
 msgid "Children"
 msgstr "儿童"
 
+msgid "Collecting system information..."
+msgstr "正在收集系统信息..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "恭喜！您已经拥有最新版本..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "存档损坏！未安装设置。"
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "根据本地发射器的LCN数据创建有序的地面服务频道列表。"
@@ -77,7 +83,19 @@ msgstr "是否要移除？"
 msgid "Do you want to restart Gui Interface?"
 msgstr "是否要重新启动图形界面？"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "下载页面失败..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "设置未安装..."
+
 msgid "Download page get failed ..."
+msgstr "下载页面失败..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "下载页面失败..."
 
 msgid "Duplicates"
@@ -134,6 +152,16 @@ msgstr "插入行"
 msgid "Install"
 msgstr "安装"
 
+msgid "Install failed! Previous settings restored."
+msgstr "安装失败！恢复之前的设置。"
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "设置未安装..."
+
+msgid "Installing settings..."
+msgstr "正在安装设置..."
+
 msgid "Internet: Connected"
 msgstr "互联网：已连接"
 
@@ -161,6 +189,13 @@ msgstr "Linuxsat 面板"
 msgid "Load Category..."
 msgstr "加载类别..."
 
+msgid "Loading list..."
+msgstr "正在加载列表..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "加载类别..."
+
 msgid "Local Broadcasters"
 msgstr "本地广播商"
 
@@ -170,6 +205,9 @@ msgstr "音乐"
 msgid "News"
 msgstr "新闻"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "存档中没有频道列表！未安装设置。"
+
 msgid "No corresponding terrestrial services found."
 msgstr "未找到相应的地面服务。"
 
@@ -178,6 +216,9 @@ msgstr "LCN 数据库中无条目。请进行服务扫描。"
 
 msgid "No update information available."
 msgstr "无可用更新信息。"
+
+msgid "Nothing found for '%s'"
+msgstr "没有找到“%s”的内容"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "一旦配置，频道列表将在手动扫描时自动更新。"
@@ -235,6 +276,18 @@ msgstr "标清临时频道"
 
 msgid "Save"
 msgstr "保存"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Search addon..."
+msgstr "搜索插件..."
+
+msgid "Search: %s"
+msgstr "搜索：%s"
+
+msgid "Searching..."
+msgstr "正在寻找..."
 
 msgid "Select your region."
 msgstr "选择您的地区。"

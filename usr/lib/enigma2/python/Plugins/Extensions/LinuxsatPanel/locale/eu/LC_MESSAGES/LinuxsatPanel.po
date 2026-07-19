@@ -42,8 +42,14 @@ msgstr "Egiaztatu konexioa!"
 msgid "Children"
 msgstr "Haurrak"
 
+msgid "Collecting system information..."
+msgstr "Sistemaren informazioa biltzen..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Zorionak! Dagoeneko duzu azken bertsioa..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Artxibo hondatua! Ezarpenak EZ instalatuta."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Sortu zure tokiko igorlearen LCN datuetan oinarrituta lurreko zerbitzu sorta ordenatua."
@@ -75,7 +81,19 @@ msgstr "Kendu nahi duzu?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Gui Interface berrabiarazi nahi duzu?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Deskargatu orrialdeak huts egin du..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Ezarpenak ez dira instalatuta..."
+
 msgid "Download page get failed ..."
+msgstr "Deskargatu orrialdeak huts egin du..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Deskargatu orrialdeak huts egin du..."
 
 msgid "Duplicates"
@@ -132,6 +150,16 @@ msgstr "Ins Linea"
 msgid "Install"
 msgstr "Instalatu"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Instalazioak huts egin du! Leheneratu dira aurreko ezarpenak."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Ezarpenak ez dira instalatuta..."
+
+msgid "Installing settings..."
+msgstr "Ezarpenak instalatzen..."
+
 msgid "Internet: Connected"
 msgstr "Internet: konektatuta"
 
@@ -159,6 +187,13 @@ msgstr "Linuxsat Panela"
 msgid "Load Category..."
 msgstr "Kargatu kategoria..."
 
+msgid "Loading list..."
+msgstr "Zerrenda kargatzen..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Kargatu kategoria..."
+
 msgid "Local Broadcasters"
 msgstr "Tokiko Igorleak"
 
@@ -168,6 +203,9 @@ msgstr "Musika"
 msgid "News"
 msgstr "Berriak"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Ez dago kanal zerrenda artxiboan! Ezarpenak EZ instalatuta."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Ez da dagokion lurreko zerbitzurik aurkitu."
 
@@ -176,6 +214,9 @@ msgstr "Ez dago sarrerarik lcn db-n. Mesedez, egin zerbitzuaren eskaneatzea."
 
 msgid "No update information available."
 msgstr "Ez dago eguneratze-informaziorik."
+
+msgid "Nothing found for '%s'"
+msgstr "Ez da ezer aurkitu '%s'rentzat"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Behin konfiguratuta, sorta automatikoki eguneratuko da eskuzko eskaneatzea egiterakoan."
@@ -233,6 +274,18 @@ msgstr "Behin-behineko SDak"
 
 msgid "Save"
 msgstr "Gorde"
+
+msgid "Search"
+msgstr "Bilatu"
+
+msgid "Search addon..."
+msgstr "Bilatu gehigarria..."
+
+msgid "Search: %s"
+msgstr "Bilatu: %s"
+
+msgid "Searching..."
+msgstr "Bilatzen..."
 
 msgid "Select your region."
 msgstr "Hautatu zure eskualdea."

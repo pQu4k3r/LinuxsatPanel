@@ -42,8 +42,14 @@ msgstr "Suriin ang Koneksyon!"
 msgid "Children"
 msgstr "Mga bata"
 
+msgid "Collecting system information..."
+msgstr "Nangongolekta ng impormasyon ng system..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Congrats! Mayroon ka nang pinakabagong bersyon..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Sirang archive! HINDI naka-install ang mga setting."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Gumawa ng inorder na bouquet ng mga serbisyong pang-terrestrial batay sa data ng LCN mula sa iyong lokal na transmitter."
@@ -75,7 +81,19 @@ msgstr "Gusto mo bang tanggalin?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Gusto mo bang i-restart ang Gui Interface?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Nabigo ang pag-download ng page..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Hindi Naka-install ang Mga Setting..."
+
 msgid "Download page get failed ..."
+msgstr "Nabigo ang pag-download ng page..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Nabigo ang pag-download ng page..."
 
 msgid "Duplicates"
@@ -132,6 +150,16 @@ msgstr ""
 msgid "Install"
 msgstr "I-install"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Nabigo ang pag-install! Naibalik ang mga dating setting."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Hindi Naka-install ang Mga Setting..."
+
+msgid "Installing settings..."
+msgstr "Ini-install ang mga setting..."
+
 msgid "Internet: Connected"
 msgstr "Internet: Nakakonekta"
 
@@ -159,6 +187,13 @@ msgstr ""
 msgid "Load Category..."
 msgstr "I-load ang Kategorya..."
 
+msgid "Loading list..."
+msgstr "Nilo-load ang listahan..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "I-load ang Kategorya..."
+
 msgid "Local Broadcasters"
 msgstr "Mga Lokal na Brodkaster"
 
@@ -168,6 +203,9 @@ msgstr "Musika"
 msgid "News"
 msgstr "Balita"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Walang listahan ng channel sa archive! HINDI naka-install ang mga setting."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Walang nakitang kaukulang serbisyong panlupa."
 
@@ -176,6 +214,9 @@ msgstr "Walang entry sa lcn db. Mangyaring magsagawa ng pag-scan ng serbisyo."
 
 msgid "No update information available."
 msgstr "Walang magagamit na impormasyon sa pag-update."
+
+msgid "Nothing found for '%s'"
+msgstr "Walang nahanap para sa '%s'"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Kapag na-configure ang bouquet ay awtomatikong maa-update kapag gumagawa ng manu-manong pag-scan."
@@ -233,6 +274,18 @@ msgstr "Mga pansamantalang SD"
 
 msgid "Save"
 msgstr "I-save"
+
+msgid "Search"
+msgstr "Maghanap"
+
+msgid "Search addon..."
+msgstr "Maghanap ng addon..."
+
+msgid "Search: %s"
+msgstr "Hanapin: %s"
+
+msgid "Searching..."
+msgstr "Naghahanap..."
 
 msgid "Select your region."
 msgstr "Piliin ang iyong rehiyon."

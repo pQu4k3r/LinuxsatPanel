@@ -49,8 +49,14 @@ msgstr "Verbindung prüfen!"
 msgid "Children"
 msgstr "Kinder"
 
+msgid "Collecting system information..."
+msgstr "Systeminformationen werden gesammelt..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Glückwunsch! Sie haben bereits die neueste Version..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Beschädigtes Archiv! Einstellungen NICHT installiert."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Erstellen Sie ein geordnetes Bouquet von terrestrischen Diensten basierend auf LCN-Daten Ihres lokalen Senders."
@@ -82,7 +88,19 @@ msgstr "Möchten Sie es entfernen?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Möchten Sie die GUI-Oberfläche neu starten?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Download-Seite fehlgeschlagen ..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Einstellungen nicht installiert ..."
+
 msgid "Download page get failed ..."
+msgstr "Download-Seite fehlgeschlagen ..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Download-Seite fehlgeschlagen ..."
 
 msgid "Duplicates"
@@ -139,6 +157,16 @@ msgstr "Zeile einfügen"
 msgid "Install"
 msgstr "Installieren"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Installation fehlgeschlagen! Vorherige Einstellungen wiederhergestellt."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Einstellungen nicht installiert ..."
+
+msgid "Installing settings..."
+msgstr "Einstellungen werden installiert..."
+
 msgid "Internet: Connected"
 msgstr "Internet: Verbunden"
 
@@ -166,6 +194,13 @@ msgstr "Linuxsat Panel"
 msgid "Load Category..."
 msgstr "Kategorie laden..."
 
+msgid "Loading list..."
+msgstr "Liste wird geladen..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Kategorie laden..."
+
 msgid "Local Broadcasters"
 msgstr "Lokale Sender"
 
@@ -175,6 +210,9 @@ msgstr "Musik"
 msgid "News"
 msgstr "Nachrichten"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Keine Senderliste im Archiv! Einstellungen NICHT installiert."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Keine entsprechenden terrestrischen Dienste gefunden."
 
@@ -183,6 +221,9 @@ msgstr "Kein Eintrag in der LCN-Datenbank. Bitte führen Sie einen Service-Scan 
 
 msgid "No update information available."
 msgstr "Keine Aktualisierungsinformationen verfügbar."
+
+msgid "Nothing found for '%s'"
+msgstr "Für „%s“ wurde nichts gefunden"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Nach der Konfiguration wird das Bouquet bei einem manuellen Scan automatisch aktualisiert."
@@ -240,6 +281,18 @@ msgstr "SD-Vorläufige"
 
 msgid "Save"
 msgstr "Speichern"
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "Search addon..."
+msgstr "Such-Addon..."
+
+msgid "Search: %s"
+msgstr "Suche: %s"
+
+msgid "Searching..."
+msgstr "Suche..."
 
 msgid "Select your region."
 msgstr "Wählen Sie Ihre Region."

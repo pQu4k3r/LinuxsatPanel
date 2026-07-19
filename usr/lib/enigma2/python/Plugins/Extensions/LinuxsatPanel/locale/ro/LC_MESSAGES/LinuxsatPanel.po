@@ -49,8 +49,14 @@ msgstr "Verificați conexiunea!"
 msgid "Children"
 msgstr "Copii"
 
+msgid "Collecting system information..."
+msgstr "Se colectează informații despre sistem..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Felicitări! Aveți deja cea mai recentă versiune..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Arhiva corupta! Setările NU sunt instalate."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Creați un buchet ordonat de servicii terestre pe baza datelor LCN de la emițătorul dvs. local."
@@ -82,7 +88,19 @@ msgstr "Doriți să eliminați?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Doriți să reporniți interfața grafică?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Descărcarea paginii a eșuat..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Setările nu sunt instalate..."
+
 msgid "Download page get failed ..."
+msgstr "Descărcarea paginii a eșuat..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Descărcarea paginii a eșuat..."
 
 msgid "Duplicates"
@@ -139,6 +157,16 @@ msgstr "Inserează linie"
 msgid "Install"
 msgstr "Instalează"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Instalarea a eșuat! Setările anterioare au fost restaurate."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Setările nu sunt instalate..."
+
+msgid "Installing settings..."
+msgstr "Se instalează setările..."
+
 msgid "Internet: Connected"
 msgstr "Internet: Conectat"
 
@@ -166,6 +194,13 @@ msgstr "Panou Linuxsat"
 msgid "Load Category..."
 msgstr "Încarcă categorie..."
 
+msgid "Loading list..."
+msgstr "Se încarcă lista..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Încarcă categorie..."
+
 msgid "Local Broadcasters"
 msgstr "Radiodifuzori locali"
 
@@ -175,6 +210,9 @@ msgstr "Muzică"
 msgid "News"
 msgstr "Știri"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Nicio listă de canale în arhivă! Setările NU sunt instalate."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Nu s-au găsit servicii terestre corespunzătoare."
 
@@ -183,6 +221,9 @@ msgstr "Nicio intrare în baza de date LCN. Vă rugăm să efectuați o scanare 
 
 msgid "No update information available."
 msgstr "Nicio informație de actualizare disponibilă."
+
+msgid "Nothing found for '%s'"
+msgstr "Nu s-a găsit nimic pentru „%s”"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Odată configurat, buchetul va fi actualizat automat la efectuarea unei scanări manuale."
@@ -240,6 +281,18 @@ msgstr "Provizorii SD"
 
 msgid "Save"
 msgstr "Salvează"
+
+msgid "Search"
+msgstr "Căutare"
+
+msgid "Search addon..."
+msgstr "Căutare supliment..."
+
+msgid "Search: %s"
+msgstr "Căutare: %s"
+
+msgid "Searching..."
+msgstr "Se caută..."
 
 msgid "Select your region."
 msgstr "Selectați regiunea dvs."

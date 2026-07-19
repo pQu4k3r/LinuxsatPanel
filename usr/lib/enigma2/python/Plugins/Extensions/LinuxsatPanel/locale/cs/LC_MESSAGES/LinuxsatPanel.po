@@ -49,8 +49,14 @@ msgstr "Zkontrolujte připojení!"
 msgid "Children"
 msgstr "Dětské"
 
+msgid "Collecting system information..."
+msgstr "Shromažďují se informace o systému..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Gratuluji! Už máte nejnovější verzi..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Poškozený archiv! Nastavení NENÍ nainstalováno."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Vytvořit uspořádaný bouquet terestrických služeb na základě LCN dat z vašeho místního vysílače."
@@ -82,7 +88,19 @@ msgstr "Chcete odstranit?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Chcete restartovat grafické rozhraní?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Stahování stránky se nezdařilo..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Nastavení není nainstalováno..."
+
 msgid "Download page get failed ..."
+msgstr "Stahování stránky se nezdařilo..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Stahování stránky se nezdařilo..."
 
 msgid "Duplicates"
@@ -139,6 +157,16 @@ msgstr "Vložit řádek"
 msgid "Install"
 msgstr "Instalovat"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Instalace se nezdařila! Předchozí nastavení byla obnovena."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Nastavení není nainstalováno..."
+
+msgid "Installing settings..."
+msgstr "Instalace nastavení..."
+
 msgid "Internet: Connected"
 msgstr "Internet: Připojeno"
 
@@ -166,6 +194,13 @@ msgstr "Panel Linuxsat"
 msgid "Load Category..."
 msgstr "Načíst kategorii..."
 
+msgid "Loading list..."
+msgstr "Načítání seznamu..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Načíst kategorii..."
+
 msgid "Local Broadcasters"
 msgstr "Místní vysílatelé"
 
@@ -175,6 +210,9 @@ msgstr "Hudba"
 msgid "News"
 msgstr "Zprávy"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Žádný seznam kanálů v archivu! Nastavení NENÍ nainstalováno."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Nebyly nalezeny žádné odpovídající terestrické služby."
 
@@ -183,6 +221,9 @@ msgstr "Žádný záznam v LCN databázi. Prosím proveďte skenování služeb.
 
 msgid "No update information available."
 msgstr "Nejsou k dispozici žádné informace o aktualizaci."
+
+msgid "Nothing found for '%s'"
+msgstr ""
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Jakmile je nakonfigurován, bouquet bude automaticky aktualizován při ručním skenování."
@@ -240,6 +281,18 @@ msgstr "SD provizorní"
 
 msgid "Save"
 msgstr "Uložit"
+
+msgid "Search"
+msgstr "Vyhledávání"
+
+msgid "Search addon..."
+msgstr "Hledat doplněk..."
+
+msgid "Search: %s"
+msgstr "Hledat: %s"
+
+msgid "Searching..."
+msgstr "Hledání..."
 
 msgid "Select your region."
 msgstr "Vyberte svůj region."

@@ -49,7 +49,13 @@ msgstr ""
 msgid "Children"
 msgstr ""
 
+msgid "Collecting system information..."
+msgstr ""
+
 msgid "Congrats! You already have the latest version..."
+msgstr ""
+
+msgid "Corrupted archive! Settings NOT installed."
 msgstr ""
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
@@ -82,7 +88,16 @@ msgstr ""
 msgid "Do you want to restart Gui Interface?"
 msgstr ""
 
+msgid "Download failed!"
+msgstr ""
+
+msgid "Download failed! Settings NOT installed."
+msgstr ""
+
 msgid "Download page get failed ..."
+msgstr ""
+
+msgid "Downloading %s ..."
 msgstr ""
 
 msgid "Duplicates"
@@ -139,6 +154,15 @@ msgstr ""
 msgid "Install"
 msgstr ""
 
+msgid "Install failed! Previous settings restored."
+msgstr ""
+
+msgid "Install failed! Settings NOT installed."
+msgstr ""
+
+msgid "Installing settings..."
+msgstr ""
+
 msgid "Internet: Connected"
 msgstr ""
 
@@ -166,6 +190,12 @@ msgstr ""
 msgid "Load Category..."
 msgstr ""
 
+msgid "Loading list..."
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
 msgid "Local Broadcasters"
 msgstr ""
 
@@ -175,6 +205,9 @@ msgstr ""
 msgid "News"
 msgstr ""
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr ""
+
 msgid "No corresponding terrestrial services found."
 msgstr ""
 
@@ -182,6 +215,9 @@ msgid "No entry in lcn db. Please do a service scan."
 msgstr ""
 
 msgid "No update information available."
+msgstr ""
+
+msgid "Nothing found for '%s'"
 msgstr ""
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
@@ -239,6 +275,18 @@ msgid "SD Provisionals"
 msgstr "Provisional SDs"
 
 msgid "Save"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search addon..."
+msgstr ""
+
+msgid "Search: %s"
+msgstr ""
+
+msgid "Searching..."
 msgstr ""
 
 msgid "Select your region."

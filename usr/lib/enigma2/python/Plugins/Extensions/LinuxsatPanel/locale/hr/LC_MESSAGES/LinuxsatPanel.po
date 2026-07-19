@@ -50,8 +50,14 @@ msgstr "Provjerite vezu!"
 msgid "Children"
 msgstr "djeca"
 
+msgid "Collecting system information..."
+msgstr "Prikupljanje informacija o sustavu..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Congrats! Već imate najnoviju verziju..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Oštećena arhiva! Postavke NISU instalirane."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Napravite poredani niz zemaljskih usluga na temelju LCN podataka s vašeg lokalnog odašiljača."
@@ -86,7 +92,19 @@ msgstr "Želite li ukloniti?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Želite li ponovno pokrenuti Gui sučelje?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Stranica za preuzimanje nije uspjela ..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Postavke nisu instalirane ..."
+
 msgid "Download page get failed ..."
+msgstr "Stranica za preuzimanje nije uspjela ..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Stranica za preuzimanje nije uspjela ..."
 
 msgid "Duplicates"
@@ -143,6 +161,19 @@ msgstr "Ins linija"
 msgid "Install"
 msgstr "Instaliraj"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Instalacija nije uspjela! Vraćene su prethodne postavke."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Postavke nisu instalirane ..."
+
+#, fuzzy
+msgid "Installing settings..."
+msgstr "Instaliranje postavki..."
+"Instaliranje %s\n"
+"Molim te čekaj..."
+
 msgid "Internet: Connected"
 msgstr "Internet: Povezan"
 
@@ -171,6 +202,13 @@ msgstr "Linuxsat ploča"
 msgid "Load Category..."
 msgstr "Kategorija opterećenja..."
 
+msgid "Loading list..."
+msgstr "Učitavanje popisa..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Kategorija opterećenja..."
+
 msgid "Local Broadcasters"
 msgstr "Lokalni emiteri"
 
@@ -180,6 +218,9 @@ msgstr "Glazba"
 msgid "News"
 msgstr "Vijesti"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Nema liste kanala u arhivi! Postavke NISU instalirane."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Nisu pronađene odgovarajuće zemaljske usluge."
 
@@ -188,6 +229,9 @@ msgstr "Nema unosa u lcn db. Molimo izvršite servisno skeniranje."
 
 msgid "No update information available."
 msgstr "Nema dostupnih informacija o ažuriranju."
+
+msgid "Nothing found for '%s'"
+msgstr "Ništa nije pronađeno za '%s'"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Nakon što se konfigurira, buket će se automatski ažurirati prilikom ručnog skeniranja."
@@ -245,6 +289,18 @@ msgstr "Privremeni SD"
 
 msgid "Save"
 msgstr "Uštedjeti"
+
+msgid "Search"
+msgstr "Pretraživanje"
+
+msgid "Search addon..."
+msgstr "Dodatak za pretraživanje..."
+
+msgid "Search: %s"
+msgstr "Pretraživanje: %s"
+
+msgid "Searching..."
+msgstr "Pretraživanje..."
 
 msgid "Select your region."
 msgstr "Odaberite svoju regiju."
@@ -384,14 +440,6 @@ msgstr "molimo dajte donaciju:\n"
 
 #~ msgid "Hide/Show"
 #~ msgstr "Sakrij/Prikaži"
-
-#, python-format
-#~ msgid ""
-#~ "Installing %s\n"
-#~ "Please Wait..."
-#~ msgstr ""
-#~ "Instaliranje %s\n"
-#~ "Molim te čekaj..."
 
 #~ msgid "Linuxsat-support - File Commander"
 #~ msgstr "Linuxsat-support - File Commander"

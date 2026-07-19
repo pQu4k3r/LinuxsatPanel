@@ -42,8 +42,14 @@ msgstr "Semak Sambungan!"
 msgid "Children"
 msgstr "Kanak-kanak"
 
+msgid "Collecting system information..."
+msgstr "Mengumpul maklumat sistem..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "tahniah! Anda sudah mempunyai versi terkini..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Arkib rosak! Tetapan TIDAK dipasang."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Buat sejambak perkhidmatan terestrial yang dipesan berdasarkan data LCN daripada pemancar tempatan anda."
@@ -75,7 +81,19 @@ msgstr "Adakah anda mahu mengalih keluar?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Adakah anda mahu memulakan semula Antara Muka Gui?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Halaman muat turun gagal ..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Tetapan Tidak Dipasang..."
+
 msgid "Download page get failed ..."
+msgstr "Halaman muat turun gagal ..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Halaman muat turun gagal ..."
 
 msgid "Duplicates"
@@ -132,6 +150,16 @@ msgstr "Talian Ins"
 msgid "Install"
 msgstr "Pasang"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Pemasangan gagal! Tetapan sebelumnya dipulihkan."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Tetapan Tidak Dipasang..."
+
+msgid "Installing settings..."
+msgstr "Memasang tetapan..."
+
 msgid "Internet: Connected"
 msgstr "Internet: Bersambung"
 
@@ -159,6 +187,13 @@ msgstr "Panel Linuxsat"
 msgid "Load Category..."
 msgstr "Muatkan Kategori..."
 
+msgid "Loading list..."
+msgstr "Memuatkan senarai..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Muatkan Kategori..."
+
 msgid "Local Broadcasters"
 msgstr "Penyiar Tempatan"
 
@@ -168,6 +203,9 @@ msgstr "Muzik"
 msgid "News"
 msgstr "Berita"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Tiada senarai saluran dalam arkib! Tetapan TIDAK dipasang."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Tiada perkhidmatan darat yang sepadan ditemui."
 
@@ -176,6 +214,9 @@ msgstr "Tiada kemasukan dalam lcn db. Sila buat imbasan perkhidmatan."
 
 msgid "No update information available."
 msgstr "Tiada maklumat kemas kini tersedia."
+
+msgid "Nothing found for '%s'"
+msgstr "Tiada apa-apa ditemui untuk '%s'"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Setelah dikonfigurasikan, sejambak akan dikemas kini secara automatik apabila melakukan imbasan manual."
@@ -233,6 +274,18 @@ msgstr "SD sementara"
 
 msgid "Save"
 msgstr "Jimat"
+
+msgid "Search"
+msgstr "Cari"
+
+msgid "Search addon..."
+msgstr "Cari addon..."
+
+msgid "Search: %s"
+msgstr "Cari: %s"
+
+msgid "Searching..."
+msgstr "Mencari..."
 
 msgid "Select your region."
 msgstr "Pilih wilayah anda."

@@ -45,8 +45,14 @@ msgstr "Preverite povezavo!"
 msgid "Children"
 msgstr "Otroški"
 
+msgid "Collecting system information..."
+msgstr "Zbiranje informacij o sistemu ..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Čestitke! Že imate najnovejšo različico..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Pokvarjen arhiv! Nastavitve NISO nameščene."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Ustvari urejen šopek zemeljskih storitev na podlagi podatkov LCN vašega lokalnega oddajnika."
@@ -78,7 +84,19 @@ msgstr "Ali želite odstraniti?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Ali želite znova zagnati grafični vmesnik?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Prenos strani ni uspel ..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Nastavitve niso nameščene ..."
+
 msgid "Download page get failed ..."
+msgstr "Prenos strani ni uspel ..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Prenos strani ni uspel ..."
 
 msgid "Duplicates"
@@ -135,6 +153,16 @@ msgstr "Vstavi vrstico"
 msgid "Install"
 msgstr "Namesti"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Namestitev ni uspela! Obnovljene prejšnje nastavitve."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Nastavitve niso nameščene ..."
+
+msgid "Installing settings..."
+msgstr "Namestitev nastavitev ..."
+
 msgid "Internet: Connected"
 msgstr "Internet: Povezan"
 
@@ -162,6 +190,13 @@ msgstr "Linuxsat plošča"
 msgid "Load Category..."
 msgstr "Naloži kategorijo..."
 
+msgid "Loading list..."
+msgstr "Nalaganje seznama ..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Naloži kategorijo..."
+
 msgid "Local Broadcasters"
 msgstr "Lokalni izvajalci"
 
@@ -171,6 +206,9 @@ msgstr "Glasba"
 msgid "News"
 msgstr "Novice"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Ni seznama kanalov v arhivu! Nastavitve NISO nameščene."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Ni ustreznih zemeljskih storitev."
 
@@ -179,6 +217,9 @@ msgstr "Ni vnosa v zbirki podatkov LCN. Izvedite skeniranje storitev."
 
 msgid "No update information available."
 msgstr "Ni na voljo informacij o posodobitvi."
+
+msgid "Nothing found for '%s'"
+msgstr "Nič najdenega za '%s'"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Ko je konfiguriran, se bo šopek samodejno posodobil ob ročnem skeniranju."
@@ -236,6 +277,18 @@ msgstr "Začasni SD"
 
 msgid "Save"
 msgstr "Shrani"
+
+msgid "Search"
+msgstr "Iskanje"
+
+msgid "Search addon..."
+msgstr "Dodatek za iskanje ..."
+
+msgid "Search: %s"
+msgstr "Iskanje: %s"
+
+msgid "Searching..."
+msgstr "Iskanje ..."
 
 msgid "Select your region."
 msgstr "Izberite svojo regijo."

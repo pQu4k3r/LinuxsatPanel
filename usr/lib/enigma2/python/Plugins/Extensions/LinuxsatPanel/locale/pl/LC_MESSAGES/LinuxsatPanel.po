@@ -50,8 +50,14 @@ msgstr "Sprawdź połączenie!"
 msgid "Children"
 msgstr "Dzieci"
 
+msgid "Collecting system information..."
+msgstr "Zbieranie informacji o systemie..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Gratulacje! Masz już najnowszą wersję..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Uszkodzone archiwum! Ustawienia NIE zostały zainstalowane."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Utwórz zamówiony pakiet usług naziemnych na podstawie danych LCN z lokalnego nadajnika."
@@ -86,7 +92,19 @@ msgstr "Czy chcesz usunąć?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Czy chcesz ponownie uruchomić interfejs Gui?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Strona pobierania nie powiodła się..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Ustawienia nie zostały zainstalowane..."
+
 msgid "Download page get failed ..."
+msgstr "Strona pobierania nie powiodła się..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Strona pobierania nie powiodła się..."
 
 msgid "Duplicates"
@@ -143,6 +161,19 @@ msgstr "Linia Ins"
 msgid "Install"
 msgstr "Instaluj"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Instalacja nie powiodła się! Przywrócono poprzednie ustawienia."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Ustawienia nie zostały zainstalowane..."
+
+#, fuzzy
+msgid "Installing settings..."
+msgstr "Instaluję ustawienia..."
+"Instalowanie %s\n"
+"Proszę czekać..."
+
 msgid "Internet: Connected"
 msgstr "Internet: Połączono"
 
@@ -171,6 +202,13 @@ msgstr "Panel Linuxsat"
 msgid "Load Category..."
 msgstr "Załaduj kategorię..."
 
+msgid "Loading list..."
+msgstr "Ładowanie listy..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Załaduj kategorię..."
+
 msgid "Local Broadcasters"
 msgstr "Lokalni nadawcy"
 
@@ -180,6 +218,9 @@ msgstr "Muzyka"
 msgid "News"
 msgstr "Aktualności"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Brak listy kanałów w archiwum! Ustawienia NIE zostały zainstalowane."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Nie znaleziono odpowiednich usług naziemnych."
 
@@ -188,6 +229,9 @@ msgstr "Brak wpisu w lcn db. Proszę wykonać skan serwisowy."
 
 msgid "No update information available."
 msgstr "Brak dostępnych informacji o aktualizacji."
+
+msgid "Nothing found for '%s'"
+msgstr "Nie znaleziono nic dla „%s”"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Po skonfigurowaniu bukiet zostanie zaktualizowany automatycznie podczas ręcznego skanowania."
@@ -245,6 +289,18 @@ msgstr "Tymczasowe SD"
 
 msgid "Save"
 msgstr "Ratować"
+
+msgid "Search"
+msgstr "Szukaj"
+
+msgid "Search addon..."
+msgstr "Wyszukaj dodatek..."
+
+msgid "Search: %s"
+msgstr "Szukaj: %s"
+
+msgid "Searching..."
+msgstr "Badawczy..."
 
 msgid "Select your region."
 msgstr "Wybierz swój region."
@@ -385,14 +441,6 @@ msgstr "prosimy o przekazanie darowizny:\n"
 
 #~ msgid "Hide/Show"
 #~ msgstr "Ukryj/Pokaż"
-
-#, python-format
-#~ msgid ""
-#~ "Installing %s\n"
-#~ "Please Wait..."
-#~ msgstr ""
-#~ "Instalowanie %s\n"
-#~ "Proszę czekać..."
 
 #~ msgid "Linuxsat-support - File Commander"
 #~ msgstr "Linuxsat-support - File Commander"

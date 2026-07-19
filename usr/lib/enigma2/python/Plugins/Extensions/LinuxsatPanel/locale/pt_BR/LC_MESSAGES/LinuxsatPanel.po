@@ -43,8 +43,14 @@ msgstr "Verifique a conexão!"
 msgid "Children"
 msgstr "Crianças"
 
+msgid "Collecting system information..."
+msgstr "Coletando informações do sistema..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Parabéns! Você já tem a versão mais recente..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Arquivo corrompido! Configurações NÃO instaladas."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Crie um conjunto ordenado de serviços terrestres com base nos dados LCN do seu transmissor local."
@@ -76,7 +82,19 @@ msgstr "Você quer remover?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "Deseja reiniciar a Interface Gui?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "Falha na página de download..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Configurações não instaladas..."
+
 msgid "Download page get failed ..."
+msgstr "Falha na página de download..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "Falha na página de download..."
 
 msgid "Duplicates"
@@ -133,6 +151,16 @@ msgstr "Linha Ins"
 msgid "Install"
 msgstr "Instalar"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Falha na instalação! Configurações anteriores restauradas."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Configurações não instaladas..."
+
+msgid "Installing settings..."
+msgstr "Instalando configurações..."
+
 msgid "Internet: Connected"
 msgstr "Internet: Conectado"
 
@@ -160,6 +188,13 @@ msgstr "Painel Linuxsat"
 msgid "Load Category..."
 msgstr "Carregar categoria..."
 
+msgid "Loading list..."
+msgstr "Carregando lista..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Carregar categoria..."
+
 msgid "Local Broadcasters"
 msgstr "Emissoras locais"
 
@@ -169,6 +204,9 @@ msgstr "Música"
 msgid "News"
 msgstr "Notícias"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Nenhuma lista de canais no arquivo! Configurações NÃO instaladas."
+
 msgid "No corresponding terrestrial services found."
 msgstr "Nenhum serviço terrestre correspondente encontrado."
 
@@ -177,6 +215,9 @@ msgstr "Nenhuma entrada no lcn db. Por favor, faça uma verificação de serviç
 
 msgid "No update information available."
 msgstr "Nenhuma informação de atualização disponível."
+
+msgid "Nothing found for '%s'"
+msgstr "Nada encontrado para '%s'"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Uma vez configurado, o buquê será atualizado automaticamente ao fazer uma verificação manual."
@@ -234,6 +275,18 @@ msgstr "SDs provisórios"
 
 msgid "Save"
 msgstr "Salvar"
+
+msgid "Search"
+msgstr "Procurar"
+
+msgid "Search addon..."
+msgstr "Pesquisar complemento..."
+
+msgid "Search: %s"
+msgstr "Pesquisa: %s"
+
+msgid "Searching..."
+msgstr "Procurando..."
 
 msgid "Select your region."
 msgstr "Selecione sua região."

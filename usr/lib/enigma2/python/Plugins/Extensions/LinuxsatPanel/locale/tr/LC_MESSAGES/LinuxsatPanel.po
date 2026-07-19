@@ -47,8 +47,14 @@ msgstr "Bağlantıyı kontrol et!"
 msgid "Children"
 msgstr "Çocuk"
 
+msgid "Collecting system information..."
+msgstr "Sistem bilgileri toplanıyor..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "Tebrikler! Zaten en son sürüme sahipsiniz..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "Bozuk arşiv! Ayarlar yüklü DEĞİLDİR."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "Yerel vericinizden alınan LCN verilerine dayalı olarak sıralı bir karasal hizmet buketi oluşturun."
@@ -80,7 +86,19 @@ msgstr "Kaldırmak istiyor musunuz?"
 msgid "Do you want to restart Gui Interface?"
 msgstr "GUI arayüzünü yeniden başlatmak istiyor musunuz?"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "İndirme sayfası alınamadı..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "Ayarlar Yüklenmemiş..."
+
 msgid "Download page get failed ..."
+msgstr "İndirme sayfası alınamadı..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "İndirme sayfası alınamadı..."
 
 msgid "Duplicates"
@@ -137,6 +155,16 @@ msgstr "Satır Ekle"
 msgid "Install"
 msgstr "Yükle"
 
+msgid "Install failed! Previous settings restored."
+msgstr "Yükleme başarısız oldu! Önceki ayarlar geri yüklendi."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "Ayarlar Yüklenmemiş..."
+
+msgid "Installing settings..."
+msgstr "Ayarlar yükleniyor..."
+
 msgid "Internet: Connected"
 msgstr "İnternet: Bağlı"
 
@@ -164,6 +192,13 @@ msgstr "Linuxsat Panel"
 msgid "Load Category..."
 msgstr "Kategori Yükle..."
 
+msgid "Loading list..."
+msgstr "Liste yükleniyor..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "Kategori Yükle..."
+
 msgid "Local Broadcasters"
 msgstr "Yerel Yayıncılar"
 
@@ -173,6 +208,9 @@ msgstr "Müzik"
 msgid "News"
 msgstr "Haberler"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "Arşivde kanal listesi yok! Ayarlar yüklü DEĞİLDİR."
+
 msgid "No corresponding terrestrial services found."
 msgstr "İlgili karasal hizmet bulunamadı."
 
@@ -181,6 +219,9 @@ msgstr "LCN veritabanında giriş yok. Lütfen bir hizmet taraması yapın."
 
 msgid "No update information available."
 msgstr "Kullanılabilir güncelleme bilgisi yok."
+
+msgid "Nothing found for '%s'"
+msgstr "'%s' için hiçbir şey bulunamadı"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "Yapılandırıldıktan sonra, manuel tarama yapıldığında buket otomatik olarak güncellenecektir."
@@ -238,6 +279,18 @@ msgstr "SD Geçiciler"
 
 msgid "Save"
 msgstr "Kaydet"
+
+msgid "Search"
+msgstr "Aramak"
+
+msgid "Search addon..."
+msgstr "Eklentiyi ara..."
+
+msgid "Search: %s"
+msgstr "Arama: %s"
+
+msgid "Searching..."
+msgstr "Arama..."
 
 msgid "Select your region."
 msgstr "Bölgenizi seçin."

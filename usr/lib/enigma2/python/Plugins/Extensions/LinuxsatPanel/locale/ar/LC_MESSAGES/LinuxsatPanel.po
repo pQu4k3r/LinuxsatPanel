@@ -47,8 +47,14 @@ msgstr "تحقق من الاتصال!"
 msgid "Children"
 msgstr "أطفال"
 
+msgid "Collecting system information..."
+msgstr "جمع معلومات النظام..."
+
 msgid "Congrats! You already have the latest version..."
 msgstr "تهانينا! لديك بالفعل أحدث إصدار..."
+
+msgid "Corrupted archive! Settings NOT installed."
+msgstr "أرشيف تالف! الإعدادات غير مثبتة."
 
 msgid "Create an ordered bouquet of terrestrial services based on LCN data from your local transmitter."
 msgstr "إنشاء باقة مرتبة من الخدمات الأرضية بناءً على بيانات LCN من جهاز الإرسال المحلي الخاص بك."
@@ -80,7 +86,19 @@ msgstr "هل تريد الإزالة؟"
 msgid "Do you want to restart Gui Interface?"
 msgstr "هل تريد إعادة تشغيل واجهة المستخدم الرسومية؟"
 
+#, fuzzy
+msgid "Download failed!"
+msgstr "فشل في تحميل الصفحة ..."
+
+#, fuzzy
+msgid "Download failed! Settings NOT installed."
+msgstr "لم يتم تثبيت الإعدادات ..."
+
 msgid "Download page get failed ..."
+msgstr "فشل في تحميل الصفحة ..."
+
+#, fuzzy
+msgid "Downloading %s ..."
 msgstr "فشل في تحميل الصفحة ..."
 
 msgid "Duplicates"
@@ -137,6 +155,16 @@ msgstr "إدراج سطر"
 msgid "Install"
 msgstr "تثبيت"
 
+msgid "Install failed! Previous settings restored."
+msgstr "فشل التثبيت! تمت استعادة الإعدادات السابقة."
+
+#, fuzzy
+msgid "Install failed! Settings NOT installed."
+msgstr "لم يتم تثبيت الإعدادات ..."
+
+msgid "Installing settings..."
+msgstr "جارٍ تثبيت الإعدادات..."
+
 msgid "Internet: Connected"
 msgstr "الإنترنت: متصل"
 
@@ -164,6 +192,13 @@ msgstr "لوحة Linuxsat"
 msgid "Load Category..."
 msgstr "تحميل الفئة..."
 
+msgid "Loading list..."
+msgstr "جارٍ تحميل القائمة..."
+
+#, fuzzy
+msgid "Loading..."
+msgstr "تحميل الفئة..."
+
 msgid "Local Broadcasters"
 msgstr "المذيعون المحليون"
 
@@ -173,6 +208,9 @@ msgstr "موسيقى"
 msgid "News"
 msgstr "أخبار"
 
+msgid "No channel list in archive! Settings NOT installed."
+msgstr "لا توجد قائمة قنوات في الأرشيف! الإعدادات غير مثبتة."
+
 msgid "No corresponding terrestrial services found."
 msgstr "لم يتم العثور على خدمات أرضية مقابلة."
 
@@ -181,6 +219,9 @@ msgstr "لا يوجد إدخال في قاعدة بيانات LCN. يرجى إج
 
 msgid "No update information available."
 msgstr "لا تتوفر معلومات تحديث."
+
+msgid "Nothing found for '%s'"
+msgstr "لم يتم العثور على أي شيء لـ '%s'"
 
 msgid "Once configured the bouquet will be updated automatically when doing a manual scan."
 msgstr "بمجرد التكوين، سيتم تحديث الباقة تلقائيًا عند إجراء فحص يدوي."
@@ -238,6 +279,18 @@ msgstr "مؤقتة SD"
 
 msgid "Save"
 msgstr "حفظ"
+
+msgid "Search"
+msgstr "يبحث"
+
+msgid "Search addon..."
+msgstr "ملحق البحث..."
+
+msgid "Search: %s"
+msgstr "البحث: %s"
+
+msgid "Searching..."
+msgstr "جارٍ البحث..."
 
 msgid "Select your region."
 msgstr "اختر منطقتك."
