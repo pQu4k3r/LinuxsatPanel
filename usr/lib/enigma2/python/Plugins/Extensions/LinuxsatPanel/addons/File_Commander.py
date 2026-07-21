@@ -79,15 +79,34 @@ def getDesktopSize():
 def _build_skin():
     # Base FHD (1920x1080) – valori di riferimento
     base = {
-        "screen_w": 1920, "screen_h": 1080,
-        "head_x": 8, "head_y": 10, "head_w": 1850, "head_h": 45, "head_font": 32,
-        "btn_w": 260, "btn_h": 40, "btn_y": 935, "btn_font": 24,
-        "btn_x_red": 95, "btn_x_green": 395, "btn_x_yellow": 690, "btn_x_blue": 985,
-        "pixmap_y": 975, "pixmap_w": 260, "pixmap_h": 25,
-        "pixmap_x_red": 95, "pixmap_x_green": 395, "pixmap_x_yellow": 690, "pixmap_x_blue": 985,
-        "list_x": 45, "list_y": 115, "list_w": 1830, "list_h": 810,
-        "list_itemHeight": 45, "list_font": 30
-    }
+        "screen_w": 1920,
+        "screen_h": 1080,
+        "head_x": 8,
+        "head_y": 10,
+        "head_w": 1850,
+        "head_h": 45,
+        "head_font": 32,
+        "btn_w": 260,
+        "btn_h": 40,
+        "btn_y": 935,
+        "btn_font": 24,
+        "btn_x_red": 95,
+        "btn_x_green": 395,
+        "btn_x_yellow": 690,
+        "btn_x_blue": 985,
+        "pixmap_y": 975,
+        "pixmap_w": 260,
+        "pixmap_h": 25,
+        "pixmap_x_red": 95,
+        "pixmap_x_green": 395,
+        "pixmap_x_yellow": 690,
+        "pixmap_x_blue": 985,
+        "list_x": 45,
+        "list_y": 115,
+        "list_w": 1830,
+        "list_h": 810,
+        "list_itemHeight": 45,
+        "list_font": 30}
 
     desktop_w, desktop_h = getDesktopSize()
 
